@@ -1,6 +1,6 @@
 ---
 title: New Location for the Austin JavaScript Meetup
-author: admin
+author: joemccann
 layout: post
 permalink: /new-location-for-the-austin-javascript-meetup/
 categories:

@@ -1,6 +1,6 @@
 ---
 title: Austin JavaScript Email List
-author: admin
+author: joemccann
 layout: post
 permalink: /austin-javascript-email-list/
 categories:

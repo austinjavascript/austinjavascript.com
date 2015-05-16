@@ -1,6 +1,6 @@
 ---
 title: 'June Meetup Details &#8211; XUI and Cross Domain Hacking'
-author: admin
+author: joemccann
 layout: post
 permalink: /june-meetup-details-xui-and-cross-domain-hacking/
 categories:

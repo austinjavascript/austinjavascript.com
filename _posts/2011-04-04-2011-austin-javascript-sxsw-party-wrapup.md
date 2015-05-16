@@ -1,6 +1,6 @@
 ---
 title: 2011 Austin JavaScript SXSW Party Wrapup
-author: admin
+author: joemccann
 layout: post
 permalink: /2011-austin-javascript-sxsw-party-wrapup/
 categories:

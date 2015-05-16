@@ -1,6 +1,6 @@
 ---
 title: September Meetup Details Announced
-author: admin
+author: joemccann
 layout: post
 permalink: /september-meetup-details-announced-2011/
 categories:

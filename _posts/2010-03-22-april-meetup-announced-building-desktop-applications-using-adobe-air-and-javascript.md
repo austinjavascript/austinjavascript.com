@@ -1,6 +1,6 @@
 ---
 title: 'April Meetup Announced &#8211; Building Desktop Applications Using Adobe AIR and JavaScript'
-author: admin
+author: joemccann
 layout: post
 permalink: /april-meetup-announced-building-desktop-applications-using-adobe-air-and-javascript/
 categories:

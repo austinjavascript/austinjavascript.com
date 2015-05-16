@@ -1,6 +1,6 @@
 ---
 title: October Meetup Details Announced
-author: admin
+author: joemccann
 layout: post
 permalink: /october-meetup-details-announced/
 categories:

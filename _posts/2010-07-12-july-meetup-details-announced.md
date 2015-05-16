@@ -1,6 +1,6 @@
 ---
 title: July Meetup Details Announced
-author: admin
+author: joemccann
 layout: post
 permalink: /july-meetup-details-announced/
 categories:

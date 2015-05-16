@@ -1,6 +1,6 @@
 ---
 title: May Meetup Details Announced
-author: admin
+author: joemccann
 layout: post
 permalink: /may-meetup-details-announced/
 categories:

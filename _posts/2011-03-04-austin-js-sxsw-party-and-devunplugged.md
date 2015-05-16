@@ -1,6 +1,6 @@
 ---
 title: 'Austin JS SXSW Party and {Dev:unplugged}'
-author: admin
+author: joemccann
 layout: post
 permalink: /austin-js-sxsw-party-and-devunplugged/
 categories:
