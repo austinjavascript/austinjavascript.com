@@ -1,0 +1,33 @@
+---
+layout: default
+---
+<article>
+  <header>
+    <a href="{{ page.url }}">
+      <h2>{{ page.title }}</h2>
+    </a>
+    <time itemprop=dateCreated datetime={{ page.date | date: "%Y-%m-%d" }}>
+      {{ page.date | date: "%b %-d, %Y" }}
+    </time>
+  </header>
+
+  {{ content }}
+</article>
+
+<footer>
+  {% include byline.html %}
+</footer>
+
+<nav>
+  {% if page.previous %}
+    <a href="{{ page.previous.url }}">
+      &larr; {{ page.previous.title }}
+    </a>
+  {% endif %}
+
+  {% if page.next %}
+    <a href="{{ page.next.url }}">
+      {{ page.next.title }} &rarr;
+    </a>
+  {% endif %}
+</nav>
