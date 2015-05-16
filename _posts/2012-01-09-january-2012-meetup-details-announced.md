@@ -1,6 +1,6 @@
 ---
 title: January 2012 Meetup Details Announced
-author: admin
+author: joemccann
 layout: post
 permalink: /january-2012-meetup-details-announced/
 categories:

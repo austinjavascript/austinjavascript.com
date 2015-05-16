@@ -1,6 +1,6 @@
 ---
 title: No October Meetup
-author: admin
+author: joemccann
 layout: post
 permalink: /no-october-meetup/
 categories:

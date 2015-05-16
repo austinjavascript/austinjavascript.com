@@ -1,6 +1,6 @@
 ---
 title: January Meetup Details Announced
-author: admin
+author: joemccann
 layout: post
 permalink: /january-meetup-details-announced/
 categories:

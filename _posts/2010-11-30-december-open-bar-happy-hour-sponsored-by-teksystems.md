@@ -1,6 +1,6 @@
 ---
 title: December Open Bar Happy Hour Sponsored by TEKsystems
-author: admin
+author: joemccann
 layout: post
 permalink: /december-open-bar-happy-hour-sponsored-by-teksystems/
 categories:

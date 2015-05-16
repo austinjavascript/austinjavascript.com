@@ -1,6 +1,6 @@
 ---
 title: Austin Web Community Holiday Bash!
-author: admin
+author: joemccann
 layout: post
 permalink: /austin-web-community-holiday-bash/
 categories:

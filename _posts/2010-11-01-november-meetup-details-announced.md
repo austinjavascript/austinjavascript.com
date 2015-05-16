@@ -1,6 +1,6 @@
 ---
 title: November Meetup Details Announced
-author: admin
+author: joemccann
 layout: post
 permalink: /november-meetup-details-announced/
 categories:

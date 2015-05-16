@@ -1,6 +1,6 @@
 ---
 title: Austin Web Bash 2011
-author: admin
+author: joemccann
 layout: post
 permalink: /austin-web-bash-2011/
 categories:

@@ -1,6 +1,6 @@
 ---
 title: November Details Announced
-author: admin
+author: joemccann
 layout: post
 permalink: /november-details-announced/
 categories:

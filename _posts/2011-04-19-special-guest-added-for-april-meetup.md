@@ -1,6 +1,6 @@
 ---
 title: Special Guest Added for April Meetup
-author: admin
+author: joemccann
 layout: post
 permalink: /special-guest-added-for-april-meetup/
 categories:

@@ -1,6 +1,6 @@
 ---
 title: August Meetup Details Announced
-author: admin
+author: joemccann
 layout: post
 permalink: /august-meetup-details-announced/
 categories:

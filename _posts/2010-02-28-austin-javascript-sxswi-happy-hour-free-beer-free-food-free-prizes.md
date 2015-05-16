@@ -1,6 +1,6 @@
 ---
 title: 'Austin JavaScript SXSWi Happy Hour  &#8211; Free Beer, Free Food, Free Prizes!'
-author: admin
+author: joemccann
 layout: post
 permalink: /austin-javascript-sxswi-happy-hour-free-beer-free-food-free-prizes/
 categories:

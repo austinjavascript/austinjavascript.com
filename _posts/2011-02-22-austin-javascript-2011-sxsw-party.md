@@ -1,6 +1,6 @@
 ---
 title: Austin JavaScript 2011 SXSW Party
-author: admin
+author: joemccann
 layout: post
 permalink: /austin-javascript-2011-sxsw-party/
 categories:
