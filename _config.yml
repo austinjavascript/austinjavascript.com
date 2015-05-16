@@ -1,0 +1,24 @@
+title: Austin JavaScript
+description: >
+  Austin JavaScript is a meetup group focused on JavaScript and the open web.
+twitter:
+  user: AustinJS
+  url: https://twitter.com/AustinJS
+markdown: kramdown
+people:
+  aaron:
+    twitter: aaronj1335
+    full: Aaron Stacy
+    short: Aaron
+  lawnsea:
+    twitter: lawnsea
+    full: Lon Ingram
+    short: Lon
+  slexaxton:
+    twitter: SlexAxton
+    full: Alex Sexton
+    short: Alex
+  joemccann:
+    twitter: joemccann
+    full: Joe McCann
+    short: Joe
