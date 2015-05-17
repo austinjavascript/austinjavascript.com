@@ -3,19 +3,22 @@ layout: default
 ---
 <article>
   <header>
-    <a href="{{ page.url }}">
-      <h2>{{ page.title }}</h2>
-    </a>
-    <time itemprop=dateCreated datetime={{ page.date | date: "%Y-%m-%d" }}>
-      {{ page.date | date: "%b %-d, %Y" }}
-    </time>
+    <h2>
+      <a href="{{ page.url }}">
+        {{ page.title }}
+      </a>
+    </h2>
   </header>
 
   {{ content }}
 </article>
 
 <footer>
-  {% include byline.html %}
+  Posted on
+  <time itemprop=dateCreated datetime={{ page.date | date: "%Y-%m-%d" }}>
+    {{ page.date | date: "%b %-d, %Y" }}
+  </time>
+  by {% include byline.html %}
 </footer>
 
 <nav>
