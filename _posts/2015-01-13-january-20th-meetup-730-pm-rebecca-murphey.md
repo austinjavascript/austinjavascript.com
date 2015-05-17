@@ -4,7 +4,10 @@ author: aaron
 layout: post
 permalink: /january-20th-meetup-730-pm-rebecca-murphey/
 categories:
-  - posts
+- posts
+- meetups
+meetup:
+  when: 2015-01-21T00:30:00.1Z
 ---
 Hey happy New Year Austin! Let&#8217;s celebrate by getting together and talking about 3<sup>rd</sup> party JavaScript.
 

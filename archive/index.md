@@ -2,8 +2,9 @@
 layout: default
 ---
 
-## Recent Posts
+## Archives
 
-{% for post in site.posts limit:5 %}
+{% for post in site.posts %}
 - [{{ post.title }}]({{ post.url }})
 {% endfor %}
+

@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<section id=the-latest>
+The next meetup is {{ site.categories.meetups[0].meetup.when | date: "%b %-d" }}
+<a href="{{ site.categories.meetups[0].url }}">More info &rarr;</a>
+</section>
+
+<section id=about>
+Austin JavaScript is a community-driven group that meets monthly to discuss
+anything and everything related to JavaScript and the open web.
+</section>
+
+<h2>
+  Recent Posts
+</h2>
+
+<ul>
+  {% for post in site.posts limit:5 %}
+    <li>
+      <a href="{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </li>
+  {% endfor %}
+</ul>
+
+<a href=/archive>All posts &rarr;</a>
