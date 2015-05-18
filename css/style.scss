@@ -61,23 +61,27 @@ a:hover {
   color: $font-color;
 }
 
-section {
+.the-stuff {
   font-size: 1.2rem;
-  background-color: $joe-mccann-gray;
   width: ($content-width - 2 * $gutter-md) / 2 - $gutter-md;
   display: inline-block;
-  border: $gutter-md solid $alex-sexton-pink;
-  padding: $gutter-md;
   vertical-align: top;
+  height: 211px; /* ~*magic*~ */
+  position: relative;
 }
 
-section + section {
+.the-stuff + .the-stuff {
   margin-left: $gutter-md;
 }
 
-section img {
+.the-stuff img {
   height: 20px;
   max-width: 100%;
+}
+
+.the-stuff a {
+  position: absolute;
+  bottom: $gutter-md;
 }
 
 section p:last-child {
@@ -102,13 +106,18 @@ section p:last-child {
     width: auto;
   }
 
-  section {
+  .the-stuff {
     display: block;
     width: auto;
+    height: auto;
   }
 
-  section + section {
+  .the-stuff + .the-stuff {
     margin: $gutter-md 0;
+  }
+
+  .the-stuff a {
+    position: static;
   }
 
   [src="/img/austin-javascript.svg"] {
@@ -126,4 +135,39 @@ p, h2 {
 
 .no-hover-color:hover {
   background-color: transparent;
+}
+
+.media-object, .media-object div {
+  overflow: hidden;
+  _overflow: visible;
+  zoom: 1;
+}
+
+.media-object img {
+  float: left;
+  margin-right: $gutter-md;
+}
+
+.ajs-box {
+  background-color: $joe-mccann-gray;
+  border: $gutter-md solid $alex-sexton-pink;
+  padding: $gutter-md;
+}
+
+.people {
+  text-align: center;
+  margin-left: -$gutter-md;
+}
+
+.person {
+  text-align: left;
+  width: 300px;
+  display: inline-block;
+  margin-bottom: $gutter-md;
+  margin-left: $gutter-md;
+}
+
+.person img {
+  width: 100px;
+  border: $gutter-md / 3 solid $font-color;
 }

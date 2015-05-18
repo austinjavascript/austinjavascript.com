@@ -6,22 +6,26 @@ twitter:
   url: https://twitter.com/AustinJS
 markdown: kramdown
 people:
-  aaron:
-    twitter: aaronj1335
-    full: Aaron Stacy
-    short: Aaron
-  lawnsea:
-    twitter: lawnsea
-    full: Lon Ingram
-    short: Lon
-  slexaxton:
-    twitter: SlexAxton
-    full: Alex Sexton
-    short: Alex
   joemccann:
     twitter: joemccann
     full: Joe McCann
     short: Joe
+    avi: https://pbs.twimg.com/profile_images/378800000776233859/b1575c7e4646a5c7a31cef89da8a7a99_400x400.jpeg
+  slexaxton:
+    twitter: SlexAxton
+    full: Alex Sexton
+    short: Alex
+    avi: https://pbs.twimg.com/profile_images/586440626494775296/0Q2OtU87_400x400.jpg
+  lawnsea:
+    twitter: lawnsea
+    full: Lon Ingram
+    short: Lon
+    avi: https://pbs.twimg.com/profile_images/378800000676556352/fc9a3ae8c26f0f01825676dbe4da4b5d.jpeg
+  aaron:
+    twitter: aaronj1335
+    full: Aaron Stacy
+    short: Aaron
+    avi: https://pbs.twimg.com/profile_images/3281266042/5069b845017701c465760d25ba54b83c_400x400.jpeg
 exclude:
 - README.md
 - wp-content/README.md

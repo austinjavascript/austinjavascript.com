@@ -1,0 +1,15 @@
+<div class="people">
+  {% for person in site.people %}
+    <section class="ajs-box media-object person">
+      <a href="https://twitter.com/{{ person[1].twitter }}">
+        <img alt="{{ person[1].full }}" src="{{ person[1].avi }}" />
+      </a>
+      <div>
+        {{ person[1].full }} <br />
+        <a href="https://twitter.com/{{ person[1].twitter }}">
+          @{{ person[1].twitter }}
+        </a>
+      </div>
+    </section>
+  {% endfor %}
+</div>
