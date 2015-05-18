@@ -23,5 +23,5 @@ people:
     full: Joe McCann
     short: Joe
 exclude:
- - README.md
- - wp-content/README.md
+- README.md
+- wp-content/README.md

@@ -3,14 +3,40 @@ layout: default
 ---
 
 <section id=the-latest>
-The next meetup is {{ site.categories.meetups[0].meetup.when | date: "%b %-d" }}
-<a href="{{ site.categories.meetups[0].url }}">More info &rarr;</a>
+  <img alt="The latest" src=/img/the-latest.svg />
+
+  <p>
+  The next meetup is {{ site.categories.meetups[0].meetup.when | date: "%b %-d" }}.
+  You should swing by!
+  </p>
+
+  <a href="{{ site.categories.meetups[0].url }}">More info &rarr;</a>
 </section>
 
 <section id=about>
-Austin JavaScript is a community-driven group that meets monthly to discuss
-anything and everything related to JavaScript and the open web.
+  <img alt="What is this?" src=/img/what-is-this.svg />
+
+  <p>
+  Austin JavaScript is a community-driven group that meets monthly to discuss
+  JavaScript and the open web.
+  </p>
 </section>
+
+<p>
+We work hard to build a community that treats people with the utmost
+excellence. We've formalized this in <a href="/austinjs-code-of-conduct/">the
+Austin JavaScript Code of Conduct</a>.
+</p>
+
+<p>
+  <a alt="{{ site.twitter.user }} on Twitter"
+     class=no-hover-color
+     href="{{ site.twitter.url }}">
+    <img class=please-retweet
+         alt="{{ site.twitter.user }} on Twitter"
+         src="/img/please-retweet.svg" />
+  </a>
+</p>
 
 <h2>
   Recent Posts
@@ -27,3 +53,4 @@ anything and everything related to JavaScript and the open web.
 </ul>
 
 <a href=/archive>All posts &rarr;</a>
+

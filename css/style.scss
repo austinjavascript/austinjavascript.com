@@ -2,10 +2,21 @@
 ---
 @import "normalize";
 @import "variables";
+@import "mixins";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  color: $font-color;
+  font-size: $font-size;
+  line-height: 1.5em;
+}
 
 main {
   margin: auto;
-  padding: 10px;
+  padding: $gutter-md;
   max-width: 800px;
 }
 
@@ -13,3 +24,106 @@ header > a, h2 a {
   text-decoration: none;
 }
 
+h1 {
+  background-color: $joe-mccann-gray;
+  margin: 0;
+}
+
+h1 img {
+  width: 100%;
+}
+
+h1 span {
+  position: absolute;
+  left: -5000px;
+}
+
+[src="/img/austin-javascript.svg"] {
+  display: block;
+}
+
+[src="/img/austinjs.svg"] {
+  display: none;
+}
+
+a {
+  color: $font-color;
+  @include transition(color, .1s, ease-in-out);
+  @include transition(background-color, .1s, ease-in-out);
+}
+
+a:visited {
+  color: lighten($font-color, 15%);
+}
+
+a:hover {
+  background-color: $joe-mccann-gray;
+  color: $font-color;
+}
+
+section {
+  font-size: 1.2rem;
+  background-color: $joe-mccann-gray;
+  width: ($content-width - 2 * $gutter-md) / 2 - $gutter-md;
+  display: inline-block;
+  border: $gutter-md solid $alex-sexton-pink;
+  padding: $gutter-md;
+  vertical-align: top;
+}
+
+section + section {
+  margin-left: $gutter-md;
+}
+
+section img {
+  height: 20px;
+  max-width: 100%;
+}
+
+section p:last-child {
+  margin-bottom: 0;
+}
+
+.please-retweet {
+  max-width: 400px;
+  display: block;
+  margin: auto;
+}
+
+
+@media (max-width: 450px) {
+  .please-retweet {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: $content-width) {
+  main {
+    width: auto;
+  }
+
+  section {
+    display: block;
+    width: auto;
+  }
+
+  section + section {
+    margin: $gutter-md 0;
+  }
+
+  [src="/img/austin-javascript.svg"] {
+    display: none;
+  }
+
+  [src="/img/austinjs.svg"] {
+    display: block;
+  }
+}
+
+p, h2 {
+  margin: $gutter-md 0;
+}
+
+.no-hover-color:hover {
+  background-color: transparent;
+}
