@@ -7,7 +7,7 @@ categories:
 - posts
 - meetups
 meetup:
-  when: 2015-05-20T00:30:00.1Z
+  when: 2015-05-19T19:30:00.1-05:00
 ---
 As the saying goes, &#8220;April showers bring May showers.&#8221; They also bring you another JavaScript meetup! Local markup slinger [Charles Lowell][1] will be giving a talk titled &#8220;`on('input')`: dealing with data from your user in real-time&hellip; as in like forms, actually.&#8221;
 
