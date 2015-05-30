@@ -6,7 +6,9 @@ layout: default
   <img alt="The latest" src=/img/the-latest.svg />
 
   <p>
-  The next meetup is May 19<sup>th</sup>. You should swing by!
+  The next meetup is
+  <x-date>{{ site.categories.meetups[0].when | date_to_xmlschema }}</x-date>.
+  You should swing by!
   </p>
 
   <a href="{{ site.categories.meetups[0].url }}">Tell me about it &rarr;</a>
