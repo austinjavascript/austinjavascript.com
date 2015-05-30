@@ -1,5 +1,25 @@
+<h3>Organizers</h3>
+
 <div class="people">
-  {% for person in site.people %}
+  {% for person in site.people.organizers %}
+    <section class="ajs-box media-object person">
+      <a href="https://twitter.com/{{ person[1].twitter }}">
+        <img alt="{{ person[1].full }}" src="{{ person[1].avi }}" />
+      </a>
+      <div>
+        {{ person[1].full }} <br />
+        <a href="https://twitter.com/{{ person[1].twitter }}">
+          @{{ person[1].twitter }}
+        </a>
+      </div>
+    </section>
+  {% endfor %}
+</div>
+
+<h3>Emeriti</h3>
+
+<div class="people">
+  {% for person in site.people.alumni %}
     <section class="ajs-box media-object person">
       <a href="https://twitter.com/{{ person[1].twitter }}">
         <img alt="{{ person[1].full }}" src="{{ person[1].avi }}" />

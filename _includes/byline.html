@@ -1,7 +1,12 @@
 {% if page.author %}
-  {% if site.people[page.author] %}
-    <a href="https://twitter.com/{{ site.people[page.author].twitter }}" rel=author>
-      {{ site.people[page.author].short }}
+  {% assign author = site.people.organizers[page.author] %}
+  {% unless author %}
+    {% assign author = site.people.emeriti[page.author] %}
+  {% endunless %}
+
+  {% if author %}
+    <a href="https://twitter.com/{{ author.twitter }}" rel=author>
+      {{ author.short }}
     </a>
   {% else %}
     {{ page.author }}
