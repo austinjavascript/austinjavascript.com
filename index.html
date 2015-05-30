@@ -3,25 +3,44 @@ layout: default
 ---
 
 <section class="the-stuff ajs-box">
-  <img alt="The latest" src=/img/the-latest.svg />
+  <img alt="The latest" src="/img/the-latest.svg" />
 
-  <p>
-  The next meetup is
-  <x-date>{{ site.categories.meetups[0].when | date_to_xmlschema }}</x-date>.
-  You should swing by!
-  </p>
+  <div id="no-upcoming-meetups" class="hidden">
+    <p>
+    We haven't announced upcoming meetup details. Check back here or
+    <a href="{{ site.twitter.url }}">follow us on Twitter</a> for updates.
+    </p>
 
-  <a href="{{ site.categories.meetups[0].url }}">Tell me about it &rarr;</a>
+    <a href="{{ site.categories.meetups[0].url }}" class="go-on">
+      Tell me about the last meetup &rarr;
+    </a>
+  </div>
+
+  <div>
+    <p>
+    The next meetup is
+    <x-date>{{ site.categories.meetups[0].when | date_to_xmlschema }}</x-date>.
+    You should swing by!
+
+    <script>{% include js/upcoming.js %}</script>
+    </p>
+
+    <a href="{{ site.categories.meetups[0].url }}" class="go-on">
+      Tell me about it &rarr;
+    </a>
+  </div>
 </section>
 
 <section class="the-stuff ajs-box">
-  <img alt="What is this?" src=/img/what-is-this.svg />
+  <img alt="What is this?" src="/img/what-is-this.svg" />
 
   <p>
   A community-driven group that meets to discuss JavaScript and the open web.
   </p>
 
-  <a href="/about/">Let's hear more &rarr;</a>
+  <a href="/about/" class="go-on">
+    Let's hear more &rarr;
+  </a>
 </section>
 
 <p>

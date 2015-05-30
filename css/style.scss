@@ -79,7 +79,7 @@ a:hover {
   max-width: 100%;
 }
 
-.the-stuff a {
+.the-stuff .go-on {
   position: absolute;
   bottom: $gutter-md;
 }
@@ -116,7 +116,7 @@ section p:last-child {
     margin: $gutter-md 0;
   }
 
-  .the-stuff a {
+  .the-stuff .go-on {
     position: static;
   }
 
@@ -170,4 +170,8 @@ p, h2 {
 .person img {
   width: 100px;
   border: $gutter-md / 3 solid $font-color;
+}
+
+.hidden {
+  display: none;
 }

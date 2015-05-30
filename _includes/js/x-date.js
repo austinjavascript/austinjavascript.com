@@ -30,6 +30,12 @@
         value: function() {
           return this._date.getDate();
         }
+      },
+
+      when: {
+        value: function() {
+          return new Date(this._date.valueOf());
+        }
       }
     })
   });
