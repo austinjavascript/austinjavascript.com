@@ -2,7 +2,7 @@
 title: Stay Tuned&hellip;
 author: aaron
 layout: post
-permalink: "/:categories/:year/:month/:day/"
+permalink: pretty
 categories:
 - posts
 - meetups
