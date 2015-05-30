@@ -1,10 +1,19 @@
+markdown: kramdown
+sass:
+  style: :compressed
+exclude:
+- README.md
+- wp-content/README.md
+
 title: Austin JavaScript
+
 description: >
   Austin JavaScript is a meetup group focused on JavaScript and the open web.
+
 twitter:
   user: AustinJS
   url: https://twitter.com/AustinJS
-markdown: kramdown
+
 people:
   joemccann:
     twitter: joemccann
@@ -26,6 +35,3 @@ people:
     full: Aaron Stacy
     short: Aaron
     avi: https://pbs.twimg.com/profile_images/3281266042/5069b845017701c465760d25ba54b83c_400x400.jpeg
-exclude:
-- README.md
-- wp-content/README.md
