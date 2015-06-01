@@ -4,7 +4,7 @@ layout: default
 
 ## What is this?
 
-Austin JavaScript is a community that meets to discuss JavaScript and the open web. The group started back in 2010, and it's been going strong ever since. We cover a range of topics, including:
+Austin JavaScript is a community that meets to discuss JavaScript and the open web. The group started back in 2009, and it's been going strong ever since. We cover a range of topics, including:
 
 - The JavaScript language
 - New features of the web platform
