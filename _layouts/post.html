@@ -15,7 +15,7 @@ layout: default
 
 <footer>
   Posted on
-  <time itemprop=dateCreated datetime={{ page.date | date: "%Y-%m-%d" }}>
+  <time datetime={{ page.date | date: "%Y-%m-%d" }}>
     {{ page.date | date: "%b %-d, %Y" }}
   </time>
   by {% include byline.html %}
