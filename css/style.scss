@@ -167,7 +167,7 @@ p, h2 {
   margin-left: $gutter-md;
 }
 
-.person img {
+.person img, .speaker-bio img {
   width: 100px;
   border: $gutter-md / 3 solid $font-color;
 }
