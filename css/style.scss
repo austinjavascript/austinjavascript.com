@@ -167,11 +167,25 @@ p, h2 {
   margin-left: $gutter-md;
 }
 
-.person img {
+.person img, .speaker-bio img {
   width: 100px;
   border: $gutter-md / 3 solid $font-color;
 }
 
 .hidden {
   display: none;
+}
+
+.sponsor-logo {
+  text-align: center;
+}
+
+.sponsor-logo img {
+  max-width: 400px;
+}
+
+@media screen and (max-width: 450px) {
+  .sponsor-logo img {
+    max-width: 90%;
+  }
 }
