@@ -175,3 +175,17 @@ p, h2 {
 .hidden {
   display: none;
 }
+
+.sponsor-logo {
+  text-align: center;
+}
+
+.sponsor-logo img {
+  max-width: 400px;
+}
+
+@media screen and (max-width: 450px) {
+  .sponsor-logo img {
+    max-width: 90%;
+  }
+}
