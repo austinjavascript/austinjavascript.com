@@ -13,13 +13,17 @@
                                     return 'th';
   }
 
+  function strip(s) {
+    return s.replace(/^\s+/, '').replace(/\s+$/, '');
+  }
+
   var XDate = document.registerElement('x-date', {
     prototype: Object.create(HTMLElement.prototype, {
       createdCallback: {
         value: function() {
           var format = this.getAttribute('format') || 'day';
 
-          this._date = new Date(this.textContent);
+          this._date = new Date(strip(this.textContent));
 
           if (format == 'meetup')
             this.innerHTML = this._formatMeetup();
