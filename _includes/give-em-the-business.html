@@ -2,9 +2,15 @@
   <li>
     When: <x-date format="meetup">{{ page.when | date_to_xmlschema }}</x-date>
   </li>
-  <li>
-    Where: Frog Design – 101 West 6<sup>th</sup> Street – 2<sup>nd</sup> Floor
-  </li>
+  {% if include.location == "spredfast" %}
+    <li>
+      Where: Spredfast – 200 West Cesar Chavez Street – 3<sup>rd</sup> Floor of the Scilicon Labs building
+    </li>
+  {% else %}
+    <li>
+      Where: Frog Design – 101 West 6<sup>th</sup> Street – 2<sup>nd</sup> Floor
+    </li>
+  {% endif %}
   <li>
     How: Parking is on the street, or you can bus, bike, rollerblade, segway,
     jet ski, or walk yourself down there and just not worry about it.
@@ -29,5 +35,9 @@ href="http://thegingerman.com/austin/">The Gingerman</a> where they have over
   {% endfor %}
   Also, be sure to follow us on Twitter: <a href="{{ site.twitter.url }}">
   @{{ site.twitter.user }}</a>
+</p>
+
+<p>
+  And finally, <a href="/austinjs-code-of-conduct/">be excellent to eachother</a>.
 </p>
 
