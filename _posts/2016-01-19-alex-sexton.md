@@ -4,7 +4,7 @@ README: >
   _posts/YYYY-MM-DD-meetup.md`, remove this README, and add a `when` property to this
   section. the front page will update to let folks know that we've got
   something in the works.
-title: Alex Sexton talks about client-side \"security\"
+title: Alex Sexton talks about client-side "security"
 author: aaron
 layout: post
 categories:
