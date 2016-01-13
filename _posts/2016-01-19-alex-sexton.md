@@ -26,7 +26,7 @@ when: 2016-01-19T19:30:00-06:00
   </div>
 </div>
 
-Thanks [&#128056; design][frog] for hosting, as always you folks are [great][]. Also if you have a slice of pizza or a drink, be sure to find one of the good folks from [The Iron Yard][]!
+Thanks [&#128056; design][frog] for hosting, as always you folks are [great][]. Also if you have a slice of pizza or a drink, be sure to find one of the good folks from [The Iron Yard][] and say thank you!
 
 <div class="sponsor-logo">
   <a href="https://www.theironyard.com">
