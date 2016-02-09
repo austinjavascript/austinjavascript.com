@@ -4,6 +4,7 @@ sass:
 exclude:
 - README.md
 - wp-content/README.md
+- vendor
 permalink: /:categories/:year/:month/:day/
 
 title: Austin JavaScript
