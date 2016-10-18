@@ -6,6 +6,10 @@
     <li>
       Where: Spredfast &mdash; 200 West Cesar Chavez Street &mdash; 3<sup>rd</sup> Floor of the Silicon Labs building on Colorado
     </li>
+  {% elsif include.location == "techspace" %}
+    <li>
+      Where: TechSpace Austin &mdash; 98 San Jacinto Boulevard &mdash; Austin, TX 78701
+    </li>
   {% else %}
     <li>
       Where: Frog Design – 101 West 6<sup>th</sup> Street – 2<sup>nd</sup> Floor
@@ -15,17 +19,21 @@
     How: Parking is on the street, or you can bus, bike, rollerblade, segway,
     jet ski, or walk yourself down there and just not worry about it.
   </li>
+  {% unless include.nodranks %}
   <li>
     Drinks and pizza will be provided.
   </li>
+  {% endunless %}
   <li>
     Take a look at the <a href="/austinjs-code-of-conduct/">Code of Conduct</a>
   </li>
 </ul>
 
+{% unless include.nogingerman %}
 Afterwards, the discussion carries on a few blocks away at <a
 href="http://thegingerman.com/austin/">The Gingerman</a> where they have over
 70 beers on tap.
+{% endunless %}
 
 <p>
   If you&rsquo;ve got any questions or suggestions, feel free to contact
