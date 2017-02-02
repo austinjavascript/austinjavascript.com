@@ -36,14 +36,14 @@ Organizers will be happy to help participants contact venue security or local la
 
 We expect participants to follow these rules at the meetup itself as well as meetup-related social events.
 
-<div class="footer">
+<div class="coc-footer">
   <p>
-    <small><em>Original source and credit: <a href="http://2012.jsconf.us/#/about">http://2012.jsconf.us/#/about</a> & <a href="http://geekfeminism.wikia.com/wiki/meetup_anti-harassment/Policy">The Ada Initiative</a> & <a href="http://jerseyscript.github.io/codeofconduct.html">JerseyScript</a></p> 
+    Original source and credit: <a href="http://2012.jsconf.us/#/about">http://2012.jsconf.us/#/about</a> &amp; <a href="http://geekfeminism.wikia.com/wiki/meetup_anti-harassment/Policy">The Ada Initiative</a> &amp; <a href="http://jerseyscript.github.io/codeofconduct.html">JerseyScript</a></p> 
     
     <p>
       Please help by translating or improving: <a href="https://github.com/leftlogic/confcodeofconduct.com">http://github.com/leftlogic/confcodeofconduct.com</a>
     </p>
     
     <p>
-      This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US">Creative Commons Attribution 3.0 Unported License</a></em></small>
+      This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US">Creative Commons Attribution 3.0 Unported License</a>
     </p></div>
