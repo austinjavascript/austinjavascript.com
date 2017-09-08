@@ -13,7 +13,7 @@ All attendees, speakers, sponsors and volunteers at our meetup are required to a
 
 Contact an organizer in person or via e-mail:
 
-  * Aaron Stacy aaron.r.stacy@gmail.com
+  * Rebecca Murphey rmurphey@gmail.com
   * Lon Ingram lawnsea@gmail.com
 
 ## The Quick Version
