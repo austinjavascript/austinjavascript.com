@@ -23,11 +23,6 @@ people:
       full: Lon Ingram
       short: Lon
       avi: https://pbs.twimg.com/profile_images/378800000676556352/fc9a3ae8c26f0f01825676dbe4da4b5d.jpeg
-    rebecca:
-      twitter: rmurphey
-      full: Rebecca Murphey
-      short: Rebecca
-      avi: https://pbs.twimg.com/profile_images/504070124509229056/6t-MUDgL_400x400.jpeg
     aaron:
       twitter: aaronj1335
       full: Aaron Stacy
@@ -44,3 +39,8 @@ people:
       full: Alex Sexton
       short: Alex
       avi: https://pbs.twimg.com/profile_images/653393861453045760/6paq641-_400x400.jpg
+    rebecca:
+      twitter: rmurphey
+      full: Rebecca Murphey
+      short: Rebecca
+      avi: https://pbs.twimg.com/profile_images/504070124509229056/6t-MUDgL_400x400.jpeg
