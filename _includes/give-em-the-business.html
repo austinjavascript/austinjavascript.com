@@ -10,6 +10,10 @@
     <li>
       Where: TechSpace Austin &mdash; 98 San Jacinto Boulevard &mdash; Austin, TX 78701
     </li>
+  {% elsif include.location == "gingerman" %}
+    <li>
+      Where: <a href="http://thegingerman.com/austin/">The Gingerman Austin &mdash; 301 Lavaca Street &mdash; Austin, TX 78701</a>
+    </li>
   {% else %}
     <li>
       Where: Frog Design – 101 West 6<sup>th</sup> Street – 2<sup>nd</sup> Floor
@@ -19,7 +23,7 @@
     How: Parking is on the street, or you can bus, bike, rollerblade, segway,
     jet ski, or walk yourself down there and just not worry about it.
   </li>
-  {% unless include.nodranks %}
+  {% unless include.nodranks or include.location == "gingerman" %}
   <li>
     Drinks and pizza will be provided.
   </li>
@@ -29,7 +33,7 @@
   </li>
 </ul>
 
-{% unless include.nogingerman %}
+{% unless include.nogingerman or include.location == "gingerman" %}
 Afterwards, the discussion carries on a few blocks away at <a
 href="http://thegingerman.com/austin/">The Gingerman</a> where they have over
 70 beers on tap.
