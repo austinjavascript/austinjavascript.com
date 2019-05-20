@@ -18,3 +18,4 @@ You probably want to run a:
 
 And commit+push the update.
 """.format('_posts/' + f, '_posts/' + datetime.now().strftime('%Y-%m-%d') + '-' + '-'.join(f.split('-')[3:])))
+        sys.exit(42)
