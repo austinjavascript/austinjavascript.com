@@ -12,6 +12,8 @@ website for the [@AustinJS](https://twitter.com/AustinJS) meetup: http://austinj
 
 - set the `when` field in the front matter to an ISO-8601 formatted date of the meetup, i.e. `2019-04-16T19:30:00-05:00`. not sure what this should be? run `new Date().toISOString()` in a devtools console, copy the output, and tweak that.
 
+  > also make sure the time isn't an hour off because of daylight savings time.
+
 ## previewing changes
 
 as some sort of cruel joke, in order to preview changes you need
