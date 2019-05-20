@@ -1,7 +1,9 @@
 language: ruby
 
 # Instead of running tests, run a command that does nothing
-script: JEKYLL_ENV=production bundle exec jekyll build
+script:
+- JEKYLL_ENV=production bundle exec jekyll build
+- _bin/checkposts
 
 # If tests pass (and in this case they always will since we're not running
 # any), then purge the Cloudflare cache so the changes show up
