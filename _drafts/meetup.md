@@ -1,9 +1,10 @@
 ---
 README: >
   as soon as we know the date for the next meetup, `cp _drafts/meetup.md
-  _posts/YYYY-MM-DD-meetup.md`, remove this README, and add a `when` property to this
-  section. the front page will update to let folks know that we've got
-  something in the works.
+  _posts/YYYY-MM-DD-meetup.md`, remove this README, and add a `when` property
+  to this section. the front page will update to let folks know that we've got
+  something in the works. THE FILE NAME DATE CANNOT BE IN THE FUTURE. idk
+  that's just how jekyll works.
 title: Stay Tuned&hellip;
 author: aaron
 layout: post
