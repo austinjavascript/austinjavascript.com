@@ -21,7 +21,7 @@ If you'd like to get more details on the topcs, take a look at the [post archive
 
 ## How does it usually work?
 
-We typically meet on the 3<sup>rd</sup> Tuesday of each month downtown. We'll have a speaker or two, open things up for questions and discussion, and then head over to [The Gingerman][] to continue the festivities.
+We typically meet on the 3<sup>rd</sup> Tuesday of each month downtown. We'll have a speaker or two, open things up for questions and discussion, and then head over to [Lavaca Street Bar][] to continue the festivities.
 
 ## Anything else I should know?
 
@@ -29,10 +29,10 @@ Yes! We've work hard to build a community of people that treats eachother with *
 
 ## Who are these people?
 
-Austin JavaScript is made possible by th hard work and good will of many people, but there are a few in particular that you should feel free to reach out to if you've got any questions:
+Austin JavaScript is made possible by the hard work and good will of many people, but there are a few in particular that you should feel free to reach out to if you've got any questions:
 
 {% include people.html %}
 
 [post archives]: /archive/
-[The Gingerman]: http://thegingerman.com/austin/
+[Lavaca Street Bar]: https://lavacastdowntown.com/
 [our Code of Conduct]: /austinjs-code-of-conduct/

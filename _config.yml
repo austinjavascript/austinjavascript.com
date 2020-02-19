@@ -18,6 +18,17 @@ twitter:
 
 people:
   organizers:
+    kkipp:
+      twitter: kevin_kipp
+      full: Kevin Kipp
+      short: Kevin
+      avi: https://pbs.twimg.com/profile_images/931552869915926528/sBpw-pNh_400x400.jpg
+    pcostanzo:
+      twitter: pcostanz
+      full: Patrick Costanzo
+      short: Patrick
+      avi: https://pbs.twimg.com/profile_images/1230181384641183747/SKvgTCZL_400x400.jpg
+  emeriti:
     lawnsea:
       twitter: lawnsea
       full: Lon Ingram
@@ -33,7 +44,6 @@ people:
       full: Andrew Levine
       short: Andrew
       avi: https://pbs.twimg.com/profile_images/950842904771284992/pZwj7Nim_400x400.jpg
-  emeriti:
     joemccann:
       twitter: joemccann
       full: Joe McCann
@@ -43,7 +53,7 @@ people:
       twitter: SlexAxton
       full: Alex Sexton
       short: Alex
-      avi: https://pbs.twimg.com/profile_images/653393861453045760/6paq641-_400x400.jpg
+      avi: https://pbs.twimg.com/profile_images/1034325028026769408/hz_G2I3L_400x400.jpg
     rebecca:
       twitter: rmurphey
       full: Rebecca Murphey
