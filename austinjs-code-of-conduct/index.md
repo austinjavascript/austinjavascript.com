@@ -13,8 +13,8 @@ All attendees, speakers, sponsors and volunteers at our meetup are required to a
 
 Contact an organizer in person or via e-mail:
 
-  * Rebecca Murphey rmurphey@gmail.com
-  * Lon Ingram lawnsea@gmail.com
+  * Kevin Kipp kevin.kipp@gmail.com
+  * Patrick Costanzo costanzo.patrick@gmail.com
 
 ## The Quick Version
 
