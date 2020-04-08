@@ -1,0 +1,122 @@
+---
+layout: default
+---
+<article>
+  <header>
+    <h2>
+      <a href="{{ page.url }}">
+        {{ page.title }}
+      </a>
+    </h2>
+  </header>
+
+  {{ content }}
+
+  <h3>Our speaker</h3>
+  {% for speaker in page.speakers %}
+  <div class="media-object speaker-bio">
+    <a href="https://twitter.com/{{ speaker.twitter }}">
+      <img alt="{{ speaker.name }} @{{ speaker.twitter}} on Twitter" src="{{ speaker.picUrl }}" />
+    </a>
+    <div>
+      <p>
+        <a href="https://twitter.com/{{ speaker.twitter }}"><strong>{{ speaker.name }}</strong></a>
+        {% if speaker.title %}
+        , {{ speaker.title }}
+        {% endif %}
+      </p>
+      <p>
+        {% if speaker.twitter %}
+        Twitter: <a href="https://twitter.com/{{ speaker.twitter }}">@{{ speaker.twitter }}</a>
+        <br>
+        {% endif %}
+        {% if speaker.url %}
+        Website: <a href="{{ speaker.url }}">{{ speaker.url }}</a>
+        <br>
+        {% endif %}
+        {% if speaker.github %}
+        Github: <a href="https://github.com/{{ speaker.github }}">{{ speaker.github }}</a>
+        <br>
+        {% endif %}
+        {% if speaker.linkedin %}
+        LinkedIn: <a href="https://www.linkedin.com/in/{{ speaker.linkedin }}">{{ speaker.linkedin }}</a>
+        {% endif %}
+      </p>
+      {% if speaker.bio %}
+      <p>
+        {{ speaker.bio }}
+      </p>
+      {% endif %}
+    </div>
+  </div>
+  {% endfor %}
+
+  {% assign venue = site.data.organizations[page.venue.key] %}
+  <p>Make sure to thank our gracious host <a href="{{ venue.url }}">{{ venue.name }}</a>.</p>
+
+  <ul>
+    <li>
+      When: <x-date format="meetup">{{ page.when | date_to_xmlschema }}</x-date>
+    </li>
+
+    <li>
+      Where: <a href="{{ venue.url }}">{{ venue.name }}</a> &mdash; {{ venue.location }} <em>{{ venue.notes }}</em>
+    </li>
+    <li>
+      How: Parking is on the street, or you can bus, bike, rollerblade, segway, jet ski, or walk yourself down there and just not worry about it. Just don't ride those electric scooters on the sidewalks.
+    </li>
+    {% if page.sponsor.key %}
+    {% assign sponsor = site.data.organizations[page.sponsor.key] %}
+    <li>
+      Drinks and pizza for this event will be provided by the wonderful folks at <a href="{{ sponsor.url }}">{{ sponsor.name }}</a>.
+    </li>
+    {% endif %}
+    <li>
+      Take a look at the <a href="/austinjs-code-of-conduct/">Code of Conduct</a>
+    </li>
+  </ul>
+
+  {% if page.after.key %}
+  {% assign after = site.data.organizations[page.after.key] %}
+  Afterwards, the discussion carries on a few blocks away at <a href="{{ after.url }}">{{ after.name }}</a> where they have food and drinks.
+  {% endif %}
+
+  <p>
+    If you&rsquo;ve got any questions or suggestions, feel free to contact
+    {% for person in site.people.organizers %}
+    {{ person[1].short }}
+    (<a href="https://twitter.com/{{ person[1].twitter }}">@{{ person[1].twitter }}</a>){% if forloop.last %}.{% else %} or{% endif %}
+    {% endfor %}
+    Also, be sure to follow us on Twitter: <a href="{{ site.twitter.url }}">@{{ site.twitter.user }}</a>
+  </p>
+  <p>
+    And finally, <a href="/austinjs-code-of-conduct/">be excellent to each other</a>.
+  </p>
+
+  <p>
+    Check back here or <a href="https://twitter.com/{{ site.twitter.url }}">follow us on Twitter</a> for updates.
+  </p>
+
+</article>
+
+<footer>
+  Posted on
+  <time datetime={{ page.date | date: "%Y-%m-%d" }}>
+    {{ page.date | date: "%b %-d, %Y" }}
+  </time>
+  by {% include byline.html %}
+</footer>
+
+<nav>
+  {% if page.previous %}
+  <a href="{{ page.previous.url }}">
+    &larr; {{ page.previous.title }}
+  </a>
+  {% endif %}
+
+  {% if page.next %}
+  <a href="{{ page.next.url }}">
+    {{ page.next.title }} &rarr;
+  </a>
+  {% endif %}
+</nav>

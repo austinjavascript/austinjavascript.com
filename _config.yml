@@ -2,9 +2,10 @@ markdown: kramdown
 sass:
   style: :compressed
 exclude:
-- README.md
-- wp-content/README.md
-- vendor
+  - README.md
+  - wp-content/README.md
+  - vendor
+  - node_modules
 permalink: /:categories/:year/:month/:day/
 
 title: Austin JavaScript
