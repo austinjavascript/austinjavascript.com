@@ -15,6 +15,7 @@ speakers:
     twitter:
     github:
     linkedin:
+    email:
 sponsor:
   key:
   hiring:
