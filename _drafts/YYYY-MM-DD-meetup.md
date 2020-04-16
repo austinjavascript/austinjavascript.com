@@ -3,8 +3,8 @@ layout: meetup
 title:
 author:
 categories:
-- posts
-- meetups
+  - posts
+  - meetups
 when: 2020-04-01T19:30:00-05:00
 speakers:
   - name:
@@ -17,12 +17,10 @@ speakers:
     linkedin:
     email:
 sponsor:
-  key:
-  hiring:
+  name:
+  url:
 venue:
-  key:
 after:
-  key:
 ---
 
 {REPLACE WITH MEETING AGENDA/CONTENT}
