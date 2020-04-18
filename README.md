@@ -4,4 +4,4 @@ website for the [@AustinJS](https://twitter.com/AustinJS) meetup: http://austinj
 
 ## Adding meetup posts
 
-See [Contributing meetup posts](https://github.com/stedman/docker-jekyll/blob/master/CONTRIBUTING-POSTS.md)
+See [Contributing meetup posts](https://github.com/austinjavascript/austinjavascript.github.io/blob/master/CONTRIBUTING-POSTS.md)
