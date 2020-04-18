@@ -4,30 +4,34 @@
 
 There are two ways to edit an existing post:
 
-1. Online via [GitHub](https://www.github.com/austinjavascript/austinjavascript.github.io/).
-1. Locally, with a clone of the repo.
-
-*...moar to come...*
+1. Directly edit [post files](https://github.com/austinjavascript/austinjavascript.github.io/tree/master/_posts) online and submit Pull Request.
+1. Clone the repo locally (see next section), edit/save, git commit/push, and then open a Pull Request.
 
 ## Creating
 
 ### Setup local environment
 
 1. Fork the [Austin JavaScript GitHub](https://github.com/austinjavascript/austinjavascript.github.io/) repo to your org.
-1. Clone your repo to your local device, replacing `{my-username}` with your username.
+1. Clone your repo to a local directory, replacing `{my-username}` below with your username.
 
     ```sh
     git clone https://github.com/{my-username}/austinjavascript.github.io.git
     cd austinjavascript.github.io
     ```
 
-1. Create a new git branch for your work.
+1. Set the `upstream` remote repo to "austinjavascript". (If you look at `.git/config`, you should see that your fork is the `origin` remote.)
+
+    ```sh
+    git remote add upstream https://github.com/austinjavascript/austinjavascript.github.io.git
+    ```
+
+2. Create a new git branch for your work.
 
     ```sh
     git checkout -b new-post
     ```
 
-1. To review your work, you'll want to run [Jekyll](https://jekyllrb.com/) — a Ruby application. There are two ways to get started:
+3. To review your work, you'll want to run [Jekyll](https://jekyllrb.com/) — a Ruby application. There are two ways to do this:
 
     Start-up a [Docker](https://www.docker.com/) container. Frankly, this is the easier of the two choices. You'll need [Docker Desktop](https://www.docker.com/products/docker-desktop) if you don't already have it.
 
@@ -141,10 +145,12 @@ Open the [Markdown](https://commonmark.org/) file and notice the file structure.
 
 ## Publishing your meetup post
 
-Save and commit. Then push to your repo and open a pull request to [Austin JavaScript](https://www.github.com/austinjavascript/austinjavascript.github.io/).
+Save and commit. Then push to your repo.
 
 ```sh
 git add .
 git commit -m "Add new meetup post"
 git push origin new-post
 ```
+
+Open your browser to the [austinjavascript.github.io](https://www.github.com/austinjavascript/austinjavascript.github.io/) repo (or your fork) and open a Pull Request.
