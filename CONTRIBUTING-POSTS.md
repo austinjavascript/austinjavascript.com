@@ -16,10 +16,11 @@ There are two ways to edit an existing post:
 1. Fork the [Austin JavaScript GitHub](https://github.com/austinjavascript/austinjavascript.github.io/) repo to your org.
 1. Clone your repo to your local device, replacing `{my-username}` with your username.
 
-     ```sh
-     git clone https://github.com/{my-username}/austinjavascript.github.io.git
-     cd austinjavascript.github.io
-     ```
+    ```sh
+    git clone https://github.com/{my-username}/austinjavascript.github.io.git
+    cd austinjavascript.github.io
+    ```
+
 1. Create a new git branch for your work.
 
     ```sh
@@ -51,7 +52,7 @@ There are two ways to edit an existing post:
 
 To create a new meetup post, copy the `/_drafts_/YYYY-MM-DD-meetup.md` file to the `/_posts/` directory, changing `YYYY-MM-DD` to the appropriate year, month, and date.
 
-> **IMPORTANT:** Make sure the date part of the file name is **today's date**, not the date of the meetup. If the date in the file's name is the meetup date, it won't actually publish. ¯\\\_(ツ)_/¯ that's just how Jekyll works.
+> **IMPORTANT:** Make sure the date part of the file name is **today's date**, not the date of the meetup. If the date in the file's name is the meetup date, it won't actually publish. ¯\\\_(ツ)\_/¯ that's just how Jekyll works.
 
 ### Add meetup details and content
 
@@ -61,7 +62,6 @@ Open the [Markdown](https://commonmark.org/) file and notice the file structure.
 ---
 {YAML front matter}
 ---
-
 {Markdown content}
 ```
 
@@ -82,17 +82,16 @@ Open the [Markdown](https://commonmark.org/) file and notice the file structure.
         github: {profile name}
         linkedin: {profile name}
         email: {email address}
-    sponsor:
-      key: {key to sponsor data found in `/_data_/organizations.yaml`}
-      hiring: {is the sponsor actively recruiting? (true/false)}
-    venue:
-      key: {key to host venue data found in `/_data_/organizations.yaml` - REQUIRED}
-    after:
-      key: {key to "after party" data found in `/_data_/organizations.yaml`}
+    sponsor: {key to sponsor data}
+      name: {sponsor full name}
+      url: {sponsor homepage URL}
+      careerUrl: {sponsor career page URL}
+    venue: {key to host venue data - REQUIRED}
+    after: {key to "after party" data}
     ---
     ```
 
-    > Note: `speakers` is a YAML array, so each `name` should be preceded by a dash. For example:
+    > NOTE: `speakers` is a YAML array, so each `name` should be preceded by a dash. For example:
     >
     > ```yaml
     > speakers:
@@ -104,21 +103,41 @@ Open the [Markdown](https://commonmark.org/) file and notice the file structure.
     >     ...
     > ```
 
+    > NOTE: For `sponsor`, if a key to the sponsor info exists in the `/_data/organizations.yaml` file, then use it alone.
+    >
+    > ```yaml
+    > ..
+    > sponsor: {key_name}
+    > venue: ...
+    > ..
+    > ```
+    >
+    > If an org key doesn't exist, then add the `name` and `url` (and optionally `careerUrl`) fields.
+    >
+    > ```yaml
+    > ..
+    > sponsor:
+    >   name: {sponsor name}
+    >   url: {sponsor URL}
+    > venue: ...
+    > ..
+    > ```
+
     The `sponsor`, `venue`, and `after` key values can be found in or added to `/_data_/organizations.yaml`. The format for that YAML file is:
 
     ```yaml
     {key - REQUIRED}:
-      name: {full name of organization - REQUIRED}
-      url: {URL to org homepage}
-      careerUrl: {URL to org career page}
-      location: {full street address + floor and/or room}
+      name: {org full name - REQUIRED}
+      url: {org homepage URL}
+      careerUrl: {org career page URL}
+      location: {org full street address + floor and/or room}
       note: {additional notes}
     ```
 
-* The *{Markdown content}* follows the [CommonMark spec](https://commonmark.org/help/) for creating formatted HTML from plain text. Some tips for content:
+* The _{Markdown content}_ follows the [CommonMark spec](https://commonmark.org/help/) for creating formatted HTML from plain text. Some tips for content:
 
-  * Provide context for presentation. What was the problem, solution, drama?
-  * Hyperlink all the things! ...and use Markdown syntax (e.g., `[Gatsby](https://gatsbyjs.org)`). This gets transformed by the compiler into proper external links.
+    * Provide context for presentation. What was the problem, solution, drama?
+    * Hyperlink all the things! ...and use Markdown syntax (e.g., `[Gatsby](https://gatsbyjs.org)`). This gets transformed by the compiler into proper external links.
 
 ## Publishing your meetup post
 
