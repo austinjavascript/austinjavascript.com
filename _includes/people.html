@@ -1,35 +1,15 @@
+{% assign organizers = site.data.people | where: "status", "active" %}
 <h3>Organizers</h3>
-
 <div class="people">
-  {% for person in site.people.organizers %}
-    <section class="ajs-box media-object person">
-      <a href="https://twitter.com/{{ person[1].twitter }}">
-        <img alt="{{ person[1].full }}" src="{{ person[1].avi }}" />
-      </a>
-      <div>
-        {{ person[1].full }} <br />
-        <a href="https://twitter.com/{{ person[1].twitter }}">
-          @{{ person[1].twitter }}
-        </a>
-      </div>
-    </section>
+  {% for person in organizers %}
+    {% include person.html %}
   {% endfor %}
 </div>
 
+{% assign emeriti = site.data.people | where: "status", "emeriti" %}
 <h3>Emeriti</h3>
-
 <div class="people">
-  {% for person in site.people.emeriti %}
-    <section class="ajs-box media-object person">
-      <a href="https://twitter.com/{{ person[1].twitter }}">
-        <img alt="{{ person[1].full }}" src="{{ person[1].avi }}" />
-      </a>
-      <div>
-        {{ person[1].full }} <br />
-        <a href="https://twitter.com/{{ person[1].twitter }}">
-          @{{ person[1].twitter }}
-        </a>
-      </div>
-    </section>
+  {% for person in emeriti %}
+    {% include person.html %}
   {% endfor %}
 </div>

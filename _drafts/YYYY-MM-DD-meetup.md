@@ -9,18 +9,20 @@ when: 2020-04-01T19:30:00-05:00
 speakers:
   - name:
     title:
-    picUrl:
+    avatar:
     bio:
-    url:
+    email:
+    homepage:
     twitter:
     github:
     linkedin:
-    email:
 sponsor:
   name:
   url:
 venue:
 after:
+organizers:
+  -
 ---
 
 {REPLACE WITH MEETING AGENDA/CONTENT}

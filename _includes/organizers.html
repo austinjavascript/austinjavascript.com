@@ -1,0 +1,15 @@
+{% if page.organizers %}
+  If you&rsquo;ve got any questions or suggestions, feel free to contact
+  {% for personKey in page.organizers %}
+  {% assign person = site.data.people[personKey] %}
+  {{ person.name | split: " " | first }}
+  (<a href="https://twitter.com/{{ person.twitter }}">@{{ person.twitter }}</a>){% if forloop.last %}.{% else %} or{% endif %}
+  {% endfor %}
+{% else %}
+  {% assign organizers = site.data.people | where: "status", "active" %}
+  If you&rsquo;ve got any questions or suggestions, feel free to contact
+  {% for person in organizers %}
+  {{ person.name | split: " " | first }}
+  (<a href="https://twitter.com/{{ person.twitter }}">@{{ person.twitter }}</a>){% if forloop.last %}.{% else %} or{% endif %}
+  {% endfor %}
+{% endif %}

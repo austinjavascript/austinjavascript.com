@@ -48,11 +48,8 @@ drinks, and 12 revolving taps.
 {% endunless %}
 
 <p>
-  If you&rsquo;ve got any questions or suggestions, feel free to contact
-  {% for person in site.people.organizers %}
-  {{ person[1].short }}
-  (<a href="https://twitter.com/{{ person[1].twitter }}">@{{ person[1].twitter }}</a>){% if forloop.last %}.{% else %} or{% endif %}
-  {% endfor %}
+  {% include organizers.html %}
+
   Also, be sure to follow us on Twitter: <a href="{{ site.twitter.url }}">
   @{{ site.twitter.user }}</a>
 </p>
