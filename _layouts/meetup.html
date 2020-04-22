@@ -15,9 +15,11 @@ layout: default
   <h3>Our speaker</h3>
   {% for speaker in page.speakers %}
   <div class="media-object speaker-bio">
+    {% if speaker.avatar %}
     <a href="https://twitter.com/{{ speaker.twitter }}">
       <img src="{{ speaker.avatar }}" alt="{{ speaker.name }}">
     </a>
+    {% endif %}
     <div>
       <p>
         <a href="https://twitter.com/{{ speaker.twitter }}"><strong>{{ speaker.name }}</strong></a>{% if speaker.title %}, {{ speaker.title }}{% endif %}
