@@ -47,6 +47,13 @@ mozilla:
   careerUrl:
   location:
   note: Download <a href="https://getfirefox.com">Firefox</a> and celebrate the open Web!
+rapid7:
+  name: Rapid7
+  url: https://www.rapid7.com/
+  careerUrl: https://www.rapid7.com/careers/
+  logo: https://cybersecurity-excellence-awards.com/wp-content/uploads/2016/02/377921-500x84.png
+  location:
+  note:
 retailmenot:
   name: RetailMeNot
   url: https://www.retailmenot.com/
