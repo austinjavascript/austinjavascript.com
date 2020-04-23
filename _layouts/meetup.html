@@ -12,34 +12,20 @@ layout: default
 
   {{ content }}
 
-  <h3>Our speaker</h3>
+  <h3>Our speaker{% if page.speakers.size > 1 %}s{% endif %}</h3>
   {% for speaker in page.speakers %}
   <div class="media-object speaker-bio">
-    <a href="https://twitter.com/{{ speaker.twitter }}">
-      <img alt="{{ speaker.name }} @{{ speaker.twitter}} on Twitter" src="{{ speaker.picUrl }}" />
-    </a>
+    {% if speaker.avatar %}
+    <img src="{{ speaker.avatar }}" alt="{{ speaker.name }}">
+    {% endif %}
     <div>
       <p>
-        <a href="https://twitter.com/{{ speaker.twitter }}"><strong>{{ speaker.name }}</strong></a>
-        {% if speaker.title %}
-        , {{ speaker.title }}
-        {% endif %}
-      </p>
-      <p>
+        <strong>{{ speaker.name }}</strong>{% if speaker.title %}, {{ speaker.title }}{% endif %}
         {% if speaker.twitter %}
-        Twitter: <a href="https://twitter.com/{{ speaker.twitter }}">@{{ speaker.twitter }}</a>
-        <br>
+        (<a href="https://twitter.com/{{ speaker.twitter }}">@{{ speaker.twitter }}</a>)
         {% endif %}
-        {% if speaker.url %}
-        Website: <a href="{{ speaker.url }}">{{ speaker.url }}</a>
-        <br>
-        {% endif %}
-        {% if speaker.github %}
-        Github: <a href="https://github.com/{{ speaker.github }}">{{ speaker.github }}</a>
-        <br>
-        {% endif %}
-        {% if speaker.linkedin %}
-        LinkedIn: <a href="https://www.linkedin.com/in/{{ speaker.linkedin }}">{{ speaker.linkedin }}</a>
+        {% if speaker.homepage %}
+        (homepage: <a href="{{ speaker.homepage }}">{{ speaker.homepage }}</a>)
         {% endif %}
       </p>
       {% if speaker.bio %}
@@ -51,8 +37,33 @@ layout: default
   </div>
   {% endfor %}
 
+  {% if page.venue %}
   {% assign venue = site.data.organizations[page.venue] %}
-  <p>Make sure to thank our gracious host <a href="{{ venue.url }}">{{ venue.name }}</a>.</p>
+  <p>Thank you, <a href="{{ venue.url }}">{{ venue.name }}</a>, for hosting!</p>
+  {% endif %}
+
+  {% if page.sponsor.name or page.sponsor %}
+  {% if page.sponsor.name and page.sponsor.url %}
+  {% assign sponsorOrg = page.sponsor %}
+  {% elsif page.sponsor %}
+  {% assign sponsorOrg = site.data.organizations[page.sponsor] %}
+  {% endif %}
+
+  {% if sponsorOrg.logo %}
+  <p style="text-align: center;"><a href="{{ sponsorOrg.url }}"><img src="{{ sponsorOrg.logo }}" alt="{{ sponsorOrg.name }} logo" style="height: 75px;"></a></p>
+  {% endif %}
+  {% endif %}
+  {% if sponsorOrg.message %}
+  <div>
+  {{ sponsorOrg.message }}
+  </div>
+  {% elsif sponsorOrg.name %}
+  <p>Austin JavaScript is sponsored this month by <a href="{{ sponsorOrg.url }}">{{ sponsorOrg.name }}</a>. Please thank them for their gracious gifts of pizza and drinks and for their support of the local JavaScript community.
+    {% if sponsorOrg.careerUrl %}
+    Ask them about their <a href="{{ sponsorOrg.careerUrl }}">job opportunities</a>!
+    {% endif %}
+  </p>
+  {% endif %}
 
   <ul>
     <li>
@@ -64,16 +75,9 @@ layout: default
     <li>
       How: Parking is on the street, or you can bus, bike, rollerblade, segway, jet ski, or walk yourself down there and just not worry about it. Just don't ride those electric scooters on the sidewalks.
     </li>
-    {% if page.sponsor.name and page.sponsor.url %} {% comment %}For one-off sponsors.{% endcomment %}
     <li>
-      Drinks and pizza for this event will be provided by the wonderful folks at <a href="{{ page.sponsor.url }}">{{ page.sponsor.name }}</a>.
+      Drinks and pizza will be provided.
     </li>
-    {% elsif page.sponsor %} {% comment %}Use the sponsor key for repeat sponsors.{% endcomment %}
-    {% assign sponsor = site.data.organizations[page.sponsor] %}
-    <li>
-      Drinks and pizza for this event will be provided by the wonderful folks at <a href="{{ sponsor.url }}">{{ sponsor.name }}</a>.
-    </li>
-    {% endif %}
     <li>
       Take a look at the <a href="/austinjs-code-of-conduct/">Code of Conduct</a>
     </li>
@@ -85,18 +89,12 @@ layout: default
   {% endif %}
 
   <p>
-    If you&rsquo;ve got any questions or suggestions, feel free to contact
-    {% for person in site.people.organizers %}
-    {{ person[1].short }}
-    (<a href="https://twitter.com/{{ person[1].twitter }}">@{{ person[1].twitter }}</a>){% if forloop.last %}.{% else %} or{% endif %}
-    {% endfor %}
+    {% include organizers.html %}
+
     Also, be sure to follow us on Twitter: <a href="{{ site.twitter.url }}">@{{ site.twitter.user }}</a>
   </p>
   <p>
     And finally, <a href="/austinjs-code-of-conduct/">be excellent to each other</a>.
-  </p>
-  <p>
-    Check back here or <a href="https://twitter.com/{{ site.twitter.url }}">follow us on Twitter</a> for updates.
   </p>
 </article>
 

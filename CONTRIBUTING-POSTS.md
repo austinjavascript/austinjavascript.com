@@ -79,19 +79,22 @@ Open the [Markdown](https://commonmark.org/) file and notice the file structure.
     speakers:
       - name: {full name - REQUIRED}
         title: {professional title}
-        picUrl: {twitter image URL}
+        avatar: {twitter image URL}
         bio: {short bio blurb}
-        url: {homepage url}
+        email: {email address}
+        homepage: {homepage url}
         twitter: {profile name}
         github: {profile name}
         linkedin: {profile name}
-        email: {email address}
     sponsor: {key to sponsor data}
       name: {sponsor full name}
       url: {sponsor homepage URL}
       careerUrl: {sponsor career page URL}
+      logo: {sponsor logo URL}
     venue: {key to host venue data - REQUIRED}
     after: {key to "after party" data}
+    organizers:
+      - {key to people data}
     ---
     ```
 

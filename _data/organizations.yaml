@@ -3,6 +3,7 @@ cloudflare:
   url: https://www.cloudflare.com/
   careerUrl: https://www.cloudflare.com/careers/
   location: 106 E 6th St, Austin, TX 78701, 4th Floor
+  logo: https://blog.cloudflare.com/content/images/2016/09/cf-blog-logo-crop.png
   note:
 frog:
   name: Frog Design
@@ -46,11 +47,19 @@ mozilla:
   careerUrl:
   location:
   note: Download <a href="https://getfirefox.com">Firefox</a> and celebrate the open Web!
+rapid7:
+  name: Rapid7
+  url: https://www.rapid7.com/
+  careerUrl: https://www.rapid7.com/careers/
+  logo: https://cybersecurity-excellence-awards.com/wp-content/uploads/2016/02/377921-500x84.png
+  location:
+  note:
 retailmenot:
   name: RetailMeNot
   url: https://www.retailmenot.com/
-  careerUrl:
+  careerUrl: https://retailmenot.com/careers
   location: 301 Congress Ave., Suite 700, Austin, TX 78701
+  logo: https://i.imgur.com/GAULdrg.png
   note:
 spredfast:
   name: Spredfast
