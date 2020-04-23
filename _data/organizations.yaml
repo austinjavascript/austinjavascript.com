@@ -50,8 +50,9 @@ mozilla:
 retailmenot:
   name: RetailMeNot
   url: https://www.retailmenot.com/
-  careerUrl:
+  careerUrl: https://retailmenot.com/careers
   location: 301 Congress Ave., Suite 700, Austin, TX 78701
+  logo: https://i.imgur.com/GAULdrg.png
   note:
 spredfast:
   name: Spredfast

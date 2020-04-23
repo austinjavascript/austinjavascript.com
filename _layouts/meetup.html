@@ -12,32 +12,22 @@ layout: default
 
   {{ content }}
 
-  <h3>Our speaker</h3>
+  <h3>Our speaker{% if page.speakers.size > 1 %}s{% endif %}</h3>
   {% for speaker in page.speakers %}
   <div class="media-object speaker-bio">
     {% if speaker.avatar %}
-    <a href="https://twitter.com/{{ speaker.twitter }}">
-      <img src="{{ speaker.avatar }}" alt="{{ speaker.name }}">
-    </a>
+    <img src="{{ speaker.avatar }}" alt="{{ speaker.name }}">
     {% endif %}
     <div>
       <p>
-        <a href="https://twitter.com/{{ speaker.twitter }}"><strong>{{ speaker.name }}</strong></a>{% if speaker.title %}, {{ speaker.title }}{% endif %}
-      </p>
-      <p>{
-        {% if speaker.homepage %}
-        homepage: "<a href="{{ speaker.homepage }}">{{ speaker.homepage }}</a>",
-        {% endif %}
+        <strong>{{ speaker.name }}</strong>{% if speaker.title %}, {{ speaker.title }}{% endif %}
         {% if speaker.twitter %}
-        twitter: "<a href="https://twitter.com/{{ speaker.twitter }}">@{{ speaker.twitter }}</a>",
+        (<a href="https://twitter.com/{{ speaker.twitter }}">@{{ speaker.twitter }}</a>)
         {% endif %}
-        {% if speaker.github %}
-        github: "<a href="https://github.com/{{ speaker.github }}">{{ speaker.github }}</a>",
+        {% if speaker.homepage %}
+        (homepage: <a href="{{ speaker.homepage }}">{{ speaker.homepage }}</a>)
         {% endif %}
-        {% if speaker.linkedin %}
-        linkedin: "<a href="https://www.linkedin.com/in/{{ speaker.linkedin }}">{{ speaker.linkedin }}</a>"
-        {% endif %}
-      }</p>
+      </p>
       {% if speaker.bio %}
       <p>
         {{ speaker.bio }}
@@ -47,8 +37,10 @@ layout: default
   </div>
   {% endfor %}
 
+  {% if page.venue %}
   {% assign venue = site.data.organizations[page.venue] %}
   <p>Thank you, <a href="{{ venue.url }}">{{ venue.name }}</a>, for hosting!</p>
+  {% endif %}
 
   {% if page.sponsor.name or page.sponsor %}
   {% if page.sponsor.name and page.sponsor.url %}
@@ -61,7 +53,17 @@ layout: default
   <p style="text-align: center;"><a href="{{ sponsorOrg.url }}"><img src="{{ sponsorOrg.logo }}" alt="{{ sponsorOrg.name }} logo" style="height: 75px;"></a></p>
   {% endif %}
   {% endif %}
-  <p>If you have a slice of pizza or a drink, be sure to find one of our sponsors from <a href="{{ sponsorOrg.url }}">{{ sponsorOrg.name }}</a> and say "thank you".</p>
+  {% if sponsorOrg.message %}
+  <div>
+  {{ sponsorOrg.message }}
+  </div>
+  {% elsif sponsorOrg.name %}
+  <p>Austin JavaScript is sponsored this month by <a href="{{ sponsorOrg.url }}">{{ sponsorOrg.name }}</a>. Please thank them for their gracious gifts of pizza and drinks and for their support of the local JavaScript community.
+    {% if sponsorOrg.careerUrl %}
+    Ask them about their <a href="{{ sponsorOrg.careerUrl }}">job opportunities</a>!
+    {% endif %}
+  </p>
+  {% endif %}
 
   <ul>
     <li>
