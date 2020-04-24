@@ -55,7 +55,7 @@ layout: default
   {% endif %}
   {% if sponsorOrg.message %}
   <div>
-  {{ sponsorOrg.message }}
+    {{ sponsorOrg.message }}
   </div>
   {% elsif sponsorOrg.name %}
   <p>Austin JavaScript is sponsored this month by <a href="{{ sponsorOrg.url }}">{{ sponsorOrg.name }}</a>. Please thank them for their gracious gifts of pizza and drinks and for their support of the local JavaScript community.
@@ -98,23 +98,17 @@ layout: default
   </p>
 </article>
 
-<footer>
-  Posted on
-  <time datetime={{ page.date | date: "%Y-%m-%d" }}>
-    {{ page.date | date: "%b %-d, %Y" }}
-  </time>
-  by {% include byline.html %}
+<footer style="font-style: italic;">
+  Posted by {% include byline.html %}
 </footer>
 
-<nav>
+<nav style="margin-top: 1em;">
   {% if page.previous %}
-  <a href="{{ page.previous.url }}">
+  <a href="{{ page.previous.url }}" style="float: left;">
     &larr; {{ page.previous.title }}
   </a>
-  {% endif %}
-
-  {% if page.next %}
-  <a href="{{ page.next.url }}">
+  {% endif %} {% if page.next %}
+  <a href="{{ page.next.url }}" style="float: right;">
     {{ page.next.title }} &rarr;
   </a>
   {% endif %}
