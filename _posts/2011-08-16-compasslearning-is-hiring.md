@@ -1,78 +1,54 @@
 ---
-title: CompassLearning is Hiring
-author: slexaxton
 layout: post
+title: CompassLearning is Hiring
+author: asexton
 permalink: /compasslearning-is-hiring/
 categories:
   - Uncategorized
 ---
-On the verge of this month&#8217;s meeting we&#8217;d like to let you know about an opportunity from last month&#8217;s sponsor: [CompassLearning][1].
+On the verge of this month's meeting we'd like to let you know about an opportunity from last month's sponsor: [CompassLearning][1].
 
-We&#8217;re looking for a highly skilled front-end developer who lives and breathes standards. You will have strong experience with standards compliant, semantic HTML and CSS, solid knowledge of JavasScript, DOM-scripting and familiarity with JavaScript frameworks like Sencha, MooTools, JQuery etc. You&#8217;ll also be proficient with server-side programming using a server-side scripting language like PHP, Python or Ruby and know how to run queries with MySQL, or SQL Server.
+We're looking for a highly skilled front-end developer who lives and breathes standards. You will have strong experience with standards compliant, semantic HTML and CSS, solid knowledge of JavasScript, DOM-scripting and familiarity with JavaScript frameworks like Sencha, MooTools, JQuery etc. You'll also be proficient with server-side programming using a server-side scripting language like PHP, Python or Ruby and know how to run queries with MySQL, or SQL Server.
 
-You&#8217;ll be tackling big and little projects that are fun, challenging and span the spectrum of front-end development.  Sometimes the deadlines are tight, but that&#8217;s why we&#8217;re looking for people with great personalities who are team players. When a project is done we&#8217;ll celebrate, enjoy the view and look forward to the next project wiser and stronger than before.
+You'll be tackling big and little projects that are fun, challenging and span the spectrum of front-end development.  Sometimes the deadlines are tight, but that's why we're looking for people with great personalities who are team players. When a project is done we'll celebrate, enjoy the view and look forward to the next project wiser and stronger than before.
 
-We&#8217;re a casual dress, fun, thriving software company with a great work environment and plenty of growth in our future, so if we&#8217;ve sparked your interest drop us an [email][2] with your resume and a nice portfolio of sites developed and we&#8217;ll talk. <img src='http://austinjavascript.com/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> 
+We're a casual dress, fun, thriving software company with a great work environment and plenty of growth in our future, so if we've sparked your interest drop us an [email][2] with your resume and a nice portfolio of sites developed and we'll talk. <img src='http://austinjavascript.com/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' />
 
 Responsibilities include but are not limited to:
 
-&nbsp;
-
-·         Semantic HTML/CSS coding/updating for assigned projects
-
-·         JavaScript/DOM scripting to build interactive but accessible interfaces
-
-·         Working with FreeMarker templates and JSON or XML files to expose data to the front-end
-
-·         Building specific functionality and modules using a front end framework.
-
-·         Interaction with UX team and business users.
-
-·         Build efficient and reusable front-end abstractions and systems
-
-·         Identify and address performance bottlenecks
-
-·         Participate in design and code reviews
-
-·         Interact with other team members to incorporate their innovations and vice versa.
-
-·         Identify and communicate best practices for front-end engineering
+* Semantic HTML/CSS coding/updating for assigned projects
+* JavaScript/DOM scripting to build interactive but accessible interfaces
+* Working with FreeMarker templates and JSON or XML files to expose data to the front-end
+* Building specific functionality and modules using a front end framework.
+* Interaction with UX team and business users.
+* Build efficient and reusable front-end abstractions and systems
+* Identify and address performance bottlenecks
+* Participate in design and code reviews
+* Interact with other team members to incorporate their innovations and vice versa.
+* Identify and communicate best practices for front-end engineering
 
 Required Skills:
 
-&nbsp;
-
-·         Ability to write standards based, semantic HTML and CSS and modern layouts using tableless design
-
-·         Ability to do DOM scripting with JavaScript and various JS libraries like MooTools, JQuery
-
-·         Ability to write well-abstracted, reusable code for UI components
-
-·         A strong understanding of modern web practices to create an efficient user-experience
-
-·         A good understanding of cross-browser issues and their workarounds
-
-·         Experience working with server-side scripting languages like PHP, Python and Ruby
-
-·         Knowledge of but not reliant on Object Oriented JavaScript Frameworks (Prototype JS, MooTools, Dojo, etc.)
-
-·         Strong portfolio required
-
-·         Excellent written and oral communication skills
-
-·         Must be a team player and open to change
-
-·         Fun and Friendly attitude
-
-·         Must have legal authorization to work in the United States
+* Ability to write standards based, semantic HTML and CSS and modern layouts using tableless design
+* Ability to do DOM scripting with JavaScript and various JS libraries like MooTools, JQuery
+* Ability to write well-abstracted, reusable code for UI components
+* A strong understanding of modern web practices to create an efficient user-experience
+* A good understanding of cross-browser issues and their workarounds
+* Experience working with server-side scripting languages like PHP, Python and Ruby
+* Knowledge of but not reliant on Object Oriented JavaScript Frameworks (Prototype JS, MooTools, Dojo, etc.)
+* Strong portfolio required
+* Excellent written and oral communication skills
+* Must be a team player and open to change
+* Fun and Friendly attitude
+* Must have legal authorization to work in the United States
 
 Bonus:
 
-·         Experience building complicated workflows
+* Experience building complicated workflows
+* Relevant experience includes self-started personal projects
+* Knowledge of web accessibility standards
 
-·         Relevant experience includes self-started personal projects
-
-·         Knowledge of web accessibility standards  
+*
 **Please provide a portfolio of sites developed, either online or with attached files.**
 
 CompassLearning is a recognized leader in the K-12 educational software industry. In our Learning Studio in Austin, TX, our team of educational experts, graphic artists, writers, and developers create award-winning K-12 curriculum and assessment solutions that motivate today’s students to engage, think & learn.

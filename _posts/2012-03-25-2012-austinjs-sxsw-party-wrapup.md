@@ -1,8 +1,8 @@
 ---
-title: 2012 AustinJS SXSW Party Wrapup
-author: joemccann
 layout: post
 permalink: /2012-austinjs-sxsw-party-wrapup/
+title: 2012 AustinJS SXSW Party Wrapup
+author: jmccann
 categories:
   - posts
 ---
@@ -138,28 +138,28 @@ But we had one last surprise&#8230; loaded swag bags that included jars of [Mom�
 
 This entire event would not have been possible without our INCREDIBLE community sponsors:
 
-  * [Microsoft][39]
-  * [Adobe][26]
-  * [Mozilla][22]
-  * [subPrint][72]
-  * [Appcelerator][14]
-  * [Nodejitsu][16]
-  * [TEKsystems][73]
-  * [Geekli.st][74]
-  * [Telerik][75] + [Kendo UI][76]
-  * [Mass Relevance][77]
+* [Microsoft][39]
+* [Adobe][26]
+* [Mozilla][22]
+* [subPrint][72]
+* [Appcelerator][14]
+* [Nodejitsu][16]
+* [TEKsystems][73]
+* [Geekli.st][74]
+* [Telerik][75] + [Kendo UI][76]
+* [Mass Relevance][77]
 
 Also, we couldn’t have put our plan into action without our outstanding staff:
 
-Captain Ric and Katy from [Lonestar Riverboat][78]  
-Photographer:  [Annie Ray][79]  
-Music:  [DJ Johnny Bravvo][80]  
+Captain Ric and Katy from [Lonestar Riverboat][78]
+Photographer:  [Annie Ray][79]
+Music:  [DJ Johnny Bravvo][80]
 Visual Designer:  [Joon Shin][81]
 
-Skippers: Bonnie Varner and Katherine McCaslin  
+Skippers: Bonnie Varner and Katherine McCaslin
 Bartender: Stacy Matthews
 
-Event Lead:  [Mandy Lauderdale][82]  
+Event Lead:  [Mandy Lauderdale][82]
 Event Host:  [Joe McCann][83]
 
 We’ve already begun to plan the party for next year.  There’s a rumor that Burt Reynolds’ moustache might make an appearance.

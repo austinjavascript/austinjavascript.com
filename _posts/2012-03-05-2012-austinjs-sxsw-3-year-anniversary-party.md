@@ -1,8 +1,8 @@
 ---
-title: 2012 AustinJS SXSW 3 Year Anniversary Party
-author: joemccann
 layout: post
 permalink: /2012-austinjs-sxsw-3-year-anniversary-party/
+title: 2012 AustinJS SXSW 3 Year Anniversary Party
+author: jmccann
 categories:
   - Uncategorized
 ---
@@ -26,16 +26,16 @@ Charlie Sheen isn&#8217;t the only person who prefers to be winning, so we have 
 
 Finally, it is of great privilege to call out those members of the community who are making this event a reality: our sponsors. This year we have many repeat sponsors from last year&#8217;s epic event and some new faces as well. Support this year comes from the likes of:
 
-  * [Adobe][6]
-  * [Microsoft][7]
-  * [Mozilla][8]
-  * [subPrint][9]
-  * [Appcelerator][10]
-  * [Nodejitsu][11]
-  * [Geekli.st][12]
-  * [Telerik][13]
-  * [TEKSystems][14]
-  * [Mass Relevance][15]
+* [Adobe][6]
+* [Microsoft][7]
+* [Mozilla][8]
+* [subPrint][9]
+* [Appcelerator][10]
+* [Nodejitsu][11]
+* [Geekli.st][12]
+* [Telerik][13]
+* [TEKSystems][14]
+* [Mass Relevance][15]
 
 All sponsors have played pivotal roles in making this event possible, so please, thank them on the boat when you see them!
 
