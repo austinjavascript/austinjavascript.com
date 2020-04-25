@@ -128,7 +128,7 @@ And before we knew it, we were back at the dock.
 
 ![AustinJS SXSW 2012 Party Pic][50]
 
-But we had one last surprise&#8230; loaded swag bags that included jars of [Mom’s Family Kitchen][51] salsa, large bags of tortilla chips, koozies and cans of [Lone Star][52] beer, mini bottles of [Tito’s][53] vodka, [Microsoft][54] t-shirts and posters, [Adobe][55] sharpies, [Nodejitsu][56] t-shirts, [Appcelerator][57] stickers, [Mozilla][58] flashlight pens, [KendoUI][59] gum from [Telerik][60], [TEKsystems][61] pens and highlighters, [Geekli.st][62] invite code cards and stickers, and gift certificates from [Cultivate PR][63] to [Uchi][64], [Uchiko][65], [Limbo Jewelry][66], [Away Spa][67] and [Trace][68].
+But we had one last surprise: loaded swag bags that included jars of [Mom’s Family Kitchen][51] salsa, large bags of tortilla chips, koozies and cans of [Lone Star][52] beer, mini bottles of [Tito’s][53] vodka, [Microsoft][54] t-shirts and posters, [Adobe][55] sharpies, [Nodejitsu][56] t-shirts, [Appcelerator][57] stickers, [Mozilla][58] flashlight pens, [KendoUI][59] gum from [Telerik][60], [TEKsystems][61] pens and highlighters, [Geekli.st][62] invite code cards and stickers, and gift certificates from [Cultivate PR][63] to [Uchi][64], [Uchiko][65], [Limbo Jewelry][66], [Away Spa][67] and [Trace][68].
 
 ![AustinJS SXSW 2012 Party Pic][69]
 
@@ -166,7 +166,7 @@ We’ve already begun to plan the party for next year.  There’s a rumor that 
 
 ![Burt Reynolds][84]
 
-Want to view all 280 pics from the party? Click below&#8230;
+Want to view all 280 pics from the party? Click below:
 
 <!--more-->
 

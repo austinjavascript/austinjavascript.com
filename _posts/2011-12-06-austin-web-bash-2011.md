@@ -6,9 +6,9 @@ author: jmccann
 categories:
   - Uncategorized
 ---
-It&#8217;s that time of year again where the various Austin meetup groups all get together and celebrate the Holidays with song and dance, err maybe it&#8217;s just some beers and food, yeah, beer and food!
+It's that time of year again where the various Austin meetup groups all get together and celebrate the Holidays with song and dance, err maybe it's just some beers and food, yeah, beer and food!
 
-That&#8217;s right on Tuesday, December 13th from 7pm to 9pm the greater Austin web community will have its annual holiday gala while also supporting a good cause:  The Capitol Area Food Bank.
+That's right on Tuesday, December 13th from 7pm to 9pm the greater Austin web community will have its annual holiday gala while also supporting a good cause:  The Capitol Area Food Bank.
 
 There will be mingling and possibly mistletoe depending on the weather (naturally) and of course free food and beer provided by our gracious sponsors:
 
