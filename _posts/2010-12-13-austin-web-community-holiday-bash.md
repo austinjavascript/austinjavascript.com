@@ -1,7 +1,7 @@
 ---
-title: Austin Web Community Holiday Bash!
-author: joemccann
 layout: post
+title: Austin Web Community Holiday Bash!
+author: jmccann
 permalink: /austin-web-community-holiday-bash/
 categories:
   - Uncategorized
@@ -10,7 +10,7 @@ On Tuesday, come join the conglomerate of the web community meetups here in Aust
 
 A giant thanks goes out to the good folks at <a href="http://www.rackspace.com/" target="_blank">Rackspace</a> for sponsoring drinks and <a href="http://www.buildasign.com/" target="_blank">BuildASign</a> for sponsoring the bartenders who will make them!
 
-*When*: 7 &#8211; 9pm, Tuesday, December 14th, 2010
+*When*: 7 — 9pm, Tuesday, December 14th, 2010
 
 *Where*: Buffalo Billiards (6th and Brazos)
 

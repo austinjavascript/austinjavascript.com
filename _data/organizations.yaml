@@ -5,6 +5,12 @@ cloudflare:
   location: 106 E 6th St, Austin, TX 78701, 4th Floor
   logo: https://blog.cloudflare.com/content/images/2016/09/cf-blog-logo-crop.png
   note:
+draughthouse:
+  name: The Draught House
+  url: https://www.draughthouse.com/
+  careerUrl:
+  location: 4112 Medical Pkwy, Austin, TX 78756
+  note:
 frog:
   name: Frog Design
   url: https://www.frogdesign.com/studio/austin
@@ -72,4 +78,10 @@ techspace:
   url: https://www.techspace.com/coworking-space-austin/central-business-district/
   careerUrl:
   location: 98 San Jacinto Boulevard, Austin, TX 78701
+  note:
+virtuegroup:
+  name: Virtue Group
+  url: http://www.virtuegroup.net/
+  careerUrl:
+  location: 1206 W 43rd Street, Austin, TX 78756
   note:
