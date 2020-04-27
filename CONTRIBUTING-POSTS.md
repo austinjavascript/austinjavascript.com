@@ -76,6 +76,8 @@ Open the [Markdown](https://commonmark.org/) file and notice the file structure.
     layout: meetup
     title: {presentation title}
     when: {ISO-8601 date-- e.g., 2019-04-16T19:30:00-05:00}
+    slides: {presentation slides URL}
+    video: {presentation video URL}
     speakers:
       - name: {full name - REQUIRED}
         title: {professional title}
@@ -109,6 +111,9 @@ Open the [Markdown](https://commonmark.org/) file and notice the file structure.
     >     title: Another Developer
     >     ...
     > ```
+    >
+    > If there are no speakers for the meetup, leave only the `speakers:` field and remove the rest of the array (e.g., `-name: ...`).
+    >
 
     > NOTE: For `sponsor`, if a key to the sponsor info exists in the `/_data/organizations.yaml` file, then use it alone.
     >
@@ -119,7 +124,7 @@ Open the [Markdown](https://commonmark.org/) file and notice the file structure.
     > ..
     > ```
     >
-    > If an org key doesn't exist, then add the `name` and `url` (and optionally `careerUrl`) fields.
+    > If an org key doesn't exist, then add the fields: `name`, `url`, `careerUrl` (optional), `logo` (optional), and `message` (optional wholesale replacement text for sponsor template).
     >
     > ```yaml
     > ..
@@ -137,6 +142,7 @@ Open the [Markdown](https://commonmark.org/) file and notice the file structure.
       name: {org full name - REQUIRED}
       url: {org homepage URL}
       careerUrl: {org career page URL}
+      logo: {org logo URL}
       location: {org full street address + floor and/or room}
       note: {additional notes}
     ```
