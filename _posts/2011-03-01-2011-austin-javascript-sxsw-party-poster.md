@@ -1,7 +1,7 @@
 ---
-title: 2011 Austin JavaScript SXSW Party Poster
-author: joemccann
 layout: post
+title: 2011 Austin JavaScript SXSW Party Poster
+author: jmccann
 permalink: /2011-austin-javascript-sxsw-party-poster/
 categories:
   - Uncategorized

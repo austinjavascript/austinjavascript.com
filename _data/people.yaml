@@ -7,6 +7,15 @@ jmccann:
   github:
   linkedin:
   status: emeriti
+ksimpson:
+  name: Kyle Simpson
+  avatar: https://pbs.twimg.com/profile_images/1111627718544764931/x9dG4u6X_400x400.jpg
+  email:
+  homepage:
+  twitter: getify
+  github:
+  linkedin:
+  status: guesthost
 asexton:
   name: Alex Sexton
   avatar: https://pbs.twimg.com/profile_images/1034325028026769408/hz_G2I3L_400x400.jpg
@@ -24,7 +33,7 @@ tswicegood:
   twitter: tswicegood
   github:
   linkedin:
-  status: emeriti
+  status: guesthost
 rmurphey:
   name: Rebecca Murphey
   avatar: https://pbs.twimg.com/profile_images/504070124509229056/6t-MUDgL_400x400.jpeg

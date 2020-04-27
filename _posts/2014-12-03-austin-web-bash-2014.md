@@ -1,8 +1,8 @@
 ---
-title: Austin Web Bash 2014
-author: aaron
 layout: post
 permalink: /austin-web-bash-2014/
+title: Austin Web Bash 2014
+author: astacy
 categories:
   - posts
 ---

@@ -1,8 +1,8 @@
 ---
-title: 2012 AustinJS SXSW Party Wrapup
-author: joemccann
 layout: post
 permalink: /2012-austinjs-sxsw-party-wrapup/
+title: 2012 AustinJS SXSW Party Wrapup
+author: jmccann
 categories:
   - posts
 ---
@@ -128,7 +128,7 @@ And before we knew it, we were back at the dock.
 
 ![AustinJS SXSW 2012 Party Pic][50]
 
-But we had one last surprise&#8230; loaded swag bags that included jars of [Mom’s Family Kitchen][51] salsa, large bags of tortilla chips, koozies and cans of [Lone Star][52] beer, mini bottles of [Tito’s][53] vodka, [Microsoft][54] t-shirts and posters, [Adobe][55] sharpies, [Nodejitsu][56] t-shirts, [Appcelerator][57] stickers, [Mozilla][58] flashlight pens, [KendoUI][59] gum from [Telerik][60], [TEKsystems][61] pens and highlighters, [Geekli.st][62] invite code cards and stickers, and gift certificates from [Cultivate PR][63] to [Uchi][64], [Uchiko][65], [Limbo Jewelry][66], [Away Spa][67] and [Trace][68].
+But we had one last surprise: loaded swag bags that included jars of [Mom’s Family Kitchen][51] salsa, large bags of tortilla chips, koozies and cans of [Lone Star][52] beer, mini bottles of [Tito’s][53] vodka, [Microsoft][54] t-shirts and posters, [Adobe][55] sharpies, [Nodejitsu][56] t-shirts, [Appcelerator][57] stickers, [Mozilla][58] flashlight pens, [KendoUI][59] gum from [Telerik][60], [TEKsystems][61] pens and highlighters, [Geekli.st][62] invite code cards and stickers, and gift certificates from [Cultivate PR][63] to [Uchi][64], [Uchiko][65], [Limbo Jewelry][66], [Away Spa][67] and [Trace][68].
 
 ![AustinJS SXSW 2012 Party Pic][69]
 
@@ -138,35 +138,35 @@ But we had one last surprise&#8230; loaded swag bags that included jars of [Mom�
 
 This entire event would not have been possible without our INCREDIBLE community sponsors:
 
-  * [Microsoft][39]
-  * [Adobe][26]
-  * [Mozilla][22]
-  * [subPrint][72]
-  * [Appcelerator][14]
-  * [Nodejitsu][16]
-  * [TEKsystems][73]
-  * [Geekli.st][74]
-  * [Telerik][75] + [Kendo UI][76]
-  * [Mass Relevance][77]
+* [Microsoft][39]
+* [Adobe][26]
+* [Mozilla][22]
+* [subPrint][72]
+* [Appcelerator][14]
+* [Nodejitsu][16]
+* [TEKsystems][73]
+* [Geekli.st][74]
+* [Telerik][75] + [Kendo UI][76]
+* [Mass Relevance][77]
 
 Also, we couldn’t have put our plan into action without our outstanding staff:
 
-Captain Ric and Katy from [Lonestar Riverboat][78]  
-Photographer:  [Annie Ray][79]  
-Music:  [DJ Johnny Bravvo][80]  
+Captain Ric and Katy from [Lonestar Riverboat][78]
+Photographer:  [Annie Ray][79]
+Music:  [DJ Johnny Bravvo][80]
 Visual Designer:  [Joon Shin][81]
 
-Skippers: Bonnie Varner and Katherine McCaslin  
+Skippers: Bonnie Varner and Katherine McCaslin
 Bartender: Stacy Matthews
 
-Event Lead:  [Mandy Lauderdale][82]  
+Event Lead:  [Mandy Lauderdale][82]
 Event Host:  [Joe McCann][83]
 
 We’ve already begun to plan the party for next year.  There’s a rumor that Burt Reynolds’ moustache might make an appearance.
 
 ![Burt Reynolds][84]
 
-Want to view all 280 pics from the party? Click below&#8230;
+Want to view all 280 pics from the party? Click below:
 
 <!--more-->
 
