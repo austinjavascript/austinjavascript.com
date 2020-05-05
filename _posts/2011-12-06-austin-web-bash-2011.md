@@ -1,10 +1,7 @@
 ---
 layout: post
-permalink: /austin-web-bash-2011/
 title: Austin Web Bash 2011
 author: jmccann
-categories:
-  - Uncategorized
 ---
 It's that time of year again where the various Austin meetup groups all get together and celebrate the Holidays with song and dance, err maybe it's just some beers and food, yeah, beer and food!
 

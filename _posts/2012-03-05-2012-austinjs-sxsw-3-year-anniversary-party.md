@@ -1,10 +1,7 @@
 ---
 layout: post
-permalink: /2012-austinjs-sxsw-3-year-anniversary-party/
 title: 2012 AustinJS SXSW 3 Year Anniversary Party
 author: jmccann
-categories:
-  - Uncategorized
 ---
 It's that time of year again where Austin gets turned upside down and inside out. That's right, it's the AustinJS SXSW Party and this year, we are going all out.
 

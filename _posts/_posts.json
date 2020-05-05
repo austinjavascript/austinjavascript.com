@@ -1,0 +1,3 @@
+{
+  "permalink": "post/{{ page.date | date: '%Y/%m/%d' }}/{{ page.fileSlug }}/"
+}

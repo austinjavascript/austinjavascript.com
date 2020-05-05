@@ -2,9 +2,6 @@
 layout: post
 title: 'Austin JS SXSW Party and {Dev:unplugged}'
 author: jmccann
-permalink: /austin-js-sxsw-party-and-devunplugged/
-categories:
-  - Uncategorized
 ---
 As an added bonus this year to all of the other fun and festivities, Austin JavaScript will be proudly promoting the IE team's [{Dev:unplugged}][1] event at our SXSW party. Don't know what you {Dev:unplugged}? Don't worry, the IE team will be out promoting the event at the party!
 
