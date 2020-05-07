@@ -8,5 +8,6 @@
 
 # App-generated
 #--------------------#
-node_modules
 _site
+node_modules
+tmp

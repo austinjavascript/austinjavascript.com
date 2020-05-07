@@ -42,31 +42,6 @@ module.exports = (eleventyConfig) => {
   // NUNJUCKS SHORTCODE: Format meeting details message block.
   eleventyConfig.addShortcode('meetupDetails', scMeetupDetails);
 
-  // TRANSFORM: Add appropriate TARGET and REL to external links.
-  eleventyConfig.addTransform('external-link-rel', (content) => {
-    const desired = {
-      target: 'target="_blank"',
-      rel: 'rel="nofollow noopener noreferrer"',
-    };
-    // Find all external links--lazily we'll assume those start with https.
-    const reLinkMatch = /<a .*href="https?:\/\/[^"]+".*?>/g;
-    // Find target and rel attributes.
-    const reTarget = /.*target="([^"]+)".*/;
-    const reRel = /.*rel="([^"]+)".*/;
-
-    return content.replace(reLinkMatch, (linkMatch) => {
-      const hasTarget = reTarget.test(linkMatch);
-
-      if (hasTarget && reRel.test(linkMatch)) {
-        return linkMatch;
-      } if (hasTarget) {
-        return linkMatch.replace('>', ` ${desired.rel}>`);
-      }
-
-      return linkMatch.replace('>', ` ${desired.target} ${desired.rel}>`);
-    });
-  });
-
   // FILTER: Convert dates to MMMM D, YYYY format.
   eleventyConfig.addFilter('fullDate', filterFullDate);
 
