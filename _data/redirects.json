@@ -1,0 +1,862 @@
+[
+  {
+    "file": {
+      "old": "/archive/index.md",
+      "new": "/posts/meetups.html"
+    },
+    "permalink": {
+      "old": "/archive/",
+      "new": "/posts/meetups/"
+    }
+  },
+  {
+    "file": {
+      "old": "/austinjs-code-of-conduct/index.md",
+      "new": "/code-of-conduct.html"
+    },
+    "permalink": {
+      "old": "/austinjs-code-of-conduct/",
+      "new": "/code-of-conduct/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2010-02-15-february-meetup-announced.md",
+      "new": "/_meetups/2010-02-16-meetup.md"
+    },
+    "permalink": {
+      "old": "/february-meetup-announced/",
+      "new": "/posts/meetups/2010/02/16/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2010-02-28-austin-javascript-sxswi-happy-hour-free-beer-free-food-free-prizes.md",
+      "new": "/_posts/2010-02-28-austin-javascript-sxswi-happy-hour-free-beer-free-food-free-prizes.md"
+    },
+    "permalink": {
+      "old": "/austin-javascript-sxswi-happy-hour-free-beer-free-food-free-prizes/",
+      "new": "/posts/austin-javascript-sxswi-happy-hour-free-beer-free-food-free-prizes/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2010-03-22-april-meetup-announced-building-desktop-applications-using-adobe-air-and-javascript.md",
+      "new": "/_meetups/2010-04-20-meetup.md"
+    },
+    "permalink": {
+      "old": "/april-meetup-announced-building-desktop-applications-using-adobe-air-and-javascript/",
+      "new": "/posts/meetups/2010/04/20/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2010-06-08-june-meetup-details-xui-and-cross-domain-hacking.md",
+      "new": "/_meetups/2010-06-15-meetup.md"
+    },
+    "permalink": {
+      "old": "/june-meetup-details-xui-and-cross-domain-hacking/",
+      "new": "/posts/meetups/2010/06/15/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2010-07-12-july-meetup-details-announced.md",
+      "new": "/_meetups/2010-07-20-meetup.md"
+    },
+    "permalink": {
+      "old": "/july-meetup-details-announced/",
+      "new": "/posts/meetups/2010/07/20/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2010-07-12-new-location-for-the-austin-javascript-meetup.md",
+      "new": "/_posts/2010-07-12-new-location-for-the-austin-javascript-meetup.md"
+    },
+    "permalink": {
+      "old": "/new-location-for-the-austin-javascript-meetup/",
+      "new": "/posts/new-location-for-the-austin-javascript-meetup/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2010-08-02-august-meetup-details-announced.md",
+      "new": "/_meetups/2010-08-17-meetup.md"
+    },
+    "permalink": {
+      "old": "/august-meetup-details-announced/",
+      "new": "/posts/meetups/2010/08/17/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2010-08-24-austin-javascript-email-list.md",
+      "new": "/_posts/2010-08-24-austin-javascript-email-list.md"
+    },
+    "permalink": {
+      "old": "/austin-javascript-email-list/",
+      "new": "/posts/austin-javascript-email-list/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2010-09-07-september-meetup-details-announced.md",
+      "new": "/_meetups/2010-09-21-meetup.md"
+    },
+    "permalink": {
+      "old": "/september-meetup-details-announced/",
+      "new": "/posts/meetups/2010/09/21/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2010-09-29-october-meetup-details-announced.md",
+      "new": "/_meetups/2010-10-19-meetup.md"
+    },
+    "permalink": {
+      "old": "/october-meetup-details-announced/",
+      "new": "/posts/meetups/2010/10/19/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2010-11-01-november-meetup-details-announced.md",
+      "new": "/_meetups/2010-11-16-meetup.md"
+    },
+    "permalink": {
+      "old": "/november-meetup-details-announced/",
+      "new": "/posts/meetups/2010/11/16/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2010-11-30-december-open-bar-happy-hour-sponsored-by-teksystems.md",
+      "new": "/_posts/2010-11-30-december-open-bar-happy-hour-sponsored-by-teksystems.md"
+    },
+    "permalink": {
+      "old": "/december-open-bar-happy-hour-sponsored-by-teksystems/",
+      "new": "/posts/december-open-bar-happy-hour-sponsored-by-teksystems/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2010-12-13-austin-web-community-holiday-bash.md",
+      "new": "/_posts/2010-12-13-austin-web-community-holiday-bash.md"
+    },
+    "permalink": {
+      "old": "/austin-web-community-holiday-bash/",
+      "new": "/posts/austin-web-community-holiday-bash/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2011-01-10-january-meetup-details-announced.md",
+      "new": "/_meetups/2011-01-18-meetup.md"
+    },
+    "permalink": {
+      "old": "/january-meetup-details-announced/",
+      "new": "/posts/meetups/2011/01/18/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2011-02-08-february-meetup-details-announced.md",
+      "new": "/_meetups/2011-02-15-meetup.md"
+    },
+    "permalink": {
+      "old": "/february-meetup-details-announced/",
+      "new": "/posts/meetups/2011/02/15/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2011-02-22-austin-javascript-2011-sxsw-party.md",
+      "new": "/_posts/2011-02-22-austin-javascript-2011-sxsw-party.md"
+    },
+    "permalink": {
+      "old": "/austin-javascript-2011-sxsw-party/",
+      "new": "/posts/austin-javascript-2011-sxsw-party/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2011-03-01-2011-austin-javascript-sxsw-party-poster.md",
+      "new": "/_posts/2011-03-01-2011-austin-javascript-sxsw-party-poster.md"
+    },
+    "permalink": {
+      "old": "/2011-austin-javascript-sxsw-party-poster/",
+      "new": "/posts/2011-austin-javascript-sxsw-party-poster/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2011-03-04-austin-js-sxsw-party-and-devunplugged.md",
+      "new": "/_posts/2011-03-04-austin-js-sxsw-party-and-devunplugged.md"
+    },
+    "permalink": {
+      "old": "/austin-js-sxsw-party-and-devunplugged/",
+      "new": "/posts/austin-js-sxsw-party-and-devunplugged/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2011-04-04-2011-austin-javascript-sxsw-party-wrapup.md",
+      "new": "/_posts/2011-04-04-2011-austin-javascript-sxsw-party-wrapup.md"
+    },
+    "permalink": {
+      "old": "/2011-austin-javascript-sxsw-party-wrapup/",
+      "new": "/posts/2011-austin-javascript-sxsw-party-wrapup/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2011-04-05-april-meetup-details-announced.md",
+      "new": "/_meetups/2011-04-19-meetup.md"
+    },
+    "permalink": {
+      "old": "/april-meetup-details-announced/",
+      "new": "/posts/meetups/2011/04/19/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2011-04-19-special-guest-added-for-april-meetup.md",
+      "new": "/_posts/2011-04-19-special-guest-added-for-april-meetup.md"
+    },
+    "permalink": {
+      "old": "/special-guest-added-for-april-meetup/",
+      "new": "/posts/special-guest-added-for-april-meetup/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2011-05-12-may-meetup-details-announced.md",
+      "new": "/_meetups/2011-05-17-meetup.md"
+    },
+    "permalink": {
+      "old": "/may-meetup-details-announced/",
+      "new": "/posts/meetups/2011/05/17/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2011-06-15-june-meetup-details-announced.md",
+      "new": "/_meetups/2011-06-21-meetup.md"
+    },
+    "permalink": {
+      "old": "/june-meetup-details-announced/",
+      "new": "/posts/meetups/2011/06/21/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2011-07-13-july-meetup-details-announced-finally.md",
+      "new": "/_meetups/2011-07-19-meetup.md"
+    },
+    "permalink": {
+      "old": "/july-meetup-details-announced-finally/",
+      "new": "/posts/meetups/2011/07/19/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2011-08-08-august-meetup-details.md",
+      "new": "/_meetups/2011-08-16-meetup.md"
+    },
+    "permalink": {
+      "old": "/august-meetup-details/",
+      "new": "/posts/meetups/2011/08/16/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2011-08-16-compasslearning-is-hiring.md",
+      "new": "/_posts/2011-08-16-compasslearning-is-hiring.md"
+    },
+    "permalink": {
+      "old": "/compasslearning-is-hiring/",
+      "new": "/posts/compasslearning-is-hiring/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2011-09-09-september-meetup-details-announced-2011.md",
+      "new": "/_meetups/2011-09-20-meetup.md"
+    },
+    "permalink": {
+      "old": "/september-meetup-details-announced-2011/",
+      "new": "/posts/meetups/2011/09/20/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2011-10-16-no-october-meetup.md",
+      "new": "/_posts/2011-10-16-no-october-meetup.md"
+    },
+    "permalink": {
+      "old": "/no-october-meetup/",
+      "new": "/posts/no-october-meetup/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2011-11-09-november-details-announced.md",
+      "new": "/_meetups/2011-11-15-meetup.md"
+    },
+    "permalink": {
+      "old": "/november-details-announced/",
+      "new": "/posts/meetups/2011/11/15/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2011-12-06-austin-web-bash-2011.md",
+      "new": "/_posts/2011-12-06-austin-web-bash-2011.md"
+    },
+    "permalink": {
+      "old": "/austin-web-bash-2011/",
+      "new": "/posts/austin-web-bash-2011/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2012-01-09-january-2012-meetup-details-announced.md",
+      "new": "/_meetups/2012-01-17-meetup.md"
+    },
+    "permalink": {
+      "old": "/january-2012-meetup-details-announced/",
+      "new": "/posts/meetups/2012/01/17/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2012-02-07-february-2012-meetup-details-announced.md",
+      "new": "/_meetups/2012-02-21-meetup.md"
+    },
+    "permalink": {
+      "old": "/february-2012-meetup-details-announced/",
+      "new": "/posts/meetups/2012/02/21/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2012-03-05-2012-austinjs-sxsw-3-year-anniversary-party.md",
+      "new": "/_posts/2012-03-05-2012-austinjs-sxsw-3-year-anniversary-party.md"
+    },
+    "permalink": {
+      "old": "/2012-austinjs-sxsw-3-year-anniversary-party/",
+      "new": "/posts/2012-austinjs-sxsw-3-year-anniversary-party/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2012-03-25-2012-austinjs-sxsw-party-wrapup.md",
+      "new": "/_posts/2012-03-25-2012-austinjs-sxsw-party-wrapup.md"
+    },
+    "permalink": {
+      "old": "/2012-austinjs-sxsw-party-wrapup/",
+      "new": "/posts/2012-austinjs-sxsw-party-wrapup/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2012-04-10-april-2012-meetup-details-announced.md",
+      "new": "/_meetups/2012-04-17-meetup.md"
+    },
+    "permalink": {
+      "old": "/april-2012-meetup-details-announced/",
+      "new": "/posts/meetups/2012/04/17/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2012-04-30-may-2012-meetup-details-announced.md",
+      "new": "/_meetups/2012-05-15-meetup.md"
+    },
+    "permalink": {
+      "old": "/may-2012-meetup-details-announced/",
+      "new": "/posts/meetups/2012/05/15/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2012-06-10-june-2012-meetup-details-announced.md",
+      "new": "/_meetups/2012-06-19-meetup.md"
+    },
+    "permalink": {
+      "old": "/june-2012-meetup-details-announced/",
+      "new": "/posts/meetups/2012/06/19/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2012-06-21-july-2012-austin-javascript-meetup-details-announced.md",
+      "new": "/_meetups/2012-07-17-meetup.md"
+    },
+    "permalink": {
+      "old": "/july-2012-austin-javascript-meetup-details-announced/",
+      "new": "/posts/meetups/2012/07/17/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2012-07-20-august-2012-austin-javascript-meetup-details-announced.md",
+      "new": "/_meetups/2012-08-21-meetup.md"
+    },
+    "permalink": {
+      "old": "/august-2012-austin-javascript-meetup-details-announced/",
+      "new": "/posts/meetups/2012/08/21/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2012-08-27-september-2012-austin-js-meetup-details-announced.md",
+      "new": "/_meetups/2012-09-18-meetup.md"
+    },
+    "permalink": {
+      "old": "/september-2012-austin-js-meetup-details-announced/",
+      "new": "/posts/meetups/2012/09/18/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2012-09-27-october-2012-austin-javascript-meetup-details-announced.md",
+      "new": "/_meetups/2012-10-16-meetup.md"
+    },
+    "permalink": {
+      "old": "/october-2012-austin-javascript-meetup-details-announced/",
+      "new": "/posts/meetups/2012/10/16/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2012-11-07-austin-javascript-thanksgiving-js-2012.md",
+      "new": "/_meetups/2012-11-19-meetup.md"
+    },
+    "permalink": {
+      "old": "/austin-javascript-thanksgiving-js-2012/",
+      "new": "/posts/meetups/2012/11/19/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2013-01-06-january2013.md",
+      "new": "/_meetups/2013-01-15-meetup.md"
+    },
+    "permalink": {
+      "old": "/january2013/",
+      "new": "/posts/meetups/2013/01/15/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2013-02-12-february-2013-austin-javascript-details-announced.md",
+      "new": "/_meetups/2013-02-19-meetup.md"
+    },
+    "permalink": {
+      "old": "/february-2013-austin-javascript-details-announced/",
+      "new": "/posts/meetups/2013/02/19/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2013-05-14-may-2013-austin-javascript-details-announced.md",
+      "new": "/_meetups/2013-05-21-meetup.md"
+    },
+    "permalink": {
+      "old": "/may-2013-austin-javascript-details-announced/",
+      "new": "/posts/meetups/2013/05/21/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2013-06-14-june-2013.md",
+      "new": "/_meetups/2013-06-18-meetup.md"
+    },
+    "permalink": {
+      "old": "/june-2013/",
+      "new": "/posts/meetups/2013/06/18/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2013-07-15-july-2013.md",
+      "new": "/_meetups/2013-07-16-meetup.md"
+    },
+    "permalink": {
+      "old": "/july-2013/",
+      "new": "/posts/meetups/2013/07/16/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2013-10-01-october-2013.md",
+      "new": "/_meetups/2013-10-15-meetup.md"
+    },
+    "permalink": {
+      "old": "/october-2013/",
+      "new": "/posts/meetups/2013/10/15/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2013-11-13-november-19th-meetup-730-pm-kassandra-perch-on-flight.md",
+      "new": "/_meetups/2013-11-19-meetup.md"
+    },
+    "permalink": {
+      "old": "/november-19th-meetup-730-pm-kassandra-perch-on-flight/",
+      "new": "/posts/meetups/2013/11/19/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2014-01-15-january-21st-meetup-730-pm-paypal-on-node-js.md",
+      "new": "/_meetups/2014-01-21-meetup.md"
+    },
+    "permalink": {
+      "old": "/january-21st-meetup-730-pm-paypal-on-node-js/",
+      "new": "/posts/meetups/2014/01/21/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2014-02-12-february-18th-meetup-730-pm-garann-means.md",
+      "new": "/_meetups/2014-02-18-meetup.md"
+    },
+    "permalink": {
+      "old": "/february-18th-meetup-730-pm-garann-means/",
+      "new": "/posts/meetups/2014/02/18/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2014-02-18-tonights-meetup-location-changed.md",
+      "new": "/_posts/2014-02-18-tonights-meetup-location-changed.md"
+    },
+    "permalink": {
+      "old": "/tonights-meetup-location-changed/",
+      "new": "/posts/tonights-meetup-location-changed/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2014-04-08-april-15th-meetup-730-pm-charles-lowell.md",
+      "new": "/_meetups/2014-04-15-meetup.md"
+    },
+    "permalink": {
+      "old": "/april-15th-meetup-730-pm-charles-lowell/",
+      "new": "/posts/meetups/2014/04/15/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2014-05-13-may-20th-meetup-730-pm-steve-stedman-and-alex-sexton.md",
+      "new": "/_meetups/2014-05-20-meetup.md"
+    },
+    "permalink": {
+      "old": "/may-20th-meetup-730-pm-steve-stedman-and-alex-sexton/",
+      "new": "/posts/meetups/2014/05/20/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2014-06-10-june-17th-meetup-730-pm-jared-stilwell.md",
+      "new": "/_meetups/2014-06-17-meetup.md"
+    },
+    "permalink": {
+      "old": "/june-17th-meetup-730-pm-jared-stilwell/",
+      "new": "/posts/meetups/2014/06/17/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2014-07-09-july-15th-meetup-730-pm-lightning-talks.md",
+      "new": "/_meetups/2014-07-15-meetup.md"
+    },
+    "permalink": {
+      "old": "/july-15th-meetup-730-pm-lightning-talks/",
+      "new": "/posts/meetups/2014/07/15/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2014-08-19-august-26th-meetup-730-pm-jonathan-lipps.md",
+      "new": "/_meetups/2014-08-26-meetup.md"
+    },
+    "permalink": {
+      "old": "/august-26th-meetup-730-pm-jonathan-lipps/",
+      "new": "/posts/meetups/2014/08/26/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2014-09-09-september-16th-meetup.md",
+      "new": "/_meetups/2014-09-16-meetup.md"
+    },
+    "permalink": {
+      "old": "/september-16th-meetup/",
+      "new": "/posts/meetups/2014/09/16/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2014-10-14-october-21st-meetup-730-pm-dan-defelippi.md",
+      "new": "/_meetups/2014-10-21-meetup.md"
+    },
+    "permalink": {
+      "old": "/october-21st-meetup-730-pm-dan-defelippi/",
+      "new": "/posts/meetups/2014/10/21/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2014-12-03-austin-web-bash-2014.md",
+      "new": "/_posts/2014-12-03-austin-web-bash-2014.md"
+    },
+    "permalink": {
+      "old": "/austin-web-bash-2014/",
+      "new": "/posts/austin-web-bash-2014/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2015-01-13-january-20th-meetup-730-pm-rebecca-murphey.md",
+      "new": "/_meetups/2015-01-21-meetup.md"
+    },
+    "permalink": {
+      "old": "/january-20th-meetup-730-pm-rebecca-murphey/",
+      "new": "/posts/meetups/2015/01/21/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2015-04-17-april-21st-meetup-730-pm-tara-vancil.md",
+      "new": "/_meetups/2015-04-21-meetup.md"
+    },
+    "permalink": {
+      "old": "/april-21st-meetup-730-pm-tara-vancil/",
+      "new": "/posts/meetups/2015/04/21/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2015-05-12-may-19th-meetup-730-pm-charles-lowell.md",
+      "new": "/_meetups/2015-05-19-meetup.md"
+    },
+    "permalink": {
+      "old": "/may-19th-meetup-730-pm-charles-lowell/",
+      "new": "/posts/meetups/2015/05/19/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2016-02-09-meetup.md",
+      "new": "/_meetups/2016-02-16-meetup.md"
+    },
+    "permalink": {
+      "old": "/posts/meetups/2016/02/09/",
+      "new": "/posts/meetups/2016/02/16/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2016-04-12-meedup.md",
+      "new": "/_meetups/2016-04-19-meetup.md"
+    },
+    "permalink": {
+      "old": "/posts/meetups/2016/04/12/",
+      "new": "/posts/meetups/2016/04/19/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2016-05-10-meedup.md",
+      "new": "/_meetups/2016-05-17-meetup.md"
+    },
+    "permalink": {
+      "old": "/posts/meetups/2016/05/10/",
+      "new": "/posts/meetups/2016/05/17/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2016-06-18-meetup.md",
+      "new": "/_meetups/2016-06-21-meetup.md"
+    },
+    "permalink": {
+      "old": "/posts/meetups/2016/06/18/",
+      "new": "/posts/meetups/2016/06/21/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2016-07-13-meetup.md",
+      "new": "/_meetups/2016-07-19-meetup.md"
+    },
+    "permalink": {
+      "old": "/posts/meetups/2016/07/13/",
+      "new": "/posts/meetups/2016/07/19/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2016-08-09-meetup.md",
+      "new": "/_meetups/2016-08-16-meetup.md"
+    },
+    "permalink": {
+      "old": "/posts/meetups/2016/08/09/",
+      "new": "/posts/meetups/2016/08/16/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2016-09-15-meetup.md",
+      "new": "/_meetups/2016-09-20-meetup.md"
+    },
+    "permalink": {
+      "old": "/posts/meetups/2016/09/15/",
+      "new": "/posts/meetups/2016/09/20/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2016-11-10-meetup.md",
+      "new": "/_meetups/2016-11-15-meetup.md"
+    },
+    "permalink": {
+      "old": "/posts/meetups/2016/11/10/",
+      "new": "/posts/meetups/2016/11/15/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2017-01-09-meetup.md",
+      "new": "/_meetups/2017-01-17-meetup.md"
+    },
+    "permalink": {
+      "old": "/posts/meetups/2017/01/09/",
+      "new": "/posts/meetups/2017/01/17/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2017-02-13-meetup.md",
+      "new": "/_meetups/2017-02-21-meetup.md"
+    },
+    "permalink": {
+      "old": "/posts/meetups/2017/02/13/",
+      "new": "/posts/meetups/2017/02/21/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2017-03-13-meetup.md",
+      "new": "/_meetups/2017-03-21-meetup.md"
+    },
+    "permalink": {
+      "old": "/posts/meetups/2017/03/13/",
+      "new": "/posts/meetups/2017/03/21/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2017-07-14-meedup.md",
+      "new": "/_meetups/2017-07-18-meetup.md"
+    },
+    "permalink": {
+      "old": "/posts/meetups/2017/07/14/",
+      "new": "/posts/meetups/2017/07/18/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2017-11-13-meetup.md",
+      "new": "/_meetups/2017-11-21-meetup.md"
+    },
+    "permalink": {
+      "old": "/posts/meetups/2017/11/13/",
+      "new": "/posts/meetups/2017/11/21/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2018-05-14-meetup.md",
+      "new": "/_meetups/2018-05-15-meetup.md"
+    },
+    "permalink": {
+      "old": "/posts/meetups/2018/05/14/",
+      "new": "/posts/meetups/2018/05/15/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2018-07-16-meetup.md",
+      "new": "/_meetups/2018-07-17-meetup.md"
+    },
+    "permalink": {
+      "old": "/posts/meetups/2018/07/16/",
+      "new": "/posts/meetups/2018/07/17/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2018-09-13-meetup.md",
+      "new": "/_meetups/2018-09-18-meetup.md"
+    },
+    "permalink": {
+      "old": "/posts/meetups/2018/09/13/",
+      "new": "/posts/meetups/2018/09/18/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2019-05-20-meetup.md",
+      "new": "/_meetups/2019-05-21-meetup.md"
+    },
+    "permalink": {
+      "old": "/posts/meetups/2019/05/20/",
+      "new": "/posts/meetups/2019/05/21/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2019-07-15-meetup.md",
+      "new": "/_meetups/2019-07-16-meetup.md"
+    },
+    "permalink": {
+      "old": "/posts/meetups/2019/07/15/",
+      "new": "/posts/meetups/2019/07/16/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2019-10-14-meetup.md",
+      "new": "/_meetups/2019-10-15-meetup.md"
+    },
+    "permalink": {
+      "old": "/posts/meetups/2019/10/14/",
+      "new": "/posts/meetups/2019/10/15/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2019-11-18-meetup.md",
+      "new": "/_meetups/2019-11-19-meetup.md"
+    },
+    "permalink": {
+      "old": "/posts/meetups/2019/11/18/",
+      "new": "/posts/meetups/2019/11/19/"
+    }
+  },
+  {
+    "file": {
+      "old": "/_posts/2020-02-16-meetup.md",
+      "new": "/_meetups/2020-02-18-meetup.md"
+    },
+    "permalink": {
+      "old": "/posts/meetups/2020/02/16/",
+      "new": "/posts/meetups/2020/02/18/"
+    }
+  }
+]
