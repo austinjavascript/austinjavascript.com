@@ -31,32 +31,25 @@ There are two ways to edit an existing post:
     git checkout -b new-post
     ```
 
-3. To review your work, you'll want to run [Jekyll](https://jekyllrb.com/) — a Ruby application. There are two ways to do this:
-
-    Start-up a [Docker](https://www.docker.com/) container. Frankly, this is the easier of the two choices. You'll need [Docker Desktop](https://www.docker.com/products/docker-desktop) if you don't already have it.
-
-    > NOTE: the first time you run this script, it will install all the necessary Ruby Gems which may take some time.
+3. To review your work, you may want to run [Eleventy](https://11ty.dev/) — a JavaScript static site generator.
 
     ```sh
-    docker-compose up -d   ## to install and start
-    docker-compose down    ## to stop
+    npm install
     ```
 
-    If you're a glutton for punishment, then here's the basic, old-skool [Jekyll install](https://jekyllrb.com/docs/) path.
+    Once all the packages are done loading, you can start a local server.
 
     ```sh
-    gem install bundle   # only needed the 1st time, may require sudo
-    bundle install --path vendor/bundle
-    bundle exec jekyll serve
+    npm start
     ```
 
-    Either way, when the server is up and running, point your browser to http://localhost:4000 and enjoy the scenery.
+    Once the server is up and running, point your browser to the address that shows up in the terminal (e.g., http://localhost:8080) and enjoy the scenery.
 
 ### Create new file
 
-To create a new meetup post, copy the `/_drafts_/YYYY-MM-DD-meetup.md` file to the `/_posts/` directory, changing `YYYY-MM-DD` to the appropriate year, month, and date.
+To create a new meetup post, copy the `/_drafts_/YYYY-MM-DD-meetup.md` file to the `/_meetups/` directory, changing `YYYY-MM-DD` to the appropriate year, month, and date.
 
-> **IMPORTANT:** Make sure the date part of the file name is **today's date**, not the date of the meetup. If the date in the file's name is the meetup date, it won't actually publish. ¯\\\_(ツ)\_/¯ that's just how Jekyll works.
+> **IMPORTANT:** Make sure the date part of the file name is the **event date**. This will be used for all related event data.
 
 ### Add meetup details and content
 

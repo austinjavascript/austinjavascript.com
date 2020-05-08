@@ -2,9 +2,6 @@
 layout: post
 title: Austin JavaScript Email List
 author: jmccann
-permalink: /austin-javascript-email-list/
-categories:
-  - Uncategorized
 ---
 Thanks to Logan Lindquist's work, the Austin JavaScript group now has a list you can subscribe to via email:
 

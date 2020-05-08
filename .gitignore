@@ -1,5 +1,13 @@
-.sass-cache
+# OS generated #
+#--------------------#
+.DS_Store
+
+# IDE-generated
+#--------------------#
+.vscode
+
+# App-generated
+#--------------------#
 _site
-.bundle
-vendor
-Gemfile.lock
+node_modules
+tmp

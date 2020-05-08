@@ -1,10 +1,7 @@
 ---
 layout: post
-permalink: /2012-austinjs-sxsw-party-wrapup/
 title: 2012 AustinJS SXSW Party Wrapup
 author: jmccann
-categories:
-  - posts
 ---
 ![AustinJS SXSW 2012 Party Pic][1]
 

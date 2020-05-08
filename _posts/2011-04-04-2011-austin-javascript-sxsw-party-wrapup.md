@@ -2,9 +2,6 @@
 layout: post
 title: 2011 Austin JavaScript SXSW Party Wrapup
 author: jmccann
-permalink: /2011-austin-javascript-sxsw-party-wrapup/
-categories:
-  - posts
 ---
 
 Now that SXSW has wound down, Austin JavaScript would like to cordially reach out and thank everyone who attended the Austin JavaScript SXSW party.  It was a _massive_ success! Over 1,000 people attended, we ran out of food in 45 minutes (500 tacos) and all of the beer was consumed within 3 hours.

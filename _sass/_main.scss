@@ -1,0 +1,233 @@
+@charset "utf-8";
+
+// tetradic harmony via https://color.joelb.dev/hex/ED1878
+$tetradic0: hsl(333, 85%, 50%);
+$tetradic1: hsl(213, 85%, 50%);
+$tetradic2: hsl(153, 85%, 40%); // lightness reduced by 10%
+$tetradic3: hsl(33, 85%, 50%);
+
+$primary: $tetradic0;
+$info: $tetradic1;
+
+@import "../node_modules/bulma/bulma.sass";
+
+/*
+ * CUSTOMIZATIONS
+ */
+
+.hero.is-primary {
+  .navbar-item,
+  .navbar-link {
+    // reduce opacity for a11y color contrast
+    color: hsla(0, 100%, 100%, 0.8);
+  }
+}
+
+.icon {
+  vertical-align: bottom;
+}
+
+@media screen and (min-width: $desktop) {
+  .is-sr-only-desktop {
+    border: none !important;
+    clip: rect(0, 0, 0, 0) !important;
+    height: 0.01em !important;
+    overflow: hidden !important;
+    padding: 0 !important;
+    position: absolute !important;
+    white-space: nowrap !important;
+    width: 0.01em !important;
+  }
+}
+
+.has-text-tetradic1 {
+  color: $tetradic1 !important;
+}
+.has-text-tetradic2 {
+  color: $tetradic2 !important;
+}
+.has-text-tetradic3 {
+  color: $tetradic3 !important;
+}
+
+.has-border-top {
+  border-top: 1px solid $white-ter;
+}
+.has-border-top-medium {
+  border-top: 5px solid $white-ter;
+}
+.has-border-top-large {
+  border-top: 10px solid $white-ter;
+}
+
+.has-margin-top {
+  margin-top: 1em;
+}
+
+@media screen and (min-width: $tablet) {
+  .has-offset-top {
+    margin-top: 1em;
+    padding-top: 1em;
+  }
+
+  .has-offset-top-2 {
+    margin-top: 2em;
+    padding-top: 1em;
+  }
+
+  .has-offset-top-3 {
+    margin-top: 3em;
+    padding-top: 1em;
+  }
+}
+
+.is-marginless-bottom {
+  margin-bottom: 0 !important;
+}
+
+.logo {
+  transform: scale(0.9) translateY(0.25em);
+}
+
+.sponsor-logo {
+  max-width: 17vw;
+  min-width: 10em;
+}
+
+/*
+ * TOOLTIP
+ */
+
+.tooltip[title] {
+  position: relative;
+
+  .pic & {
+    display: inline-block;
+  }
+
+  /* Hide the tooltip content by default */
+  &:before,
+  &:after {
+    bottom: 100%;
+    left: 50%;
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+    transition: 0.5s opacity;
+    visibility: hidden;
+    z-index: 100;
+  }
+
+  /* Position tooltip above the element */
+  &:before {
+    background-color: hsla(0, 0%, 20%, 0.95);
+    border-radius: 3px;
+    color: #fff;
+    content: attr(title);
+    font-size: 14px;
+    line-height: 1.2;
+    margin-bottom: 5px;
+    margin-left: -80px;
+    padding: 7px;
+    text-align: center;
+    width: 160px;
+  }
+
+  /* Triangle hack to make tooltip look like a speech bubble */
+  &:after {
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid hsla(0, 0%, 20%, 0.95);
+    content: " ";
+    font-size: 0;
+    line-height: 0;
+    margin-left: -5px;
+    width: 0;
+  }
+
+  /* Show tooltip content on hover */
+  &:hover:before,
+  &:hover:after {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+/*
+ * BUSINESS CARD ADJUSTMENTS
+ */
+
+ .card,
+ .footer {
+  // Add rounded edges to Bulma .image class inside a .card.
+  .image {
+    border-radius: 0.25em;
+    overflow: hidden;
+  }
+}
+
+/*
+ * BRICKS FOR EMERITUS CARDS
+ */
+
+.bricks-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin: -0.15em;
+
+  .brick {
+    flex: 1 1 18em;
+    margin: 0.15em;
+    max-width: 25em;
+  }
+}
+
+.brick {
+  margin-bottom: 1em;
+}
+
+/*
+ * MEETUP FLEX LAYOUT (to swap details up on mobile)
+ */
+
+ @media screen and (max-width: $tablet) {
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .flex-item {
+    flex: 0 0 100%;
+  }
+  .flex-item-0 {
+    margin-bottom: 2em;
+    order: -1;
+  }
+}
+
+/*
+ * HOMEPAGE PICS
+ */
+
+.pic {
+  display: inline-block;
+  font-size: 1rem;
+  height: 50px;
+  margin: -1px !important;
+  width: 50px;
+  // transform-origin: 50% 100%;
+  // animation: wag 1s ease-out 0s alternate infinite none;
+
+  img {
+    border-radius: 5px;
+  }
+}
+
+@keyframes wag {
+  0% {
+    transform: rotate(15deg);
+  }
+  100% {
+    transform: rotate(-15deg);
+  }
+}
