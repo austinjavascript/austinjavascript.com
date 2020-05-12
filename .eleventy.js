@@ -2,6 +2,7 @@ const fs = require('fs');
 const pluginRss = require('@11ty/eleventy-plugin-rss');
 const sassWatch = require('./_includes/sass-watch');
 const scMeetupDetails = require('./_includes/shortcodes/meetup-details');
+const scVideoPlayer = require('./_includes/shortcodes/video-player');
 const filterFullDate = require('./_includes/filters/full-date');
 
 /**
@@ -46,8 +47,11 @@ module.exports = (eleventyConfig) => {
     return addData(posts);
   });
 
-  // NUNJUCKS SHORTCODE: Format meeting details message block.
+  // SHORTCODE: Format meeting details message block.
   eleventyConfig.addShortcode('meetupDetails', scMeetupDetails);
+
+  // SHORTCODE: Embed video players for event replay.
+  eleventyConfig.addShortcode('videoPlayer', scVideoPlayer);
 
   // FILTER: Convert dates to MMMM D, YYYY format.
   eleventyConfig.addFilter('fullDate', filterFullDate);

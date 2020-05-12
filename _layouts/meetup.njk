@@ -9,18 +9,17 @@ layout: base
     </div>
 
     {% meetupDetails page.date, venue, after %}
+
+    {% videoPlayer video, title %}
   </div>
 
   <div class="column has-offset-top">
-    {% if slides or video %}
-    <div class="message is-warning flex-item">
-      <h3 class="message-header">Post-meetup update</h3>
+    {% if slides %}
+    <div class="message flex-item is-info">
+      <h3 class="message-header">Meetup slides</h3>
       <ul class="message-body">
         {% if slides %}
         <li><a href="{{ slides }}">Get the slide deck!</a></li>
-        {% endif %}
-        {% if video %}
-        <li><a href="{{ video }}">Watch the video!</a></li>
         {% endif %}
       </ul>
     </div>
