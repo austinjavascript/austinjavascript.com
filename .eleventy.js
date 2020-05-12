@@ -4,6 +4,7 @@ const sassWatch = require('./_includes/sass-watch');
 const scMeetupDetails = require('./_includes/shortcodes/meetup-details');
 const scVideoPlayer = require('./_includes/shortcodes/video-player');
 const filterFullDate = require('./_includes/filters/full-date');
+const filterRegexReplace = require('./_includes/filters/regex-replace');
 
 /**
  * Add date properties to collections.
@@ -55,6 +56,9 @@ module.exports = (eleventyConfig) => {
 
   // FILTER: Convert dates to MMMM D, YYYY format.
   eleventyConfig.addFilter('fullDate', filterFullDate);
+
+  // FILTER: Replace text with regex capabilities.
+  eleventyConfig.addFilter('regexReplace', filterRegexReplace);
 
   // FILTER: Limit array length (https://gist.github.com/jbmoelker/9693778)
   eleventyConfig.addFilter('limitTo', (input, limit) => {
