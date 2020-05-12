@@ -2,9 +2,9 @@
 <html lang="en" class="has-background-white-ter">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta src="{{ '/assets/ionicon/viewport.svg' | url }}" content="width=device-width, initial-scale=1">
   <title>{% if title != site.title %}{{ title }} • {% endif %}{{ site.title }}</title>
-  <meta name="description" content="{{ layoutContent | striptags(true) | truncate(150) }}">
+  <meta src="{{ '/assets/ionicon/description.svg' | url }}" content="{{ layoutContent | striptags(true) | truncate(150) }}">
   <link rel=canonical href="{{ site.url }}{{ page.url | url }}">
   <link rel=alternate type=application/atom+xml href="{{ site.url }}{{ '/feed.xml' | url }}" title="{{ site.title }}" />
   <link rel="apple-touch-icon" type="image/png" href="{{ '/assets/icon/favicon-ios.png' | url }}" sizes="180x180">
@@ -82,19 +82,19 @@
           <div class="navbar-end">
             <a class="navbar-item is-inline-block-tablet" href="https://twitter.com/{{ site.author.twitter }}">
               <span class="icon tooltip" title="&ldquo;@{{ site.author.twitter }}&rdquo; on Twitter">
-                <ion-icon class="is-size-3" name="logo-twitter"></ion-icon>
+                <ion-icon class="is-size-3" src="{{ '/assets/ionicon/logo-twitter.svg' | url }}"></ion-icon>
               </span>
               <span class="is-sr-only-desktop">Twitter: @{{ site.author.twitter }}</span>
             </a>
             <a class="navbar-item is-inline-block-tablet" href="https://{{ site.author.slack }}.slack.com">
               <span class="icon tooltip" title="&ldquo;{{ site.author.slack }}&rdquo; on Slack">
-                <ion-icon class="is-size-3" name="logo-slack"></ion-icon>
+                <ion-icon class="is-size-3" src="{{ '/assets/ionicon/logo-slack.svg' | url }}"></ion-icon>
               </span>
               <span class="is-hidden-desktop">Slack: {{ site.author.slack }}</span>
             </a>
             <a class="navbar-item is-inline-block-tablet" href="https://github.com/{{ site.author.github }}">
               <span class="icon tooltip" title="&ldquo;{{ site.author.github }}&rdquo; on GitHub">
-                <ion-icon class="is-size-3" name="logo-github"></ion-icon>
+                <ion-icon class="is-size-3" src="{{ '/assets/ionicon/logo-github.svg' | url }}"></ion-icon>
               </span>
               <span class="is-hidden-desktop">GitHub: {{ site.author.github }}</span>
             </a>
