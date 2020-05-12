@@ -103,5 +103,8 @@
       </div>
     </div>
   </footer>
+  {%- if app.environment != 'dev' -%}
+  {% include 'ga.html' %}
+  {%- endif -%}
 </body>
 </html>
