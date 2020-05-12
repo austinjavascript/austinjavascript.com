@@ -1,5 +1,6 @@
 const fs = require('fs');
 const pluginRss = require('@11ty/eleventy-plugin-rss');
+const sassWatch = require('./_includes/sass-watch');
 const scMeetupDetails = require('./_includes/shortcodes/meetup-details');
 const filterFullDate = require('./_includes/filters/full-date');
 
@@ -19,6 +20,12 @@ const addData = (posts) => posts.map((post) => {
 });
 
 module.exports = (eleventyConfig) => {
+  // Watch Sass directory for styling changes.
+  // Works only in dev mode. Though it throws and error and then continues on.
+  if (process.env.ELEVENTY_ENV === 'dev') {
+    sassWatch('./_sass/_main.scss', './_site/assets/css/main.css');
+  }
+
   // PLUGIN: RSS feed
   eleventyConfig.addPlugin(pluginRss);
 
