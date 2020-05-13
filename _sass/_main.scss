@@ -86,8 +86,8 @@ $info: $tetradic1;
   vertical-align: bottom;
 
   @media screen and (min-width: $desktop) {
-    & {
-      margin-bottom: -0.45em;
+    .navbar-item & {
+      margin-bottom: -6px;
     }
   }
 }

@@ -54,7 +54,7 @@
       {{ content | safe }}
 
       <p class="content has-text-right-desktop" style="font-size: 14px; margin-bottom: -2rem;">
-        <a href="{{ site.repo }}/blob/master/{{ page.inputPath }}">Edit this page on GitHub</a>
+        <a href="{{ site.repo }}/blob/master/{{ page.inputPath }}">Edit this page</a>
       </p>
     </div>
   </main>
@@ -65,7 +65,7 @@
         <div class="navbar-menu is-active">
           <div class="navbar-start">
             <a class="navbar-item" href="{{ '/' | url }}">
-              &copy; {{ page.date.getFullYear() }} Austin JavaScript
+              &copy; {{ app.now.getFullYear() }} Austin JavaScript
             </a>
             <a class="navbar-item" href="{{ '/about/' | url }}">
               About
