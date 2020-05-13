@@ -41,8 +41,5 @@ module.exports = (video, title) => {
     }
   }
 
-  // eslint-disable-next-line no-console
-  console.log('Video player not found.');
-
   return '';
 };
