@@ -3,7 +3,7 @@ layout: post
 title: Austin Web Bash 2014
 author: astacy
 ---
-Our good friends at [Refresh][1] are hosting the [Austin Web Bash][2] Tuesday December 9<sup>th</sup>. This is an opportunity for folks from across different meetups in Austin to hang out. Even better, proceeds from the event go towards the [Keep Austin Beautiful][3] organization!
+Our good friends at [Refresh][1] are hosting the [Austin Web Bash][2] Tuesday December 9th. This is an opportunity for folks from across different meetups in Austin to hang out. Even better, proceeds from the event go towards the [Keep Austin Beautiful][3] organization!
 
 Come join us next Tuesday!
 
