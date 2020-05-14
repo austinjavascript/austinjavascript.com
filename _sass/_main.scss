@@ -85,6 +85,10 @@ $info: $tetradic1;
 .icon {
   vertical-align: bottom;
 
+  .card & {
+    margin-top: 2px;
+  }
+
   @media screen and (min-width: $desktop) {
     .navbar-item & {
       margin-bottom: -6px;

@@ -6,8 +6,10 @@
     "build:css": "node-sass _sass/_main.scss _site/assets/css/main.css --output-style compressed",
     "build": "npm run clean && eleventy && npm run build:css",
     "clean": "rm -rf ./_site",
-    "lint:js": "npx eslint --fix .eleventy.js ./_includes/*.js",
-    "lint:md": "npx markdownlint --fix ./posts/*.md",
+    "debug": "DEBUG=Eleventy* eleventy",
+    "deploy": "npm run build && gh-pages -d _site",
+    "lint:js": "eslint --fix .eleventy.js ./_includes/*.js",
+    "lint:md": "markdownlint --fix ./_posts/*.md ./_meetups/*.md",
     "lint": "npm run lint:js && npm run lint:md",
     "start": "ELEVENTY_ENV=dev eleventy --serve --watch",
     "test": "npm run lint"
