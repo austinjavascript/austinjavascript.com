@@ -13,13 +13,16 @@ const filterRegexReplace = require('./_includes/filters/regex-replace');
  * @param  {object}   posts   Collection to add date properties to.
  * @return {object}           Augmented posts collection.
  */
-const addData = (posts) => posts.map((post) => {
+const addFileDates = (posts) => posts.map((post) => {
+  if (!(post && post.inputPath)) return post;
+
   const stat = fs.statSync(post.inputPath) || {};
+  const newPost = post;
 
-  post.dateCreated = stat.birthtime;
-  post.dateModified = stat.mtime;
+  newPost.dateCreated = stat.birthtime;
+  newPost.dateModified = stat.mtime;
 
-  return post;
+  return newPost;
 });
 
 module.exports = (eleventyConfig) => {
@@ -40,14 +43,14 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addCollection('meetups', (collection) => {
     const posts = collection.getFilteredByGlob('./_meetups/**');
 
-    return addData(posts);
+    return addFileDates(posts);
   });
 
   // COLLECTION: Create post collection.
   eleventyConfig.addCollection('posts', (collection) => {
     const posts = collection.getFilteredByGlob('./_posts/**');
 
-    return addData(posts);
+    return addFileDates(posts);
   });
 
   // SHORTCODE: Format meeting details message block.
