@@ -1,29 +1,29 @@
 {% if person.email %}
 <a class="icon tooltip" href="mailto:{{ person.email }}" title="Email: {{ person.email }}">
-  <ion-icon class="is-size-3" name="at-circle"><i class="is-sr-only">email</i></ion-icon>
+  <ion-icon class="is-size-3" src="{{ '/assets/ionicon/at-circle.svg' | url }}"><i class="is-sr-only">email</i></ion-icon>
 </a>
 {% endif %}
 
 {% if person.homepage %}
 <a class="icon tooltip" href="{{ person.homepage }}" title="Home: {{ person.homepage }}">
-  <ion-icon class="is-size-3" name="home"><i class="is-sr-only">homepage</i></ion-icon>
+  <ion-icon class="is-size-3" src="{{ '/assets/ionicon/home.svg' | url }}"><i class="is-sr-only">homepage</i></ion-icon>
 </a>
 {% endif %}
 
 {% if person.twitter %}
 <a class="icon tooltip" href="https://twitter.com/{{ person.twitter }}" title="Twitter: {{ person.twitter }}">
-  <ion-icon class="is-size-3" name="logo-twitter"><i class="is-sr-only">Twitter</i></ion-icon>
+  <ion-icon class="is-size-3" src="{{ '/assets/ionicon/logo-twitter.svg' | url }}"><i class="is-sr-only">Twitter</i></ion-icon>
 </a>
 {% endif %}
 
 {% if person.github %}
 <a class="icon tooltip" href="https://github.com/{{ person.github }}" title="GitHub: {{ person.github }}">
-  <ion-icon class="is-size-3" name="logo-github"><i class="is-sr-only">GitHub</i></ion-icon>
+  <ion-icon class="is-size-3" src="{{ '/assets/ionicon/logo-github.svg' | url }}"><i class="is-sr-only">GitHub</i></ion-icon>
 </a>
 {% endif %}
 
 {% if person.linkedin %}
 <a class="icon tooltip" href="https://www.linkedin.com/in/{{ person.linkedin }}" title="LinkedIn: {{ person.linkedin }}">
-  <ion-icon class="is-size-3" name="logo-linkedin"><i class="is-sr-only">LinkedIn</i></ion-icon>
+  <ion-icon class="is-size-3" src="{{ '/assets/ionicon/logo-linkedin.svg' | url }}"><i class="is-sr-only">LinkedIn</i></ion-icon>
 </a>
 {% endif %}

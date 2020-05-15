@@ -1,7 +1,11 @@
 const fs = require('fs');
 const pluginRss = require('@11ty/eleventy-plugin-rss');
+const sassWatch = require('./_includes/sass-watch');
 const scMeetupDetails = require('./_includes/shortcodes/meetup-details');
+const scVideoPlayer = require('./_includes/shortcodes/video-player');
 const filterFullDate = require('./_includes/filters/full-date');
+const filterMarkdown = require('./_includes/filters/markdown');
+const filterRegexReplace = require('./_includes/filters/regex-replace');
 
 /**
  * Add date properties to collections.
@@ -9,41 +13,60 @@ const filterFullDate = require('./_includes/filters/full-date');
  * @param  {object}   posts   Collection to add date properties to.
  * @return {object}           Augmented posts collection.
  */
-const addData = (posts) => posts.map((post) => {
+const addFileDates = (posts) => posts.map((post) => {
+  if (!(post && post.inputPath)) return post;
+
   const stat = fs.statSync(post.inputPath) || {};
+  const newPost = post;
 
-  post.dateCreated = stat.birthtime;
-  post.dateModified = stat.mtime;
+  newPost.dateCreated = stat.birthtime;
+  newPost.dateModified = stat.mtime;
 
-  return post;
+  return newPost;
 });
 
 module.exports = (eleventyConfig) => {
+  // Watch Sass directory for styling changes.
+  // Works only in dev mode. Though it throws and error and then continues on.
+  if (process.env.ELEVENTY_ENV === 'dev') {
+    sassWatch('./_sass/_main.scss', './_site/assets/css/main.css');
+  }
+
   // PLUGIN: RSS feed
   eleventyConfig.addPlugin(pluginRss);
 
   // PASSTHRU: Copy the `assets` directory to the compiled site folder
   eleventyConfig.addPassthroughCopy('assets');
+  eleventyConfig.addPassthroughCopy('robots.txt');
 
   // COLLECTION: Create meetup collection.
   eleventyConfig.addCollection('meetups', (collection) => {
     const posts = collection.getFilteredByGlob('./_meetups/**');
 
-    return addData(posts);
+    return addFileDates(posts);
   });
 
   // COLLECTION: Create post collection.
   eleventyConfig.addCollection('posts', (collection) => {
     const posts = collection.getFilteredByGlob('./_posts/**');
 
-    return addData(posts);
+    return addFileDates(posts);
   });
 
-  // NUNJUCKS SHORTCODE: Format meeting details message block.
+  // SHORTCODE: Format meeting details message block.
   eleventyConfig.addShortcode('meetupDetails', scMeetupDetails);
+
+  // SHORTCODE: Embed video players for event replay.
+  eleventyConfig.addShortcode('videoPlayer', scVideoPlayer);
 
   // FILTER: Convert dates to MMMM D, YYYY format.
   eleventyConfig.addFilter('fullDate', filterFullDate);
+
+  // FILTER: Run content thru Markdown-it.
+  eleventyConfig.addFilter('markdown', filterMarkdown);
+
+  // FILTER: Replace text with regex capabilities.
+  eleventyConfig.addFilter('regexReplace', filterRegexReplace);
 
   // FILTER: Limit array length (https://gist.github.com/jbmoelker/9693778)
   eleventyConfig.addFilter('limitTo', (input, limit) => {

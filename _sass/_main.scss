@@ -9,10 +9,69 @@ $tetradic3: hsl(33, 85%, 50%);
 $primary: $tetradic0;
 $info: $tetradic1;
 
-@import "../node_modules/bulma/bulma.sass";
+// @import "../node_modules/bulma/bulma.sass";
+
+// @import "../node_modules/bulma/sass/utilities/_all.sass";
+@import "../node_modules/bulma/sass/utilities/initial-variables.sass";
+@import "../node_modules/bulma/sass/utilities/functions.sass";
+@import "../node_modules/bulma/sass/utilities/derived-variables.sass";
+// @import "../node_modules/bulma/sass/utilities/animations.sass";
+@import "../node_modules/bulma/sass/utilities/mixins.sass";
+@import "../node_modules/bulma/sass/utilities/controls.sass";
+
+// @import "../node_modules/bulma/sass/base/_all.sass";
+@import "../node_modules/bulma/sass/base/minireset.sass";
+@import "../node_modules/bulma/sass/base/generic.sass";
+@import "../node_modules/bulma/sass/base/helpers.sass";
+
+// @import "../node_modules/bulma/sass/elements/_all.sass";
+@import "../node_modules/bulma/sass/elements/box.sass";
+// @import "../node_modules/bulma/sass/elements/button.sass";
+@import "../node_modules/bulma/sass/elements/container.sass";
+@import "../node_modules/bulma/sass/elements/content.sass";
+@import "../node_modules/bulma/sass/elements/icon.sass";
+@import "../node_modules/bulma/sass/elements/image.sass";
+@import "../node_modules/bulma/sass/elements/notification.sass";
+// @import "../node_modules/bulma/sass/elements/progress.sass";
+// @import "../node_modules/bulma/sass/elements/table.sass";
+// @import "../node_modules/bulma/sass/elements/tag.sass";
+@import "../node_modules/bulma/sass/elements/title.sass";
+// @import "../node_modules/bulma/sass/elements/other.sass";
+
+// @import "../node_modules/bulma/sass/form/_all.sass";
+// @import "../node_modules/bulma/sass/form/shared.sass";
+// @import "../node_modules/bulma/sass/form/input-textarea.sass";
+// @import "../node_modules/bulma/sass/form/checkbox-radio";
+// @import "../node_modules/bulma/sass/form/select.sass";
+// @import "../node_modules/bulma/sass/form/file.sass";
+// @import "../node_modules/bulma/sass/form/tools.sass";
+
+// @import "../node_modules/bulma/sass/components/_all.sass";
+// @import "../node_modules/bulma/sass/components/breadcrumb.sass";
+@import "../node_modules/bulma/sass/components/card.sass";
+// @import "../node_modules/bulma/sass/components/dropdown.sass";
+@import "../node_modules/bulma/sass/components/level.sass";
+@import "../node_modules/bulma/sass/components/list.sass";
+@import "../node_modules/bulma/sass/components/media.sass";
+// @import "../node_modules/bulma/sass/components/menu.sass";
+@import "../node_modules/bulma/sass/components/message.sass";
+// @import "../node_modules/bulma/sass/components/modal.sass";
+@import "../node_modules/bulma/sass/components/navbar.sass";
+@import "../node_modules/bulma/sass/components/pagination.sass";
+@import "../node_modules/bulma/sass/components/panel.sass";
+// @import "../node_modules/bulma/sass/components/tabs.sass";
+
+@import "../node_modules/bulma/sass/grid/_all.sass";
+// @import "../node_modules/bulma/sass/grid/columns.sass";
+// @import "../node_modules/bulma/sass/grid/tiles.sass";
+
+@import "../node_modules/bulma/sass/layout/_all.sass";
+// @import "../node_modules/bulma/sass/layout/hero.sass";
+// @import "../node_modules/bulma/sass/layout/section.sass";
+// @import "../node_modules/bulma/sass/layout/footer.sass";
 
 /*
- * CUSTOMIZATIONS
+ * BULMA CUSTOMIZATIONS
  */
 
 .hero.is-primary {
@@ -25,7 +84,34 @@ $info: $tetradic1;
 
 .icon {
   vertical-align: bottom;
+
+  .card & {
+    margin-top: 2px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    .navbar-item & {
+      margin-bottom: -6px;
+    }
+  }
 }
+
+/*
+ * BUSINESS CARD ADJUSTMENTS
+ */
+
+.card,
+.footer {
+   // Add rounded edges to Bulma .image class inside a .card.
+   .image {
+     border-radius: 0.25em;
+     overflow: hidden;
+   }
+ }
+
+/*
+ * BULMA +
+ */
 
 @media screen and (min-width: $desktop) {
   .is-sr-only-desktop {
@@ -52,12 +138,6 @@ $info: $tetradic1;
 
 .has-border-top {
   border-top: 1px solid $white-ter;
-}
-.has-border-top-medium {
-  border-top: 5px solid $white-ter;
-}
-.has-border-top-large {
-  border-top: 10px solid $white-ter;
 }
 
 .has-margin-top {
@@ -95,79 +175,7 @@ $info: $tetradic1;
 }
 
 /*
- * TOOLTIP
- */
-
-.tooltip[title] {
-  position: relative;
-
-  .pic & {
-    display: inline-block;
-  }
-
-  /* Hide the tooltip content by default */
-  &:before,
-  &:after {
-    bottom: 100%;
-    left: 50%;
-    opacity: 0;
-    pointer-events: none;
-    position: absolute;
-    transition: 0.5s opacity;
-    visibility: hidden;
-    z-index: 100;
-  }
-
-  /* Position tooltip above the element */
-  &:before {
-    background-color: hsla(0, 0%, 20%, 0.95);
-    border-radius: 3px;
-    color: #fff;
-    content: attr(title);
-    font-size: 14px;
-    line-height: 1.2;
-    margin-bottom: 5px;
-    margin-left: -80px;
-    padding: 7px;
-    text-align: center;
-    width: 160px;
-  }
-
-  /* Triangle hack to make tooltip look like a speech bubble */
-  &:after {
-    border-left: 5px solid transparent;
-    border-right: 5px solid transparent;
-    border-top: 5px solid hsla(0, 0%, 20%, 0.95);
-    content: " ";
-    font-size: 0;
-    line-height: 0;
-    margin-left: -5px;
-    width: 0;
-  }
-
-  /* Show tooltip content on hover */
-  &:hover:before,
-  &:hover:after {
-    opacity: 1;
-    visibility: visible;
-  }
-}
-
-/*
- * BUSINESS CARD ADJUSTMENTS
- */
-
- .card,
- .footer {
-  // Add rounded edges to Bulma .image class inside a .card.
-  .image {
-    border-radius: 0.25em;
-    overflow: hidden;
-  }
-}
-
-/*
- * BRICKS FOR EMERITUS CARDS
+ * bricks for emeritus cards
  */
 
 .bricks-flex {
@@ -188,7 +196,7 @@ $info: $tetradic1;
 }
 
 /*
- * MEETUP FLEX LAYOUT (to swap details up on mobile)
+ * meetup flex layout (to swap details up on mobile)
  */
 
  @media screen and (max-width: $tablet) {
@@ -206,7 +214,7 @@ $info: $tetradic1;
 }
 
 /*
- * HOMEPAGE PICS
+ * homepage pics
  */
 
 .pic {
@@ -215,19 +223,14 @@ $info: $tetradic1;
   height: 50px;
   margin: -1px !important;
   width: 50px;
-  // transform-origin: 50% 100%;
-  // animation: wag 1s ease-out 0s alternate infinite none;
 
   img {
     border-radius: 5px;
   }
 }
 
-@keyframes wag {
-  0% {
-    transform: rotate(15deg);
-  }
-  100% {
-    transform: rotate(-15deg);
-  }
-}
+/*
+ * THE REST
+ */
+
+@import "tooltips";
