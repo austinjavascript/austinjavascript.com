@@ -1,11 +1,12 @@
 const fs = require('fs');
 const pluginRss = require('@11ty/eleventy-plugin-rss');
 const sassWatch = require('./_includes/sass-watch');
-const scMeetupDetails = require('./_includes/shortcodes/meetup-details');
-const scVideoPlayer = require('./_includes/shortcodes/video-player');
 const filterFullDate = require('./_includes/filters/full-date');
+const filterLimitTo = require('./_includes/filters/limit-to');
 const filterMarkdown = require('./_includes/filters/markdown');
 const filterRegexReplace = require('./_includes/filters/regex-replace');
+const scMeetupDetails = require('./_includes/shortcodes/meetup-details');
+const scVideoPlayer = require('./_includes/shortcodes/video-player');
 
 /**
  * Add date properties to collections.
@@ -32,9 +33,6 @@ module.exports = (eleventyConfig) => {
     sassWatch('./_sass/_main.scss', './_site/assets/css/main.css');
   }
 
-  // PLUGIN: RSS feed
-  eleventyConfig.addPlugin(pluginRss);
-
   // PASSTHRU: Copy the `assets` directory to the compiled site folder
   eleventyConfig.addPassthroughCopy('assets');
   eleventyConfig.addPassthroughCopy('robots.txt');
@@ -53,14 +51,11 @@ module.exports = (eleventyConfig) => {
     return addFileDates(posts);
   });
 
-  // SHORTCODE: Format meeting details message block.
-  eleventyConfig.addShortcode('meetupDetails', scMeetupDetails);
-
-  // SHORTCODE: Embed video players for event replay.
-  eleventyConfig.addShortcode('videoPlayer', scVideoPlayer);
-
   // FILTER: Convert dates to MMMM D, YYYY format.
   eleventyConfig.addFilter('fullDate', filterFullDate);
+
+  // FILTER: Limit collection length.
+  eleventyConfig.addFilter('limitTo', filterLimitTo);
 
   // FILTER: Run content thru Markdown-it.
   eleventyConfig.addFilter('markdown', filterMarkdown);
@@ -68,33 +63,16 @@ module.exports = (eleventyConfig) => {
   // FILTER: Replace text with regex capabilities.
   eleventyConfig.addFilter('regexReplace', filterRegexReplace);
 
-  // FILTER: Limit array length (https://gist.github.com/jbmoelker/9693778)
-  eleventyConfig.addFilter('limitTo', (input, limit) => {
-    if (typeof limit !== 'number') {
-      return input;
-    }
+  // SHORTCODE: Format meeting details message block.
+  eleventyConfig.addShortcode('meetupDetails', scMeetupDetails);
 
-    if (typeof input === 'string') {
-      if (limit >= 0) {
-        return input.substring(0, limit);
-      }
+  // SHORTCODE: Embed video players for event replay.
+  eleventyConfig.addShortcode('videoPlayer', scVideoPlayer);
 
-      return input.substring(limit);
-    }
-    if (Array.isArray(input)) {
-      const minLimit = Math.min(limit, input.length);
+  // PLUGIN: RSS feed
+  eleventyConfig.addPlugin(pluginRss);
 
-      if (minLimit >= 0) {
-        return input.slice(0, minLimit);
-      }
-
-      return input.slice(input.length + minLimit, input.length);
-    }
-
-    return input;
-  });
-
-  // BROWSERSYNBC: add ability to see 404.html in dev mode
+  // BROWSERSYNC: add ability to see 404.html in dev mode
   eleventyConfig.setBrowserSyncConfig({
     callbacks: {
       ready(err, bs) {

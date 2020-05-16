@@ -4,6 +4,13 @@ const md = require('markdown-it')({
   typographer: true,
 });
 
+/**
+ * Parse Markdown content to HTML.
+ *
+ * @param   {string}  content   Incoming content (expecting Markdown).
+ *
+ * @return  {string}  Content rendered as HTML.
+ */
 module.exports = (content) => {
   if (content) {
     return md.render(content);
