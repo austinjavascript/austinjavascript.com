@@ -54,7 +54,7 @@ layout: base
 
       {% if sponsorOrg.message %}
       <div>
-        {{ sponsorOrg.message | safe }}
+        {{ sponsorOrg.message | markdown | safe }}
       </div>
       {% elif sponsorOrg.name %}
       <p>Austin JavaScript is <strong>sponsored this month by <a href="{{ sponsorOrg.url }}">{{ sponsorOrg.name }}</a></strong>. Please thank them for their gracious gifts of pizza and drinks and for their support of the local JavaScript community.
@@ -66,7 +66,7 @@ layout: base
 
       {% if sponsorOrg.note %}
       <p>
-        {{ sponsorOrg.note | safe }}
+        {{ sponsorOrg.note | markdown | safe }}
       </p>
       {% endif %}
     </div>
