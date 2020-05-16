@@ -46,7 +46,7 @@ module.exports = (eleventyConfig) => {
 
   // COLLECTION: Create post collection.
   eleventyConfig.addCollection('posts', (collection) => {
-    const posts = collection.getFilteredByGlob('./_posts/**');
+    const posts = collection.getFilteredByGlob(['./_meetups/**', './_posts/**']);
 
     return addFileDates(posts);
   });
