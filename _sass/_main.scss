@@ -96,6 +96,13 @@ $info: $tetradic1;
   }
 }
 
+.page-main {
+  a {
+    text-decoration: underline;
+    text-decoration-color: rgba($link, 0.4);
+  }
+}
+
 /*
  * BUSINESS CARD ADJUSTMENTS
  */
