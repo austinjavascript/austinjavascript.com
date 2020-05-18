@@ -1,0 +1,6 @@
+{% if page.author %}
+{% assign author = site.data.people[page.author] %}
+<a href="https://twitter.com/{{ author.twitter }}" rel="author">
+  {{ author.name | split: " " | first }}
+</a>
+{% endif %}

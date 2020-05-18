@@ -1,62 +1,76 @@
 ---
-layout: base
-title: Austin JavaScript
-meta:
-  description: Austin JavaScript is a community-driven group that meets to discuss JavaScript and the open web.
+layout: default
 ---
-<section class="columns is-variable is-8-desktop">
-  <div class="column is-two-thirds">
-    <div class="content is-medium">
-      <h1 class="is-sr-only">{{ title }}</h1>
 
-      <section class="meetup-details">
-        {% set meet = collections.meetups | last %}
-        {% meetupDetails meet.date, meet.data.venue, meet.data.after, 'Upcoming meetup details', meet.data.title, meet.url | url %}
+<section class="the-stuff ajs-box">
+  <img alt="The latest" src="/img/the-latest.svg" />
 
-        <meta id="meet-date" time="{{ meet.date }}">
-        <script>
-          (function () {
-            const meetDate = document.getElementById('meet-date').getAttribute('time');
+  <div id="no-upcoming-meetups" class="hidden">
+    <p>
+    We haven't announced upcoming meetup details. Check back here or
+    <a href="{{ site.twitter.url }}">follow us on Twitter</a> for updates.
+    </p>
 
-            if (new Date(meetDate) < new Date()) {
-              // We may want to post an alternate message, but for now just delete the upcoming meetup.
-              document.querySelector('.meetup-details').remove();
-            }
-          }());
-        </script>
-      </section>
-
-      <section class="section">
-        <p>We are a community-driven group that meets to discuss JavaScript and the open web. Find out more <a href="{{ '/about/' | url }}">about us</a> or the many ways you can <a href="{{ '/contributing/' | url }}">contribute</a>.</p>
-        <p>We work hard to build a community that treats people with excellence. We've formalized this in the <a href="{{ '/code-of-conduct/' | url }}">Austin JavaScript Code of Conduct</a>.</p>
-      </section>
-
-      <section class="section">
-        <h3>Past speakers and talks</h3>
-        {% for meetup in collections.meetups %}
-        {% for speaker in meetup.data.speakers %}
-        {% if speaker.name and speaker.avatar %}
-        <figure class="pic">
-          <a class="tooltip" href="{{ meetup.url | url }}" title="{{ speaker.name }}: &quot;{{ meetup.data.title }}&quot;">
-            <img class="is-rounded" src="{{ speaker.avatar }}" alt="{{ speaker.name }}" loading="lazy">
-          </a>
-        </figure>
-        {% endif %}
-        {% endfor %}
-        {% endfor %}
-      </section>
-    </div>
+    <a href="{{ site.categories.meetups[0].url }}" class="go-on">
+      Tell me about the last meetup &rarr;
+    </a>
   </div>
 
-  <div class="column">
-    <div class="content">
-      <h3>Recent meetups</h3>
-      <ul>
-        {% for post in collections.meetups | reverse | limitTo(5) %}
-        <li><a href="{{ post.url | url }}">{{ post.data.title }}</a></li>
-        {% endfor %}
-      </ul>
-      <p><a href="{{ '/posts/meetups/' | url }}">More in archive...</a></p>
-    </div>
+  <div>
+    <p>
+    The next meetup is
+    <x-date>{{ site.categories.meetups[0].when | date_to_xmlschema }}</x-date>.
+    You should swing by!
+
+    <script>{% include js/upcoming.js %}</script>
+    </p>
+
+    <a href="{{ site.categories.meetups[0].url }}" class="go-on">
+      Tell me about it &rarr;
+    </a>
   </div>
 </section>
+
+<section class="the-stuff ajs-box">
+  <img alt="What is this?" src="/img/what-is-this.svg" />
+
+  <p>
+  A community-driven group that meets to discuss JavaScript and the open web.
+  </p>
+
+  <a href="/about/" class="go-on">
+    Let's hear more &rarr;
+  </a>
+</section>
+
+<p>
+  <a class=no-hover-color href="{{ site.twitter.url }}">
+    <img class=please-retweet
+         alt="{{ site.twitter.user }} on Twitter"
+         src="/img/please-retweet.svg" />
+  </a>
+</p>
+
+<p>
+We work hard to build a community that treats people with excellence. We've
+formalized this in <a href="/austinjs-code-of-conduct/">the Austin JavaScript
+Code of Conduct</a>.
+</p>
+
+<h2>
+  Recent Posts
+</h2>
+
+<ul>
+  {% for post in site.posts limit:5 %}
+    <li>
+      <a href="{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </li>
+  {% endfor %}
+</ul>
+
+<a href=/archive>All posts &rarr;</a>
+
+<!-- java 4 life -->

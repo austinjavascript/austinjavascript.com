@@ -2,6 +2,9 @@
 layout: post
 title: CompassLearning is Hiring
 author: asexton
+permalink: /compasslearning-is-hiring/
+categories:
+  - Uncategorized
 ---
 On the verge of this month's meeting we'd like to let you know about an opportunity from last month's sponsor: [CompassLearning][1].
 
