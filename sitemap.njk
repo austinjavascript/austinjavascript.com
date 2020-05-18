@@ -1,0 +1,16 @@
+---
+permalink: sitemap.xml
+eleventyExcludeFromCollections: true
+reference: https://www.sitemaps.org/protocol.html
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {%- for item in collections.all | reverse %}
+  {%- if item.data.layout %}
+  <url>
+    <loc>{{ site.url }}{{ item.url }}</loc>
+    <lastmod>{{ (item.dateModified if item.dateModified else item.date).toISOString() }}</lastmod>
+  </url>
+  {%- endif %}
+  {%- endfor %}
+</urlset>
