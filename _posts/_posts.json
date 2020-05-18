@@ -1,3 +1,0 @@
-{
-  "permalink": "posts/{{ page.fileSlug }}/"
-}

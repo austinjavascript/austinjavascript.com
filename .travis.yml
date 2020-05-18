@@ -1,0 +1,20 @@
+language: ruby
+
+# Instead of running tests, run a command that does nothing
+script:
+- JEKYLL_ENV=production bundle exec jekyll build
+- _bin/checkposts
+
+# If tests pass (and in this case they always will since we're not running
+# any), then purge the Cloudflare cache so the changes show up
+after_success: _bin/purgecache
+
+# This puts the Cloudflare API key in an environment variable so we can purge
+# the cache
+env:
+  global:
+    secure: "qGElIt/9YacAm2snuTSRbkrIcOVsBUV4KnNk1JGi9ansBc2DDnnWUUxpcTw+97z754hvIVK8x86RKZtDJIWo6VoZPYSXnhiLzYa5sMQ2fh+wipxovpz3muUI+yoMZjzebtFePLXwu32ZBpE2tcWjny14sxlJ65RQGVyMlg3ETa9SDOMLBWPxN+6E6O3mZ8EHOILAKlK67aV8PqUlgF7x3tEviJpFuic8otPVK+hTx1BtBJU4y6H885x7GcEU/qv21tTGXv3oOlc6hewBslxAYMfAJu9+UVOcKK4BpmKzdSvfzVVVgJr23EmqoP2y9wjku9j/uJVQzVQopjKu0MAOK9TRk7b0Aow5zLA1t421R+Bn8iCvpjerQjGkbaS6+LO0F1PdVGa10IhWvAThTyzOY84yr3BNmTm+hHe1c9tQmI5+Daizgdgg8ZROfEO5rkNh5KQLr8yDmWOV0W/8fAdHSzpc10Y3Uu+NSgRQErPz5MrXr2WzEuw3uVZ79ano8yZSJnBnAPQZ91C6ItezqR7qwdXfMrD1zny1oZX8q4eBQcYIc/EPRoLpdEAdKnkmQBF1TRHl9sKctBpwk37f0KPPBIpzCS9OM6AxZCpyOPC2EWVWTDrjGurM2rfMoQL4HAo77rXOC4dFR6si5g2ie8hcWeR0KIdudhBu85A24auRC00="
+
+# This should speed up the build
+cache: bundler
+sudo: false

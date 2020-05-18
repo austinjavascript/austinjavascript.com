@@ -2,8 +2,11 @@
 layout: post
 title: 'Austin JavaScript SXSWi Happy Hour  — Free Beer, Free Food, Free Prizes!'
 author: jmccann
+permalink: /austin-javascript-sxswi-happy-hour-free-beer-free-food-free-prizes/
+categories:
+  - Uncategorized
 ---
-For the month of March, instead of discussing closures and anonymous functions, the Austin JavaScript meetup group will be holding a party during [SXSWi][1] at [Kung Fu Saloon](http://www.kungfusaloon.com) sponsored by [Appcelerator](http://www.appcelerator.com).  We will have FREE BEER, FREE FOOD, AND FREE GAMES!  Yes, you read that right:FREE!  No strings attached!  Escape the mayhem on East 6th by foot or [pedicab][2] and end up at Kung Fu Saloon, West 6th's newest hangout, and play a round of Street Fighter II or skeeball while downing free, QUALITY (non-domestic) beer.
+For the month of March, instead of discussing closures and anonymous functions, the Austin JavaScript meetup group will be holding a party during [SXSWi][1] at <a title="Kung Fu Saloon" href="http://www.kungfusaloon.com" target="_blank">Kung Fu Saloon</a> sponsored by <a title="Appcelerator" href="http://www.appcelerator.com" target="_blank">Appcelerator</a>.  We will have FREE BEER, FREE FOOD, AND FREE GAMES!  Yes, you read that right:FREE!  No strings attached!  Escape the mayhem on East 6th by foot or [pedicab][2] and end up at Kung Fu Saloon, West 6th's newest hangout, and play a round of Street Fighter II or skeeball while downing free, QUALITY (non-domestic) beer.
 
 The event details are as follows:
 
@@ -24,7 +27,7 @@ And of course we'll have some food to wash all that beer down.  Austin's premie
 
 Additional sponsors and support provided by [subPrint Interactive][6] and [Virtue Group][7].
 
-Any questions or concerns, feel free to contact Joe McCann via Twitter:  [@joemccann](http://twitter.com/joemccann).
+Any questions or concerns, feel free to contact Joe McCann via Twitter:  <a title="Joe McCann on Twitter" href="http://twitter.com/joemccann" target="_blank">@joemccann</a>.
 
  [1]: http://www.sxsw.com/interactive "SXSWi"
  [2]: http://austinpedicab.org/ "Austin Pedicab"

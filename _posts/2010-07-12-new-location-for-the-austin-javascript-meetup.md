@@ -2,6 +2,9 @@
 title: New Location for the Austin JavaScript Meetup
 author: joemccann
 layout: post
+permalink: /new-location-for-the-austin-javascript-meetup/
+categories:
+  - posts
 ---
 After 14 solid months of usage at [Virtue Group's][1] stunning office, we are moving our location to the crossroads of downtown Austin, namely 6th and Congress. The new meeting location will be at [frog design's][2] Austin studio located at [101 West 6th Street, 2nd Floor][3] of the historical [Scarborough Building][4].
 

@@ -1,3 +1,0 @@
-{
-  "permalink": "posts/meetups/{{ page.date | date: '%Y/%m/%d' }}/"
-}

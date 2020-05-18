@@ -2,6 +2,9 @@
 layout: post
 title: Austin JavaScript 2011 SXSW Party
 author: jmccann
+permalink: /austin-javascript-2011-sxsw-party/
+categories:
+  - Uncategorized
 ---
 That time of year is here again, where we in the Austin JavaScript community close our laptops and instead have a few beers together. After such a successful event last year at [Kung Fu Saloon][1], we decided to do the same thing this year, but with more reasons to come out and support the community.
 

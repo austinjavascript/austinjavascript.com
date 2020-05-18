@@ -1,0 +1,15 @@
+{% assign organizers = site.data.people | where: "status", "active" %}
+<h3>Organizers</h3>
+<div class="people">
+  {% for person in organizers %}
+    {% include person.html %}
+  {% endfor %}
+</div>
+
+{% assign emeriti = site.data.people | where: "status", "emeriti" %}
+<h3>Emeriti</h3>
+<div class="people">
+  {% for person in emeriti %}
+    {% include person.html %}
+  {% endfor %}
+</div>

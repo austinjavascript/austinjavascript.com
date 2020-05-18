@@ -1,13 +1,5 @@
 # Contributing to meeting posts
 
-On this page:
-
-* [Editing](#editing)
-* [Creating](#creating)
-* [Publishing](#publishing)
-
----
-
 ## Editing
 
 There are two ways to edit an existing post:
@@ -39,25 +31,32 @@ There are two ways to edit an existing post:
     git checkout -b new-post
     ```
 
-3. To review your work, you may want to run [Eleventy](https://11ty.dev/) — a JavaScript static site generator.
+3. To review your work, you'll want to run [Jekyll](https://jekyllrb.com/) — a Ruby application. There are two ways to do this:
+
+    Start-up a [Docker](https://www.docker.com/) container. Frankly, this is the easier of the two choices. You'll need [Docker Desktop](https://www.docker.com/products/docker-desktop) if you don't already have it.
+
+    > NOTE: the first time you run this script, it will install all the necessary Ruby Gems which may take some time.
 
     ```sh
-    npm install
+    docker-compose up -d   ## to install and start
+    docker-compose down    ## to stop
     ```
 
-    Once all the packages are done loading, you can start a local server.
+    If you're a glutton for punishment, then here's the basic, old-skool [Jekyll install](https://jekyllrb.com/docs/) path.
 
     ```sh
-    npm start
+    gem install bundle   # only needed the 1st time, may require sudo
+    bundle install --path vendor/bundle
+    bundle exec jekyll serve
     ```
 
-    Once the server is up and running, point your browser to the address that shows up in the terminal (e.g., http://localhost:8080) and enjoy the scenery.
+    Either way, when the server is up and running, point your browser to http://localhost:4000 and enjoy the scenery.
 
 ### Create new file
 
-To create a new meetup post, copy the `/_drafts_/YYYY-MM-DD-meetup.md` file to the `/_meetups/` directory, changing `YYYY-MM-DD` to the appropriate year, month, and date.
+To create a new meetup post, copy the `/_drafts_/YYYY-MM-DD-meetup.md` file to the `/_posts/` directory, changing `YYYY-MM-DD` to the appropriate year, month, and date.
 
-> **IMPORTANT:** Make sure the date part of the file name is the **event date**. This will be used for all related event data.
+> **IMPORTANT:** Make sure the date part of the file name is **today's date**, not the date of the meetup. If the date in the file's name is the meetup date, it won't actually publish. ¯\\\_(ツ)\_/¯ that's just how Jekyll works.
 
 ### Add meetup details and content
 
@@ -101,49 +100,20 @@ Open the [Markdown](https://commonmark.org/) file and notice the file structure.
     ---
     ```
 
-    #### YAML tips
-
     > NOTE: `speakers` is a YAML array, so each `name` should be preceded by a dash. For example:
     >
     > ```yaml
     > speakers:
     >   - name: Pat Anser
     >     title: Developer Extraordinaire at Austin JavaScript
-    >     ..
+    >     ...
     >   - name: Dale Andhill
     >     title: Another Developer
-    >     ..
+    >     ...
     > ```
     >
     > If there are no speakers for the meetup, leave only the `speakers:` field and remove the rest of the array (e.g., `-name: ...`).
     >
-
-    > NOTE: Should any front matter value start with a `[` or `{` character, it will confuse the YAML parser (it thinks it's an array or object) and throw an error. If you need to start the value with one of those characters, be sure to wrap the entire value with quotes.
-    >
-    > ```yaml
-    > ..
-    > bio: [Bob](https://bobross.com) is an American icon.    ## throws error
-    > bio: "[Bob](https://bobross.com) is an American icon."  ## works
-    > ..
-    > ```
-    >
-
-    > NOTE: For multline YAML, start the 1st line with a pipe, then start the content on the next line, indented.
-    >
-    > ```yaml
-    > ..
-    > bio: |
-    >   This is a sentence.
-    >
-    >   This is another sentence.
-    >
-    >   * This is a list item
-    >   * This is another list item
-    > ..
-    > ```
-    >
-
-    #### Data tips
 
     > NOTE: For `sponsor`, if a key to the sponsor info exists in the `/_data/organizations.yaml` file, then use it alone.
     >
@@ -180,9 +150,9 @@ Open the [Markdown](https://commonmark.org/) file and notice the file structure.
 * The _{Markdown content}_ follows the [CommonMark spec](https://commonmark.org/help/) for creating formatted HTML from plain text. Some tips for content:
 
     * Provide context for presentation. What was the problem, solution, drama?
-    * Hyperlink all the things! ...and use Markdown syntax (e.g., `[Eleventy](https://11ty.dev/)`).
+    * Hyperlink all the things! ...and use Markdown syntax (e.g., `[Gatsby](https://gatsbyjs.org)`). This gets transformed by the compiler into proper external links.
 
-## Publishing
+## Publishing your meetup post
 
 Save and commit. Then push to your repo.
 

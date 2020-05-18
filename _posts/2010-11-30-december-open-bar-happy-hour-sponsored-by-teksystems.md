@@ -2,6 +2,9 @@
 layout: post
 title: December Open Bar Happy Hour Sponsored by TEKsystems
 author: jmccann
+permalink: /december-open-bar-happy-hour-sponsored-by-teksystems/
+categories:
+  - Uncategorized
 ---
 Since so many of us were devastated to find out that there was no meetup scheduled for December, TEKsystems decided to step up and allows us to drown our sorrows in a few pints of beer!
 
