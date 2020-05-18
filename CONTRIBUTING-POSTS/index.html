@@ -1,0 +1,164 @@
+<h1>Contributing to meeting posts</h1>
+<p>On this page:</p>
+<ul>
+<li><a href="#editing">Editing</a></li>
+<li><a href="#creating">Creating</a></li>
+<li><a href="#publishing">Publishing</a></li>
+</ul>
+<hr>
+<h2>Editing</h2>
+<p>There are two ways to edit an existing post:</p>
+<ol>
+<li>Directly edit <a href="https://github.com/austinjavascript/austinjavascript.github.io/tree/master/_posts">post files</a> online and submit Pull Request.</li>
+<li>Clone the repo locally (see next section), edit/save, git commit/push, and then open a Pull Request.</li>
+</ol>
+<h2>Creating</h2>
+<h3>Setup local environment</h3>
+<ol>
+<li>
+<p>Fork the <a href="https://github.com/austinjavascript/austinjavascript.github.io/">Austin JavaScript GitHub</a> repo to your org.</p>
+</li>
+<li>
+<p>Clone your repo to a local directory, replacing <code>{my-username}</code> below with your username.</p>
+<pre><code class="language-sh">git clone https://github.com/{my-username}/austinjavascript.github.io.git
+cd austinjavascript.github.io
+</code></pre>
+</li>
+<li>
+<p>Set the <code>upstream</code> remote repo to &quot;austinjavascript&quot;. (If you look at <code>.git/config</code>, you should see that your fork is the <code>origin</code> remote.)</p>
+<pre><code class="language-sh">git remote add upstream https://github.com/austinjavascript/austinjavascript.github.io.git
+</code></pre>
+</li>
+<li>
+<p>Create a new git branch for your work.</p>
+<pre><code class="language-sh">git checkout -b new-post
+</code></pre>
+</li>
+<li>
+<p>To review your work, you may want to run <a href="https://11ty.dev/">Eleventy</a> — a JavaScript static site generator.</p>
+<pre><code class="language-sh">npm install
+</code></pre>
+<p>Once all the packages are done loading, you can start a local server.</p>
+<pre><code class="language-sh">npm start
+</code></pre>
+<p>Once the server is up and running, point your browser to the address that shows up in the terminal (e.g., http://localhost:8080) and enjoy the scenery.</p>
+</li>
+</ol>
+<h3>Create new file</h3>
+<p>To create a new meetup post, copy the <code>/_drafts_/YYYY-MM-DD-meetup.md</code> file to the <code>/_meetups/</code> directory, changing <code>YYYY-MM-DD</code> to the appropriate year, month, and date.</p>
+<blockquote>
+<p><strong>IMPORTANT:</strong> Make sure the date part of the file name is the <strong>event date</strong>. This will be used for all related event data.</p>
+</blockquote>
+<h3>Add meetup details and content</h3>
+<p>Open the <a href="https://commonmark.org/">Markdown</a> file and notice the file structure.</p>
+<pre><code class="language-yaml">---
+{YAML front matter}
+---
+{Markdown content}
+</code></pre>
+<ul>
+<li>
+<p>The <em>{<a href="https://jekyllrb.com/docs/front-matter/">YAML front matter</a>}</em> contains all the variables that will be used by a magical template (<code>/_layouts/meetup.html</code>) to generate posts. It has the format:</p>
+<pre><code class="language-yaml">---
+layout: meetup
+title: {presentation title}
+when: {ISO-8601 date-- e.g., 2019-04-16T19:30:00-05:00}
+slides: {presentation slides URL}
+video: {presentation video URL}
+speakers:
+  - name: {full name - REQUIRED}
+    title: {professional title}
+    avatar: {twitter image URL}
+    bio: {short bio blurb}
+    email: {email address}
+    homepage: {homepage url}
+    twitter: {profile name}
+    github: {profile name}
+    linkedin: {profile name}
+sponsor: {key to sponsor data}
+  name: {sponsor full name}
+  url: {sponsor homepage URL}
+  careerUrl: {sponsor career page URL}
+  logo: {sponsor logo URL}
+venue: {key to host venue data - REQUIRED}
+after: {key to &quot;after party&quot; data}
+organizers:
+  - {key to people data}
+---
+</code></pre>
+<h4>YAML tips</h4>
+<blockquote>
+<p>NOTE: <code>speakers</code> is a YAML array, so each <code>name</code> should be preceded by a dash. For example:</p>
+<pre><code class="language-yaml">speakers:
+  - name: Pat Anser
+    title: Developer Extraordinaire at Austin JavaScript
+    ..
+  - name: Dale Andhill
+    title: Another Developer
+    ..
+</code></pre>
+<p>If there are no speakers for the meetup, leave only the <code>speakers:</code> field and remove the rest of the array (e.g., <code>-name: ...</code>).</p>
+</blockquote>
+<blockquote>
+<p>NOTE: Should any front matter value start with a <code>[</code> or <code>{</code> character, it will confuse the YAML parser (it thinks it's an array or object) and throw an error. If you need to start the value with one of those characters, be sure to wrap the entire value with quotes.</p>
+<pre><code class="language-yaml">..
+bio: [Bob](https://bobross.com) is an American icon.    ## throws error
+bio: &quot;[Bob](https://bobross.com) is an American icon.&quot;  ## works
+..
+</code></pre>
+</blockquote>
+<blockquote>
+<p>NOTE: For multline YAML, start the 1st line with a pipe, then start the content on the next line, indented.</p>
+<pre><code class="language-yaml">..
+bio: |
+  This is a sentence.
+
+  This is another sentence.
+
+  * This is a list item
+  * This is another list item
+..
+</code></pre>
+</blockquote>
+<h4>Data tips</h4>
+<blockquote>
+<p>NOTE: For <code>sponsor</code>, if a key to the sponsor info exists in the <code>/_data/organizations.yaml</code> file, then use it alone.</p>
+<pre><code class="language-yaml">..
+sponsor: {key_name}
+venue: ...
+..
+</code></pre>
+<p>If an org key doesn't exist, then add the fields: <code>name</code>, <code>url</code>, <code>careerUrl</code> (optional), <code>logo</code> (optional), and <code>message</code> (optional wholesale replacement text for sponsor template).</p>
+<pre><code class="language-yaml">..
+sponsor:
+  name: {sponsor name}
+  url: {sponsor URL}
+venue: ...
+..
+</code></pre>
+</blockquote>
+<p>The <code>sponsor</code>, <code>venue</code>, and <code>after</code> key values can be found in or added to <code>/_data_/organizations.yaml</code>. The format for that YAML file is:</p>
+<pre><code class="language-yaml">{key - REQUIRED}:
+  name: {org full name - REQUIRED}
+  url: {org homepage URL}
+  careerUrl: {org career page URL}
+  logo: {org logo URL}
+  location: {org full street address + floor and/or room}
+  note: {additional notes}
+</code></pre>
+</li>
+<li>
+<p>The <em>{Markdown content}</em> follows the <a href="https://commonmark.org/help/">CommonMark spec</a> for creating formatted HTML from plain text. Some tips for content:</p>
+<ul>
+<li>Provide context for presentation. What was the problem, solution, drama?</li>
+<li>Hyperlink all the things! ...and use Markdown syntax (e.g., <code>[Eleventy](https://11ty.dev/)</code>).</li>
+</ul>
+</li>
+</ul>
+<h2>Publishing</h2>
+<p>Save and commit. Then push to your repo.</p>
+<pre><code class="language-sh">git add .
+git commit -m &quot;Add new meetup post&quot;
+git push origin new-post
+</code></pre>
+<p>Open your browser to the <a href="https://www.github.com/austinjavascript/austinjavascript.github.io/">austinjavascript.github.io</a> repo (or your fork) and open a Pull Request.</p>

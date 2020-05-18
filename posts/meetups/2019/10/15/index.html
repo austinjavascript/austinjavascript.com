@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en" class="has-background-white-ter">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mosaic: a Platform for Micro-Frontends at Indeed • Austin JavaScript</title>
+  <meta name="description" content="Indeed is one of the largest Job Search websites in the world. In order to maintain developer velocity and quality, we’re in the process of dramatically...">
+  <link rel=canonical href="https://austinjavascript.com/posts/meetups/2019/10/15/">
+  <link rel=alternate type=application/atom+xml href="https://austinjavascript.com/feed.xml" title="Austin JavaScript Atom feed" />
+  <link rel="apple-touch-icon" type="image/png" href="/assets/icon/favicon-ios.png" sizes="180x180">
+  <link rel="icon" type="image/png" href="/assets/icon/favicon-android.png" sizes="192x192">
+  <link rel="icon" type="image/png" href="/assets/icon/favicon.png" sizes="32x32">
+  <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+<body>
+  <header class="page-header hero is-primary">
+    <div class="hero-body is-paddingless">
+      <div class="container">
+        <div class="navbar" role="navigation" aria-label="main navigation">
+          <div class="navbar-brand">
+            <figure class="image is-96x96 logo">
+              <img src="/assets/icon/logo.svg" alt="logo">
+            </figure>
+            <a href="/" class="navbar-item title has-text-white is-size-1-tablet">
+              Austin JavaScript
+            </a>
+          </div>
+          <div class="navbar-menu is-size-4">
+            <div class="navbar-end">
+              <a class="navbar-item" href="/">
+                Home
+              </a>
+              <a class="navbar-item" href="/posts/meetups/">
+                Meetups
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  
+
+  <main class="page-main section has-background-white">
+    <div class="container">
+      <div class="columns is-variable is-8-desktop">
+  <div class="column is-two-thirds flex-container">
+    <h1 class="title flex-item">Mosaic: a Platform for Micro-Frontends at Indeed</h1>
+    <div class="content flex-item">
+      <p>Indeed is one of the largest Job Search websites in the world. In order to maintain developer velocity and quality, we’re in the process of dramatically shifting how we build web applications. Historically, we’ve built large monolith applications that have upwards of a hundred contributors, but we’ve found that this approach has limited our ability to iterate, and innovate as quickly as we’d like.</p>
+<p>Today, we’re focusing on splitting our monolith applications into smaller, more manageable components. In this talk, I’ll cover in detail how we developed a platform that enables building decoupled, distributed systems that perform and feel like a single application.</p>
+<p>We’ve developed a platform that enables the independent deployability of units of user interface units across products and pages. In this talk I’ll describe:</p>
+<ul>
+<li>The types of problems a decoupled, and distributed frontend solve</li>
+<li>The individual subsystems of the platform and how those systems fit together</li>
+<li>How we built, and monitor the system, especially as it grows</li>
+<li>The tradeoffs, and problems we’ve run into, and how we’ve solved them thus far</li>
+<li>How to practically, and incrementally adopt this kind of system in your ecosystem</li>
+</ul>
+
+    </div>
+
+    <div class="message flex-item flex-item-0">
+  <div class="message-header">
+    Meetup details
+  </div>
+
+  <div class="message-body">
+    
+
+    <div>
+      DATE
+      <span class="icon has-text-grey-dark">
+        <ion-icon src="/assets/ionicon/calendar.svg"></ion-icon>
+      </span>
+      <time class="has-text-primary has-text-weight-bold" dateTime="2019-10-15">October 15, 2019</time>
+    </div>
+
+    <div>
+      TIME
+      <span class="icon has-text-grey-dark">
+        <ion-icon src="/assets/ionicon/alarm.svg"></ion-icon>
+      </span>
+      <time class="has-text-primary has-text-weight-bold" dateTime="15:30">7:30PM</time> -
+      <time class="has-text-primary has-text-weight-bold" dateTime="21:00">9:00PM</time>
+    </div>
+
+    <div>
+      LOCATION
+      <span class="icon has-text-grey-dark">
+        <ion-icon src="/assets/ionicon/location-sharp.svg"></ion-icon>
+      </span>
+      <strong class="has-text-primary">Cloudflare Austin</strong>
+      <em>(106 E 6th St, Austin, TX 78701, 4th Floor)</em>
+    </div>
+
+    <p class="has-margin-top">
+      Afterwards, the discussion carries on at
+      <strong><a href="https://lavacastreet.com/">Lavaca Street Bar</a></strong>
+      (405 Lavaca Street, Austin, TX 78701).
+    </p>
+
+    <p class="has-margin-top">
+      Check back here or <a href="https://twitter.com/AustinJS">@AustinJS on Twitter</a> for updates.
+    </p>
+  </div>
+</div>
+
+    
+  </div>
+
+  <div class="column has-offset-top">
+    
+    <h2 class="title is-sr-only">Speaker</h2>
+
+    
+    <div class="has-offset-top">
+      <div class="card">
+  <div class="card-content">
+    <div class="media">
+      <div class="media-left">
+        <figure class="image is-96x96 has-background-grey-lighter">
+          <img src="https://pbs.twimg.com/profile_images/814946887161638912/o2JC7WQ2_400x400.jpg" alt="Ben Cripps" loading="lazy">
+        </figure>
+      </div>
+      <div class="media-content">
+        <p class="title is-size-5">Ben Cripps</p>
+        <p class="subtitle is-6 has-text-weight-semibold is-marginless-bottom"><p>Full Stack Software Engineer at Indeed</p>
+</p>
+        <div>
+          
+
+
+
+
+<a class="icon tooltip" href="https://twitter.com/itsbencripps" title="Twitter: itsbencripps">
+  <ion-icon class="is-size-3" src="/assets/ionicon/logo-twitter.svg"><i class="is-sr-only">Twitter</i></ion-icon>
+</a>
+
+
+
+<a class="icon tooltip" href="https://github.com/bencripps" title="GitHub: bencripps">
+  <ion-icon class="is-size-3" src="/assets/ionicon/logo-github.svg"><i class="is-sr-only">GitHub</i></ion-icon>
+</a>
+
+
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="card-footer">
+    <div class="card-footer-item">
+      <div class="content">
+        <p>Born in Washington D.C., Ben now lives in Austin, Texas via Baltimore MD. He enjoys lifting weights, hiking with his wife and dog, the Orioles, ping pong, and reading.</p>
+<p>He is a full stack developer with a passion for the front-end. He enjoys writing JavaScript, with a focus on functional paradigms. Although he prefers React, he pride himself on being framework agnostic. Apart from client-side code and Node, he likes to write python and doesn’t mind the occasional C# or Java.</p>
+<p>He also enjoys open source, and spends a good deal of time contributing to personal and public open source projects.</p>
+
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+    </div>
+    
+  </div>
+</div>
+
+
+
+
+
+<div class="columns is-variable is-8-desktop">
+  <div class="column is-two-thirds">
+    <div class="box is-8 content">
+      <h3>Sponsor</h3>
+
+      
+      <figure class="image sponsor-logo">
+        <img src="https://blog.cloudflare.com/content/images/2016/09/cf-blog-logo-crop.png" alt="Sponsored by: Cloudflare Austin">
+      </figure>
+      
+
+      
+      <p>Austin JavaScript is <strong>sponsored this month by <a href="https://www.cloudflare.com/">Cloudflare Austin</a></strong>. Please thank them for their gracious gifts of pizza and drinks and for their support of the local JavaScript community.
+        
+        Ask them about their <a href="https://www.cloudflare.com/careers/">job opportunities</a>!
+        
+      </p>
+      
+
+      
+    </div>
+  </div>
+</div>
+
+
+<div class="columns is-variable is-8 has-offset-top">
+  
+  
+  <div class="column">
+    
+    <a href="/posts/meetups/2019/08/20/">← Let&#39;s Go on a console.log() Safari 🦏</a>
+    
+  </div>
+
+  <div class="column has-text-right">
+    
+    <a href="/posts/meetups/2019/11/19/">DevLaunchers - world&#39;s most FUN experiment to help teenagers learn game development! →</a>
+    
+  </div>
+</div>
+
+
+      <p class="content has-text-right-desktop" style="font-size: 14px; margin-bottom: -2rem;">
+        <a href="https://github.com/austinjavascript/austinjavascript.github.io/blob/master/./_meetups/2019-10-15-meetup.md">Edit this page</a>
+      </p>
+    </div>
+  </main>
+
+  <footer class="page-footer footer has-background-white-ter has-offset-top">
+    <div class="container">
+      <div class="navbar has-background-white-ter">
+        <div class="navbar-menu is-active">
+          <div class="navbar-start">
+            <a class="navbar-item" href="/">
+              &copy; 2020 Austin JavaScript
+            </a>
+            <a class="navbar-item" href="/about/">
+              About
+            </a>
+            <a class="navbar-item" href="/code-of-conduct/">
+              Code of Conduct
+            </a>
+            <a class="navbar-item" href="/contributing/">
+              Contributing
+            </a>
+            <a class="navbar-item" href="/posts/">
+              Posts
+            </a>
+            <a class="navbar-item is-hidden-desktop" href="/posts/meetups/">
+              Meetups
+            </a>
+          </div>
+          <div class="navbar-end">
+            <a class="navbar-item is-inline-block-tablet" href="https://twitter.com/AustinJS">
+              <span class="icon tooltip" title="&ldquo;@AustinJS&rdquo; on Twitter">
+                <ion-icon class="is-size-3" src="/assets/ionicon/logo-twitter.svg"></ion-icon>
+              </span>
+              <span class="is-sr-only-desktop">Twitter: @AustinJS</span>
+            </a>
+            <a class="navbar-item is-inline-block-tablet" href="https://austinjavascript.slack.com">
+              <span class="icon tooltip" title="&ldquo;austinjavascript&rdquo; on Slack">
+                <ion-icon class="is-size-3" src="/assets/ionicon/logo-slack.svg"></ion-icon>
+              </span>
+              <span class="is-hidden-desktop">Slack: austinjavascript</span>
+            </a>
+            <a class="navbar-item is-inline-block-tablet" href="https://github.com/austinjavascript">
+              <span class="icon tooltip" title="&ldquo;austinjavascript&rdquo; on GitHub">
+                <ion-icon class="is-size-3" src="/assets/ionicon/logo-github.svg"></ion-icon>
+              </span>
+              <span class="is-hidden-desktop">GitHub: austinjavascript</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-45308206-4', 'auto');
+  ga('send', 'pageview');
+</script>
+<script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+</body>
+</html>

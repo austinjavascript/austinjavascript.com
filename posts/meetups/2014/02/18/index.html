@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en" class="has-background-white-ter">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Refactoring Big Apps • Austin JavaScript</title>
+  <meta name="description" content="This month we&#39;ll be hearing from Garann Means about refactoring big apps!
+It would be nice if developers could download a JavaScript framework, plug in the...">
+  <link rel=canonical href="https://austinjavascript.com/posts/meetups/2014/02/18/">
+  <link rel=alternate type=application/atom+xml href="https://austinjavascript.com/feed.xml" title="Austin JavaScript Atom feed" />
+  <link rel="apple-touch-icon" type="image/png" href="/assets/icon/favicon-ios.png" sizes="180x180">
+  <link rel="icon" type="image/png" href="/assets/icon/favicon-android.png" sizes="192x192">
+  <link rel="icon" type="image/png" href="/assets/icon/favicon.png" sizes="32x32">
+  <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+<body>
+  <header class="page-header hero is-primary">
+    <div class="hero-body is-paddingless">
+      <div class="container">
+        <div class="navbar" role="navigation" aria-label="main navigation">
+          <div class="navbar-brand">
+            <figure class="image is-96x96 logo">
+              <img src="/assets/icon/logo.svg" alt="logo">
+            </figure>
+            <a href="/" class="navbar-item title has-text-white is-size-1-tablet">
+              Austin JavaScript
+            </a>
+          </div>
+          <div class="navbar-menu is-size-4">
+            <div class="navbar-end">
+              <a class="navbar-item" href="/">
+                Home
+              </a>
+              <a class="navbar-item" href="/posts/meetups/">
+                Meetups
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  
+
+  <main class="page-main section has-background-white">
+    <div class="container">
+      <div class="columns is-variable is-8-desktop">
+  <div class="column is-two-thirds flex-container">
+    <h1 class="title flex-item">Refactoring Big Apps</h1>
+    <div class="content flex-item">
+      <p>This month we'll be hearing from <a href="https://twitter.com/garannm">Garann Means</a> about refactoring big apps!</p>
+<p>It would be nice if developers could download a JavaScript framework, plug in the custom logic required for their particular problem, and have a functional, scalable, and reliable application. As any who's tried can probably tell you, however, it doesn't work like that. It doesn't matter if your application has 5000 &quot;pages&quot; or less than 50 — it will eventually become a large application in terms of code, because size of code is not just a measure of the complexity of the app itself, but of its maturity. If you've tried taking an app from a minimal set of functionality to something complex enough to cover all the edge cases, you've probably done some rewriting.</p>
+<p>If you haven't, it's your lucky day! We'll talk about several of the ways you can almost guarantee a rewrite in your app's future. If, on the other hand, rewrites don't sound like that much fun to you, we'll also talk about how to avoid them or at least minimise the risk they present</p>
+<blockquote>
+<p>IMPORTANT: Location changed to Mass Relevance at 8th and Brazos, just up the street.</p>
+</blockquote>
+
+    </div>
+
+    <div class="message flex-item flex-item-0">
+  <div class="message-header">
+    Meetup details
+  </div>
+
+  <div class="message-body">
+    
+
+    <div>
+      DATE
+      <span class="icon has-text-grey-dark">
+        <ion-icon src="/assets/ionicon/calendar.svg"></ion-icon>
+      </span>
+      <time class="has-text-primary has-text-weight-bold" dateTime="2014-02-18">February 18, 2014</time>
+    </div>
+
+    <div>
+      TIME
+      <span class="icon has-text-grey-dark">
+        <ion-icon src="/assets/ionicon/alarm.svg"></ion-icon>
+      </span>
+      <time class="has-text-primary has-text-weight-bold" dateTime="15:30">7:30PM</time> -
+      <time class="has-text-primary has-text-weight-bold" dateTime="21:00">9:00PM</time>
+    </div>
+
+    <div>
+      LOCATION
+      <span class="icon has-text-grey-dark">
+        <ion-icon src="/assets/ionicon/location-sharp.svg"></ion-icon>
+      </span>
+      <strong class="has-text-primary">Mass Relevance</strong>
+      <em>(8th and Brazos, Austin, TX 78701)</em>
+    </div>
+
+    <p class="has-margin-top">
+      Afterwards, the discussion carries on at
+      <strong><a href="http://thegingerman.com/austin/">The Gingerman Austin</a></strong>
+      (301 Lavaca Street, Austin, TX 78701).
+    </p>
+
+    <p class="has-margin-top">
+      Check back here or <a href="https://twitter.com/AustinJS">@AustinJS on Twitter</a> for updates.
+    </p>
+  </div>
+</div>
+
+    
+  </div>
+
+  <div class="column has-offset-top">
+    
+    <h2 class="title is-sr-only">Speaker</h2>
+
+    
+    <div class="has-offset-top">
+      <div class="card">
+  <div class="card-content">
+    <div class="media">
+      <div class="media-left">
+        <figure class="image is-96x96 has-background-grey-lighter">
+          <img src="https://pbs.twimg.com/profile_images/901849231098601472/F13h9cit_400x400.jpg" alt="Garann Means" loading="lazy">
+        </figure>
+      </div>
+      <div class="media-content">
+        <p class="title is-size-5">Garann Means</p>
+        <p class="subtitle is-6 has-text-weight-semibold is-marginless-bottom"></p>
+        <div>
+          
+
+
+<a class="icon tooltip" href="http://garann.com" title="Home: http://garann.com">
+  <ion-icon class="is-size-3" src="/assets/ionicon/home.svg"><i class="is-sr-only">homepage</i></ion-icon>
+</a>
+
+
+
+<a class="icon tooltip" href="https://twitter.com/garannm" title="Twitter: garannm">
+  <ion-icon class="is-size-3" src="/assets/ionicon/logo-twitter.svg"><i class="is-sr-only">Twitter</i></ion-icon>
+</a>
+
+
+
+
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="card-footer">
+    <div class="card-footer-item">
+      <div class="content">
+        <p>Garann is a JavaScript and front-end developer. She writes about web technologies and communities on <a href="http://garann.com">her own blog</a> as well as contributing articles to other technical publications, and is the author of “Node for Front-End Developers” from O’Reilly. She’s taught classes on many of the same topics she writes about, and sometimes organizes events for other developers.</p>
+
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+    </div>
+    
+  </div>
+</div>
+
+
+
+
+
+<div class="columns is-variable is-8-desktop">
+  <div class="column is-two-thirds">
+    <div class="box is-8 content">
+      <h3>Sponsor</h3>
+
+      
+      <figure class="image sponsor-logo">
+        <img src="https://cldup.com/hiDy3BLvwp-3000x3000.png" alt="Sponsored by: Mass Relevance">
+      </figure>
+      
+
+      
+      <div>
+        <p>AustinJS is sponsored this month by <a href="http://www.massrelevance.com/">Mass Relevance</a>, so if you enjoy a slice of pizza or a drink at the meetup then be sure to thank them. Better yet, if you’re a developer looking for a job, check out <a href="http://www.massrelevance.com/about/careers">careers at Mass Relevance</a> or chat with one of their engineers at the meetup.</p>
+
+      </div>
+      
+
+      
+    </div>
+  </div>
+</div>
+
+
+<div class="columns is-variable is-8 has-offset-top">
+  
+  
+  <div class="column">
+    
+    <a href="/posts/meetups/2014/01/21/">← Release the Kraken: A Story of Node.js in the Enterprise</a>
+    
+  </div>
+
+  <div class="column has-text-right">
+    
+    <a href="/posts/meetups/2014/04/15/">The Power of M + Web Components →</a>
+    
+  </div>
+</div>
+
+
+      <p class="content has-text-right-desktop" style="font-size: 14px; margin-bottom: -2rem;">
+        <a href="https://github.com/austinjavascript/austinjavascript.github.io/blob/master/./_meetups/2014-02-18-meetup.md">Edit this page</a>
+      </p>
+    </div>
+  </main>
+
+  <footer class="page-footer footer has-background-white-ter has-offset-top">
+    <div class="container">
+      <div class="navbar has-background-white-ter">
+        <div class="navbar-menu is-active">
+          <div class="navbar-start">
+            <a class="navbar-item" href="/">
+              &copy; 2020 Austin JavaScript
+            </a>
+            <a class="navbar-item" href="/about/">
+              About
+            </a>
+            <a class="navbar-item" href="/code-of-conduct/">
+              Code of Conduct
+            </a>
+            <a class="navbar-item" href="/contributing/">
+              Contributing
+            </a>
+            <a class="navbar-item" href="/posts/">
+              Posts
+            </a>
+            <a class="navbar-item is-hidden-desktop" href="/posts/meetups/">
+              Meetups
+            </a>
+          </div>
+          <div class="navbar-end">
+            <a class="navbar-item is-inline-block-tablet" href="https://twitter.com/AustinJS">
+              <span class="icon tooltip" title="&ldquo;@AustinJS&rdquo; on Twitter">
+                <ion-icon class="is-size-3" src="/assets/ionicon/logo-twitter.svg"></ion-icon>
+              </span>
+              <span class="is-sr-only-desktop">Twitter: @AustinJS</span>
+            </a>
+            <a class="navbar-item is-inline-block-tablet" href="https://austinjavascript.slack.com">
+              <span class="icon tooltip" title="&ldquo;austinjavascript&rdquo; on Slack">
+                <ion-icon class="is-size-3" src="/assets/ionicon/logo-slack.svg"></ion-icon>
+              </span>
+              <span class="is-hidden-desktop">Slack: austinjavascript</span>
+            </a>
+            <a class="navbar-item is-inline-block-tablet" href="https://github.com/austinjavascript">
+              <span class="icon tooltip" title="&ldquo;austinjavascript&rdquo; on GitHub">
+                <ion-icon class="is-size-3" src="/assets/ionicon/logo-github.svg"></ion-icon>
+              </span>
+              <span class="is-hidden-desktop">GitHub: austinjavascript</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-45308206-4', 'auto');
+  ga('send', 'pageview');
+</script>
+<script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+</body>
+</html>
