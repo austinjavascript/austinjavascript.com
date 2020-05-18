@@ -1,11 +1,8 @@
 ---
 layout: meetup
 title:
-author:
-categories:
-  - posts
-  - meetups
-when: 2020-04-01T19:30:00-05:00
+slides:
+video:
 speakers:
   - name:
     title:

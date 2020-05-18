@@ -1,0 +1,35 @@
+---
+layout: base
+---
+<div class="columns is-variable is-8-desktop">
+  <div class="column is-two-thirds flex-container">
+    <h1 class="title flex-item">{{ title }}</h1>
+
+    <div class="content flex-item">
+      {{ content | safe }}
+    </div>
+  </div>
+
+  <div class="column has-offset-top">
+    <h2 class="title is-sr-only"></h2>
+
+    <div class="has-offset-top">
+    </div>
+  </div>
+</div>
+
+<div class="columns is-variable is-8 has-offset-top">
+  {% set nextPost = collections.posts | getNextCollectionItem(page) %}
+  {% set previousPost = collections.posts | getPreviousCollectionItem(page) %}
+  <div class="column">
+    {% if previousPost %}
+    <a href="{{ previousPost.url | url }}">← {{ previousPost.data.title }}</a>
+    {% endif %}
+  </div>
+
+  <div class="column has-text-right">
+    {% if nextPost %}
+    <a href="{{ nextPost.url | url }}">{{ nextPost.data.title }} →</a>
+    {% endif %}
+  </div>
+</div>
