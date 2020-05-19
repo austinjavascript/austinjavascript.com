@@ -9,24 +9,24 @@
 <h2>Editing</h2>
 <p>There are two ways to edit an existing post:</p>
 <ol>
-<li>Directly edit <a href="https://github.com/austinjavascript/austinjavascript.github.io/tree/master/_posts">post files</a> online and submit Pull Request.</li>
+<li>Directly edit <a href="https://github.com/austinjavascript/austinjavascript.com/tree/master/_posts">post files</a> online and submit Pull Request.</li>
 <li>Clone the repo locally (see next section), edit/save, git commit/push, and then open a Pull Request.</li>
 </ol>
 <h2>Creating</h2>
 <h3>Setup local environment</h3>
 <ol>
 <li>
-<p>Fork the <a href="https://github.com/austinjavascript/austinjavascript.github.io/">Austin JavaScript GitHub</a> repo to your org.</p>
+<p>Fork the <a href="https://github.com/austinjavascript/austinjavascript.com/">Austin JavaScript GitHub</a> repo to your org.</p>
 </li>
 <li>
 <p>Clone your repo to a local directory, replacing <code>{my-username}</code> below with your username.</p>
-<pre><code class="language-sh">git clone https://github.com/{my-username}/austinjavascript.github.io.git
-cd austinjavascript.github.io
+<pre><code class="language-sh">git clone https://github.com/{my-username}/austinjavascript.com.git
+cd austinjavascript.com
 </code></pre>
 </li>
 <li>
 <p>Set the <code>upstream</code> remote repo to &quot;austinjavascript&quot;. (If you look at <code>.git/config</code>, you should see that your fork is the <code>origin</code> remote.)</p>
-<pre><code class="language-sh">git remote add upstream https://github.com/austinjavascript/austinjavascript.github.io.git
+<pre><code class="language-sh">git remote add upstream https://github.com/austinjavascript/austinjavascript.com.git
 </code></pre>
 </li>
 <li>
@@ -86,6 +86,7 @@ organizers:
   - {key to people data}
 ---
 </code></pre>
+  <!-- markdownlint-disable md023 -->
 <h4>YAML tips</h4>
 <blockquote>
 <p>NOTE: <code>speakers</code> is a YAML array, so each <code>name</code> should be preceded by a dash. For example:</p>
@@ -161,4 +162,4 @@ venue: ...
 git commit -m &quot;Add new meetup post&quot;
 git push origin new-post
 </code></pre>
-<p>Open your browser to the <a href="https://www.github.com/austinjavascript/austinjavascript.github.io/">austinjavascript.github.io</a> repo (or your fork) and open a Pull Request.</p>
+<p>Open your browser to the <a href="https://www.github.com/austinjavascript/austinjavascript.com/">austinjavascript.com</a> repo (or your fork) and open a Pull Request.</p>
