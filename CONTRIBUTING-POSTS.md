@@ -12,25 +12,25 @@ On this page:
 
 There are two ways to edit an existing post:
 
-1. Directly edit [post files](https://github.com/austinjavascript/austinjavascript.github.io/tree/master/_posts) online and submit Pull Request.
+1. Directly edit [post files](https://github.com/austinjavascript/austinjavascript.com/tree/master/_posts) online and submit Pull Request.
 1. Clone the repo locally (see next section), edit/save, git commit/push, and then open a Pull Request.
 
 ## Creating
 
 ### Setup local environment
 
-1. Fork the [Austin JavaScript GitHub](https://github.com/austinjavascript/austinjavascript.github.io/) repo to your org.
+1. Fork the [Austin JavaScript GitHub](https://github.com/austinjavascript/austinjavascript.com/) repo to your org.
 1. Clone your repo to a local directory, replacing `{my-username}` below with your username.
 
     ```sh
-    git clone https://github.com/{my-username}/austinjavascript.github.io.git
-    cd austinjavascript.github.io
+    git clone https://github.com/{my-username}/austinjavascript.com.git
+    cd austinjavascript.com
     ```
 
 1. Set the `upstream` remote repo to "austinjavascript". (If you look at `.git/config`, you should see that your fork is the `origin` remote.)
 
     ```sh
-    git remote add upstream https://github.com/austinjavascript/austinjavascript.github.io.git
+    git remote add upstream https://github.com/austinjavascript/austinjavascript.com.git
     ```
 
 2. Create a new git branch for your work.
@@ -101,6 +101,7 @@ Open the [Markdown](https://commonmark.org/) file and notice the file structure.
     ---
     ```
 
+    <!-- markdownlint-disable md023 -->
     #### YAML tips
 
     > NOTE: `speakers` is a YAML array, so each `name` should be preceded by a dash. For example:
@@ -192,4 +193,4 @@ git commit -m "Add new meetup post"
 git push origin new-post
 ```
 
-Open your browser to the [austinjavascript.github.io](https://www.github.com/austinjavascript/austinjavascript.github.io/) repo (or your fork) and open a Pull Request.
+Open your browser to the [austinjavascript.com](https://www.github.com/austinjavascript/austinjavascript.com/) repo (or your fork) and open a Pull Request.
