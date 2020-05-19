@@ -33,7 +33,7 @@ meta:
 
       <section class="section">
         <h3>Past speakers and talks</h3>
-        {% for meetup in collections.meetups %}
+        {% for meetup in collections.meetups | reverse %}
         {% for speaker in meetup.data.speakers %}
         {% if speaker.name and speaker.avatar %}
         <figure class="pic">
