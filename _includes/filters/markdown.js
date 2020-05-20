@@ -16,5 +16,5 @@ module.exports = (content) => {
     return md.render(content);
   }
 
-  return content;
+  return '';
 };
