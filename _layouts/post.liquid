@@ -1,0 +1,16 @@
+---
+layout: base
+---
+<div class="columns is-variable is-8-desktop">
+  <div class="column is-two-thirds flex-container">
+    <h1 class="title flex-item">{{ title }}</h1>
+
+    <div class="content flex-item">
+      {{ content | safe }}
+    </div>
+  </div>
+</div>
+
+{%- assign nextPost = collections.posts | getNextCollectionItem: page -%}
+{%- assign previousPost = collections.posts | getPreviousCollectionItem: page -%}
+{%- include nav-posts.liquid -%}

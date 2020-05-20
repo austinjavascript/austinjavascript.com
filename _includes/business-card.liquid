@@ -3,19 +3,19 @@
     <div class="media">
       <div class="media-left">
         <figure class="image is-96x96 has-background-grey-lighter">
-          <img src="{{ person.avatar }}" alt="{{ person.name }}" loading="lazy">
+          {%- avatar person.avatar, person.name -%}
         </figure>
       </div>
       <div class="media-content">
         <p class="title is-size-5">{{ person.name }}</p>
         <p class="subtitle is-6 has-text-weight-semibold is-marginless-bottom">{{ person.title | markdown | safe }}</p>
         <div>
-          {% include 'social-links.njk' %}
+          {%- include social-links.liquid -%}
         </div>
       </div>
     </div>
   </div>
-  {% if person.bio %}
+  {%- if person.bio -%}
   <div class="card-footer">
     <div class="card-footer-item">
       <div class="content">
@@ -23,5 +23,5 @@
       </div>
     </div>
   </div>
-  {% endif %}
+  {%- endif -%}
 </div>

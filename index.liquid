@@ -10,8 +10,8 @@ meta:
       <h1 class="is-sr-only">{{ title }}</h1>
 
       <section class="meetup-details">
-        {% set meet = collections.meetups | last %}
-        {% meetupDetails meet.date, meet.data.venue, meet.data.after, 'Upcoming meetup details', meet.data.title, meet.url | url %}
+        {%- assign meet = collections.meetups | last -%}
+        {%- meetupDetails meet.date, meet.data.venue, meet.data.after, 'Upcoming meetup details', meet.data.title, meet.url -%}
 
         <meta id="meet-date" time="{{ meet.date }}">
         <script>
@@ -31,19 +31,20 @@ meta:
         <p>We work hard to build a community that treats people with excellence. We've formalized this in the <a href="{{ '/code-of-conduct/' | url }}">Austin JavaScript Code of Conduct</a>.</p>
       </section>
 
+      {%- assign meetups = collections.meetups | reverse -%}
       <section class="section">
         <h3>Past speakers and talks</h3>
-        {% for meetup in collections.meetups | reverse %}
-        {% for speaker in meetup.data.speakers %}
-        {% if speaker.name and speaker.avatar %}
+        {%- for meetup in meetups -%}
+        {%- for speaker in meetup.data.speakers -%}
+        {%- if speaker.name and speaker.avatar -%}
         <figure class="pic">
           <a class="tooltip" href="{{ meetup.url | url }}" title="{{ speaker.name }}: &quot;{{ meetup.data.title }}&quot;">
-            <img class="is-rounded" src="{{ speaker.avatar }}" alt="{{ speaker.name }}" loading="lazy">
+            {%- avatar speaker.avatar, speaker.name, 'is-rounded' -%}
           </a>
         </figure>
-        {% endif %}
-        {% endfor %}
-        {% endfor %}
+        {%- endif -%}
+        {%- endfor -%}
+        {%- endfor -%}
       </section>
     </div>
   </div>
@@ -52,9 +53,9 @@ meta:
     <div class="content">
       <h3>Recent meetups</h3>
       <ul>
-        {% for post in collections.meetups | reverse | limitTo(5) %}
+        {%- for post in meetups limit: 5 -%}
         <li><a href="{{ post.url | url }}">{{ post.data.title }}</a></li>
-        {% endfor %}
+        {%- endfor -%}
       </ul>
       <p><a href="{{ '/posts/meetups/' | url }}">More in archive...</a></p>
     </div>

@@ -72,13 +72,13 @@ meta:
       <h2 class="is-sr-only">Organizers</h2>
       <p>If you are interested in contributing, please contact one of our friendly Organizers:</p>
     </div>
-
-    {% for key, person in people %}
-    {% if person.status == 'active' %}
+    {%- for key in people -%}
+    {%- assign person = key[1] -%}
+    {%- if person.status == 'active' -%}
     <div class="brick">
-      {% include 'business-card.njk' %}
+      {%- include business-card.liquid -%}
     </div>
-    {% endif %}
-    {% endfor %}
+    {%- endif -%}
+    {%- endfor -%}
   </div>
 </div>
