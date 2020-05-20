@@ -1,31 +1,35 @@
 ---
 layout: base
-title: Meetup archive
+title: Posts archive
 meta:
-  description: An archive of past Austin JavaScript meetups.
+  description: An archive of past Austin JavaScript posts and meetups.
 ---
 <div class="content">
   <h1>{{ title }}</h1>
   <p>{{ meta.description }}</p>
 
   <ul>
-    {% for post in collections.meetups | reverse %}
+    {%- assign posts = collections.posts | reverse -%}
+    {%- for post in posts -%}
     <li>
       <a href="{{ post.url | url }}">
-        {{ post.inputPath.substring(11, 21) }}:
+        {{ post.inputPath | replace: './_meetups/', '' | replace: './_posts/', '' | slice: 0, 10 }}:
         <span class="has-text-weight-semibold">{{ post.data.title }}</span>
-        {% if post.data.video %}
+        {%-  if post.fileSlug != 'meetup' -%}
+        {{ ' [post]' }}
+        {%- endif -%}
+        {%- if post.data.video -%}
         <span class="icon tooltip" title="video available">
           <ion-icon src="{{ '/assets/ionicon/videocam.svg' | url }}"></ion-icon>
         </span>
-        {% endif %}
-        {% if post.data.slides %}
+        {%- endif -%}
+        {%- if post.data.slides -%}
         <span class="icon tooltip" title="slides available">
           <ion-icon src="{{ '/assets/ionicon/albums.svg' | url }}"></ion-icon>
         </span>
-        {% endif %}
+        {%- endif -%}
       </a>
     </li>
-    {% endfor %}
+    {%- endfor -%}
   </ul>
 </div>

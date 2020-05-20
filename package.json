@@ -1,13 +1,12 @@
 {
   "name": "AustinJavaScript.com",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "description": "",
   "scripts": {
     "build:css": "node-sass _sass/_main.scss _site/assets/css/main.css --output-style compressed",
     "build": "npm run clean && eleventy && npm run build:css",
     "clean": "rm -rf ./_site",
     "debug": "DEBUG=Eleventy* eleventy",
-    "deploy": "npm run build && gh-pages -d _site",
     "lint:js": "eslint --fix .eleventy.js ./_includes/*.js",
     "lint:md": "markdownlint --fix ./_posts/*.md ./_meetups/*.md",
     "lint": "npm run lint:js && npm run lint:md",
@@ -26,12 +25,12 @@
   },
   "devDependencies": {
     "@11ty/eleventy": "^0.11.0",
+    "@11ty/eleventy-img": "^0.2.5",
     "@11ty/eleventy-plugin-rss": "^1.0.7",
     "bulma": "^0.8.2",
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.1.0",
     "eslint-plugin-import": "^2.20.2",
-    "gh-pages": "^2.2.0",
     "markdownlint": "^0.20.2",
     "markdownlint-cli": "^0.22.0",
     "node-sass": "^4.14.0"

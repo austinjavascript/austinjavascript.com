@@ -36,13 +36,14 @@ meta:
         <p>If you come across the following people, kindly open the door for them, help them to their seat, and thank them for their many years of service. They helped make Austin JavaScript what it is today.</p>
       </div>
       <div class="bricks-flex">
-        {% for key, person in people %}
-        {% if person.status == 'emeriti' %}
+        {%- for key in people -%}
+        {%- assign person = key[1] -%}
+        {%- if person.status == 'emeriti' -%}
         <div class="brick">
-          {% include 'business-card.njk' %}
+          {%- include business-card.liquid -%}
         </div>
-        {% endif %}
-        {% endfor %}
+        {%- endif -%}
+        {%- endfor -%}
       </div>
     </div>
   </div>
@@ -53,13 +54,14 @@ meta:
         <h2>The Organizers</h2>
         <p>Austin JavaScript is made possible by the hard work and goodwill of many people, but there are a few in particular that you should feel free to reach out to if you’ve got any questions:</p>
       </div>
-      {% for key, person in people %}
-      {% if person.status == 'active' %}
+      {%- for key in people -%}
+      {%- assign person = key[1] -%}
+      {%- if person.status == 'active' -%}
       <div class="brick">
-        {% include 'business-card.njk' %}
+        {%- include business-card.liquid -%}
       </div>
-      {% endif %}
-      {% endfor %}
-    </div>
+      {%- endif -%}
+      {%- endfor -%}
+      </div>
   </div>
 </div>

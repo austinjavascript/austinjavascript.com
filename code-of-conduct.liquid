@@ -39,11 +39,12 @@ meta:
       <h3>Need help?</h3>
       <p>Contact an organizer in person or via e-mail:</p>
       <ul>
-        {% for key, person in people %}
-        {% if person.status == 'active' %}
+        {%- for key in people -%}
+        {%- assign person = key[1] -%}
+        {%- if person.status == 'active' -%}
         <li>{{ person.name }}: <a href="mailto:{{ person.email }}">{{ person.email }}</a></li>
-        {% endif %}
-        {% endfor %}
+        {%- endif -%}
+        {%- endfor -%}
       </ul>
     </div>
   </div>

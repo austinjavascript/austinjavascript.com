@@ -1,10 +1,9 @@
 const fs = require('fs');
 const pluginRss = require('@11ty/eleventy-plugin-rss');
 const sassWatch = require('./_includes/sass-watch');
-const filterFullDate = require('./_includes/filters/full-date');
-const filterLimitTo = require('./_includes/filters/limit-to');
 const filterMarkdown = require('./_includes/filters/markdown');
 const filterRegexReplace = require('./_includes/filters/regex-replace');
+const scAvatar = require('./_includes/shortcodes/avatar');
 const scMeetupDetails = require('./_includes/shortcodes/meetup-details');
 const scVideoPlayer = require('./_includes/shortcodes/video-player');
 
@@ -52,12 +51,6 @@ module.exports = (eleventyConfig) => {
     return addFileDates(posts);
   });
 
-  // FILTER: Convert dates to MMMM D, YYYY format.
-  eleventyConfig.addFilter('fullDate', filterFullDate);
-
-  // FILTER: Limit collection length.
-  eleventyConfig.addFilter('limitTo', filterLimitTo);
-
   // FILTER: Run content thru Markdown-it.
   eleventyConfig.addFilter('markdown', filterMarkdown);
 
@@ -69,6 +62,9 @@ module.exports = (eleventyConfig) => {
 
   // SHORTCODE: Embed video players for event replay.
   eleventyConfig.addShortcode('videoPlayer', scVideoPlayer);
+
+  // SHORTCODE: Resize and cache images.
+  eleventyConfig.addLiquidShortcode('avatar', scAvatar);
 
   // PLUGIN: RSS feed
   eleventyConfig.addPlugin(pluginRss);
@@ -98,12 +94,12 @@ module.exports = (eleventyConfig) => {
       layouts: './_layouts',
     },
     templateFormats: [
-      'njk',
       'liquid',
+      'njk',
       'md',
       'html',
     ],
-    htmlTemplateEngine: 'njk',
-    dataTemplateEngine: 'njk',
+    htmlTemplateEngine: 'liquid',
+    dataTemplateEngine: 'liquid',
   };
 };

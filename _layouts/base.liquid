@@ -3,8 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{% if title != site.title %}{{ title }} • {% endif %}{{ site.title }}</title>
-  <meta name="description" content="{{ meta.description if meta.description else layoutContent | striptags(true) | regexReplace('^.+\n\n', '') | truncate(160) }}">
+  <title>{%- if title != site.title -%}{{ title }} • {%- endif -%}{{ site.title }}</title>
+  {%- if meta.description -%}{%- assign desc = meta.description -%}{%- else -%}{%- assign desc = layoutContent -%}{%- endif -%}
+  <meta name="description" content="{{ desc | striptags(true) | regexReplace('^.+\n\n', '') | truncate(160) }}">
   <link rel=canonical href="{{ site.url }}{{ page.url | url }}">
   <link rel=alternate type=application/atom+xml href="{{ site.url }}{{ '/feed.xml' | url }}" title="{{ site.title }} Atom feed" />
   <link rel="apple-touch-icon" type="image/png" href="{{ '/assets/icon/favicon-ios.png' | url }}" sizes="180x180">
@@ -40,13 +41,13 @@
     </div>
   </header>
 
-  {% if page.url == '/' %}
+  {%- if page.url == '/' -%}
   <section class="hero">
     <figure class="image">
       <img src="{{ '/assets/img/carlos-alfonso-AlBgcDfDG_s-unsplash_3by1-prog1.jpg' | url }}" alt="Austin skyline" title="Photo by Carlos Alfonso on Unsplash" loading="lazy">
     </figure>
   </section>
-  {% endif %}
+  {%- endif -%}
 
   <main class="page-main section has-background-white">
     <div class="container">
@@ -64,7 +65,7 @@
         <div class="navbar-menu is-active">
           <div class="navbar-start">
             <a class="navbar-item" href="{{ '/' | url }}">
-              &copy; {{ app.now.getFullYear() }} Austin JavaScript
+              &copy; {{ app.now | date: "%Y" }} Austin JavaScript
             </a>
             <a class="navbar-item" href="{{ '/about/' | url }}">
               About
@@ -107,7 +108,7 @@
     </div>
   </footer>
   {%- if app.environment != 'dev' -%}
-  {% include 'ga.html' %}
+  {%- include ga.html -%}
   {%- endif -%}
   <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
 </body>
