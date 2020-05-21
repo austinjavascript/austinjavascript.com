@@ -4,8 +4,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{%- if title != site.title -%}{{ title }} • {%- endif -%}{{ site.title }}</title>
-  {%- if meta.description -%}{%- assign desc = meta.description -%}{%- else -%}{%- assign desc = layoutContent -%}{%- endif -%}
-  <meta name="description" content="{{ desc | striptags(true) | regexReplace('^.+\n\n', '') | truncate(160) }}">
+  {%- if meta.description -%}
+    {%- assign desc = meta.description -%}
+  {%- else -%}
+    {%- assign desc = layoutContent | regexReplace: '<h1 class="title flex-item">.*</h1>', '' | strip_html | regexReplace: '\s{2,}', ' ' | truncate: 160 -%}
+  {%- endif %}
+  <meta name="description" content="{{ desc }}">
   <link rel=canonical href="{{ site.url }}{{ page.url | url }}">
   <link rel=alternate type=application/atom+xml href="{{ site.url }}{{ '/feed.xml' | url }}" title="{{ site.title }} Atom feed" />
   <link rel="apple-touch-icon" type="image/png" href="{{ '/assets/icon/favicon-ios.png' | url }}" sizes="180x180">

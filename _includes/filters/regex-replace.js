@@ -8,9 +8,10 @@
  *
  */
 module.exports = (content, rePattern, replacement) => {
-  if (!(replacement && rePattern)) return content;
+  if (replacement === undefined || rePattern === undefined) return content;
 
   const re = new RegExp(rePattern, 'g');
+
 
   return content.replace(re, replacement);
 };
