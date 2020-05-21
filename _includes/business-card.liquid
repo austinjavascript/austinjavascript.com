@@ -8,7 +8,7 @@
       </div>
       <div class="media-content">
         <p class="title is-size-5">{{ person.name }}</p>
-        <p class="subtitle is-6 has-text-weight-semibold is-marginless-bottom">{{ person.title | markdown | safe }}</p>
+        <div class="subtitle is-6 has-text-weight-semibold is-marginless-bottom">{{ person.title | markdown | safe }}</div>
         <div>
           {%- include social-links.liquid -%}
         </div>
