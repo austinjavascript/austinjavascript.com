@@ -16,6 +16,8 @@
   <link rel="icon" type="image/png" href="{{ '/assets/icon/favicon-android.png' | url }}" sizes="192x192">
   <link rel="icon" type="image/png" href="{{ '/assets/icon/favicon.png' | url }}" sizes="32x32">
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | url }}">
+  <script type="module" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule="" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.js"></script>
 </head>
 <body>
   <header class="page-header hero is-primary">
@@ -114,6 +116,5 @@
   {%- if app.environment != 'dev' -%}
   {%- include ga.html -%}
   {%- endif -%}
-  <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
 </body>
 </html>
