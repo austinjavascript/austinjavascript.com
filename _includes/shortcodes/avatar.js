@@ -11,13 +11,14 @@ module.exports = async (src, alt, className, outputFormat = 'jpeg') => {
     const stats = await Image(src, {
       cacheDuration: '12w',
       formats: [outputFormat],
+      urlPath: '/assets/avatar/',
       outputDir: '_site/assets/avatar/',
       widths: [96],
     });
 
     const props = stats[outputFormat].pop();
 
-    return `<img ${classAttr} src="${props.outputPath.replace('_site', '')}" alt="${alt}" loading="lazy">`;
+    return `<img ${classAttr} src="${props.url}" alt="${alt}" loading="lazy">`;
   } catch (err) {
     // eslint-disable-next-line no-console
     console.error(err);
