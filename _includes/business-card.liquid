@@ -2,7 +2,11 @@
   <div class="card-content">
     <div class="media">
       <div class="media-left">
+        {%- if size == 'small' -%}
+        <figure class="image is-64x64 has-background-grey-lighter">
+        {%- else -%}
         <figure class="image is-96x96 has-background-grey-lighter">
+        {%- endif -%}
           {%- avatar person.avatar, person.name -%}
         </figure>
       </div>
