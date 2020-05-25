@@ -29,7 +29,7 @@ layout: base
 
     {%- for person in speakers -%}
     <div class="has-offset-top">
-      {%- include business-card.liquid -%}
+      {%- include business-card -%}
     </div>
     {%- endfor -%}
   </div>
@@ -76,4 +76,4 @@ layout: base
 
 {%- assign nextPost = collections.meetups | getNextCollectionItem: page -%}
 {%- assign previousPost = collections.meetups | getPreviousCollectionItem: page -%}
-{%- include nav-posts.liquid -%}
+{%- include nav-posts -%}
