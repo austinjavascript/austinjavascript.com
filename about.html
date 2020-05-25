@@ -1,0 +1,87 @@
+---
+layout: base
+title: About
+meta:
+  description: Austin JavaScript is a community that meets regularly in Austin, Texas, to discuss JavaScript and the open web.
+---
+<div class="columns is-variable is-8-desktop">
+  <div class="column is-two-thirds">
+    <div class="content">
+      <h1>About us</h1>
+      <p>We are a JavaScript community that meets regularly in Austin, Texas, to discuss a wide range of topics, including:</p>
+      <ul>
+        <li>The JavaScript language</li>
+        <li>JavaScript application frameworks</li>
+        <li>Server and client-side JavaScript</li>
+        <li>JavaScript on other people's sites</li>
+        <li>Testing</li>
+        <li>DevOps</li>
+        <li>Cryptography</li>
+        <li>How CSS colors got their names</li>
+        <li>JavaScript position openings</li>
+      </ul>
+      <p>The group started back in 2009 and has been going strong ever since. For a taste of our rich history, take a peak at the <a href="/posts/meetups/">meetup archives</a>—they're full of videos and fascinating characters.</p>
+
+      <h2>Meetings</h2>
+      <p>We typically meet on the 3<sup>rd</sup> Tuesday of each month somewhere deep in the heart of Austin, Texas — typically downtown. We’ll have a speaker or two, open things up for questions and discussion, and then head to a nearby watering hole to continue the networking and the conversations.</p>
+
+      <h2>Excellence</h2>
+      <p>We work hard to build a community of good natured and helpful people that treat each other with <em>excellence</em>. We’ve formalized what this means into our <a href="/code-of-conduct/">Code of Conduct</a>.</p>
+
+      <h2>Colophon</h2>
+      <p>Austin JavaScript is powered by &lt;surprise!&gt; JavaScript! This website is kept humming by a great many spectacular moving parts. Here are but a few:</p>
+      <ul>
+        <li>Static site generator: <a href="https://11ty.dev/">Eleventy (11ty)</a></li>
+        <li>Templating language: <a href="https://liquidjs.com/">LiquidJS</a></li>
+        <li>Image resizing/caching: <a href="https://11ty/eleventy-img/">@11ty/eleventy-img</a></li>
+        <li>CSS framework: <a href="https://bulma.io/">Bulma</a></li>
+        <li>Stylesheet preprocessor: <a href="https://sass-lang.com/">Sass</a>, <a href="https://github.com/sass/node-sass">node-sass</a></li>
+        <li>Icons: <a href="https://ionicons.com/">Ionicons</a></li>
+        <li>JavaScript linting: <a href="https://eslint.org">ESLint</a>, <a href="https://www.npmjs.com/package/eslint-config-airbnb-base">Airbnb config</a></li>
+        <li>Markdown linting: <a href="https://github.com/DavidAnson/markdownlint">MarkdownLint</a></li>
+        <li>Source code versioning, CI/CD, web site hosting: <a href="https://github.com/austinjavascript/austinjavascript.com/">GitHub</a></li>
+      </ul>
+    </div>
+
+    <div class="has-offset-top-3 has-border-top">
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="has-offset-top-2">
+      <div class="content">
+        <h2>Organizers</h2>
+        <p>Austin JavaScript is made possible by the goodwill and hard work of a great many people. Please reach out to the following folks if you have any questions or want to <a href="{{ '/contributing/' | url }}">get more involved</a>.</p>
+      </div>
+
+      <div class="bricks-flex">
+        {%- for key in people -%}
+        {%- assign person = key[1] -%}
+        {%- if person.status == 'active' -%}
+        <div class="brick">
+          {%- include business-card, size: 'small' -%}
+        </div>
+        {%- endif -%}
+        {%- endfor -%}
+      </div>
+    </div>
+
+    <div class="has-offset-top">
+      <div class="content">
+        <h2>Emeriti</h2>
+        <p>These past leaders helped make Austin JavaScript what it is today.</p>
+      </div>
+
+      <div class="bricks-flex">
+        {%- for key in people -%}
+        {%- assign person = key[1] -%}
+        {%- if person.status == 'emeriti' -%}
+        <div class="brick">
+          {%- include business-card, size: 'small' -%}
+        </div>
+        {%- endif -%}
+        {%- endfor -%}
+      </div>
+    </div>
+  </div>
+</div>

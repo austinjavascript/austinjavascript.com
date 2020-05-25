@@ -2,7 +2,11 @@
   <div class="card-content">
     <div class="media">
       <div class="media-left">
+        {%- if size == 'small' -%}
+        <figure class="image is-64x64 has-background-grey-lighter">
+        {%- else -%}
         <figure class="image is-96x96 has-background-grey-lighter">
+        {%- endif -%}
           {%- avatar person.avatar, person.name -%}
         </figure>
       </div>
@@ -10,7 +14,7 @@
         <p class="title is-size-5">{{ person.name }}</p>
         <div class="subtitle is-6 has-text-weight-semibold is-marginless-bottom">{{ person.title | markdown | safe }}</div>
         <div>
-          {%- include social-links.liquid -%}
+          {%- include social-links -%}
         </div>
       </div>
     </div>

@@ -13,6 +13,10 @@ $info: $tetradic1;
 
 // @import "../node_modules/bulma/sass/utilities/_all.sass";
 @import "../node_modules/bulma/sass/utilities/initial-variables.sass";
+
+$scheme-main: $white-ter;
+$footer-background-color: $white-ter;
+
 @import "../node_modules/bulma/sass/utilities/functions.sass";
 @import "../node_modules/bulma/sass/utilities/derived-variables.sass";
 // @import "../node_modules/bulma/sass/utilities/animations.sass";
