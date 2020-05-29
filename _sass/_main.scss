@@ -107,10 +107,7 @@ $footer-background-color: $white-ter;
   }
 }
 
-/*
- * BUSINESS CARD ADJUSTMENTS
- */
-
+// BUSINESS CARD ADJUSTMENTS
 .card,
 .footer {
    // Add rounded edges to Bulma .image class inside a .card.
@@ -121,7 +118,7 @@ $footer-background-color: $white-ter;
  }
 
 /*
- * BULMA +
+ * BULMA EXTENDED/INSPIRED
  */
 
 @media screen and (min-width: $desktop) {
@@ -174,15 +171,6 @@ $footer-background-color: $white-ter;
 
 .is-marginless-bottom {
   margin-bottom: 0 !important;
-}
-
-.logo {
-  transform: scale(0.9) translateY(0.25em);
-}
-
-.sponsor-logo {
-  max-width: 17vw;
-  min-width: 10em;
 }
 
 /*
@@ -238,6 +226,24 @@ $footer-background-color: $white-ter;
   img {
     border-radius: 5px;
   }
+}
+
+/*
+ * misc
+ */
+
+.logo {
+  transform: scale(0.9) translateY(0.25em);
+}
+
+.sponsor-logo {
+  max-width: 17vw;
+  min-width: 10em;
+}
+
+.edit-page {
+  font-size: 0.875rem;
+  margin-bottom: -2rem;
 }
 
 /*

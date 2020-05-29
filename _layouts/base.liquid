@@ -7,12 +7,12 @@
   <link rel="icon" type="image/png" href="{{ '/assets/icon/favicon-android.png' | url }}" sizes="192x192">
   <link rel="icon" type="image/png" href="{{ '/assets/icon/favicon.png' | url }}" sizes="32x32">
   {%- capture pageTitle -%}
-  {% if title != site.title %}{{ title }} • {% endif %}{{ site.title }}
+    {% if title != site.title %}{{ title }} • {% endif %}{{ site.title }}
   {%- endcapture %}
   {%- if meta.description -%}
-  {%- assign desc = meta.description -%}
+    {%- assign desc = meta.description -%}
   {%- else -%}
-  {%- assign desc = layoutContent | regexReplace: '<h1 class="title flex-item">.*</h1>', '' | strip_html | regexReplace: '\s{2,}', ' ' | truncate: 160 -%}
+    {%- assign desc = layoutContent | regexReplace: '<h1 class="title flex-item">.*</h1>', '' | strip_html | regexReplace: '\s{2,}', ' ' | truncate: 160 -%}
   {%- endif %}
   <link rel=canonical href="{{ site.url }}{{ page.url | url }}">
   <meta name="description" content="{{ desc }}">
@@ -67,7 +67,7 @@
     <div class="container">
       {{ content | safe }}
 
-      <p class="content has-text-right-desktop" style="font-size: 14px; margin-bottom: -2rem;">
+      <p class="edit-page content has-text-right-desktop">
         <a href="{{ site.repo }}/blob/master/{{ page.inputPath }}">Edit this page</a>
       </p>
     </div>
