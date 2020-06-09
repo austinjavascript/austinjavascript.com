@@ -9,8 +9,7 @@ meta:
   <p>{{ meta.description }}</p>
 
   <ul>
-    {%- assign meetups = collections.meetups -%}
-    {%- for post in meetups -%}
+    {%- for post in collections.meetups reversed -%}
     <li>
       <a href="{{ post.url | url }}">
         {{ post.inputPath | slice: 11, 10 }}:

@@ -1,8 +1,7 @@
 const fs = require('fs');
 const pluginRss = require('@11ty/eleventy-plugin-rss');
 const sassWatch = require('./_includes/sass-watch');
-const filterMarkdown = require('./_includes/filters/markdown');
-const filterRegexReplace = require('./_includes/filters/regex-replace');
+const filter = require('./_includes/filter');
 const scAvatar = require('./_includes/shortcodes/avatar');
 const scMeetupDetails = require('./_includes/shortcodes/meetup-details');
 const scVideoPlayer = require('./_includes/shortcodes/video-player');
@@ -51,11 +50,14 @@ module.exports = (eleventyConfig) => {
     return addFileDates(posts);
   });
 
+  // FILTER: Reverse array without mutating original.
+  eleventyConfig.addFilter('flip', filter.flip);
+
   // FILTER: Run content thru Markdown-it.
-  eleventyConfig.addFilter('markdown', filterMarkdown);
+  eleventyConfig.addFilter('markdown', filter.markdown);
 
   // FILTER: Replace text with regex capabilities.
-  eleventyConfig.addFilter('regexReplace', filterRegexReplace);
+  eleventyConfig.addFilter('regexReplace', filter.regexReplace);
 
   // SHORTCODE: Format meeting details message block.
   eleventyConfig.addShortcode('meetupDetails', scMeetupDetails);

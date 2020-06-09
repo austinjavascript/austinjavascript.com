@@ -246,6 +246,14 @@ $footer-background-color: $white-ter;
   margin-bottom: -2rem;
 }
 
+.arrow-left:before {
+  content: '← ';
+}
+
+.arrow-right:after {
+  content: ' →';
+}
+
 /*
  * THE REST
  */
