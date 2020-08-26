@@ -31,8 +31,9 @@
     <g id="logo-slack"><path d='M126.12,315.1A47.06,47.06,0,1,1,79.06,268h47.06Z'/><path d='M149.84,315.1a47.06,47.06,0,0,1,94.12,0V432.94a47.06,47.06,0,1,1-94.12,0Z'/><path d='M196.9,126.12A47.06,47.06,0,1,1,244,79.06v47.06Z'/><path d='M196.9,149.84a47.06,47.06,0,0,1,0,94.12H79.06a47.06,47.06,0,0,1,0-94.12Z'/><path d='M385.88,196.9A47.06,47.06,0,1,1,432.94,244H385.88Z'/><path d='M362.16,196.9a47.06,47.06,0,0,1-94.12,0V79.06a47.06,47.06,0,1,1,94.12,0Z'/><path d='M315.1,385.88A47.06,47.06,0,1,1,268,432.94V385.88Z'/><path d='M315.1,362.16a47.06,47.06,0,0,1,0-94.12H432.94a47.06,47.06,0,1,1,0,94.12Z'/></g>
     <g id="logo-twitter"><path d='M496,109.5a201.8,201.8,0,0,1-56.55,15.3,97.51,97.51,0,0,0,43.33-53.6,197.74,197.74,0,0,1-62.56,23.5A99.14,99.14,0,0,0,348.31,64c-54.42,0-98.46,43.4-98.46,96.9a93.21,93.21,0,0,0,2.54,22.1,280.7,280.7,0,0,1-203-101.3A95.69,95.69,0,0,0,36,130.4C36,164,53.53,193.7,80,211.1A97.5,97.5,0,0,1,35.22,199v1.2c0,47,34,86.1,79,95a100.76,100.76,0,0,1-25.94,3.4,94.38,94.38,0,0,1-18.51-1.8c12.51,38.5,48.92,66.5,92.05,67.3A199.59,199.59,0,0,1,39.5,405.6,203,203,0,0,1,16,404.2,278.68,278.68,0,0,0,166.74,448c181.36,0,280.44-147.7,280.44-275.8,0-4.2-.11-8.4-.31-12.5A198.48,198.48,0,0,0,496,109.5Z'/></g>
   </svg>
-  <header class="page-header hero is-primary">
-    <div class="hero-body is-paddingless">
+
+  <header class="page-header hero">
+    <div class="hero-body is-primary is-paddingless">
       <div class="container">
         <div class="navbar" role="navigation" aria-label="main navigation">
           <div class="navbar-brand">
@@ -56,15 +57,11 @@
         </div>
       </div>
     </div>
-  </header>
 
-  {%- if page.url == '/' -%}
-  <section class="hero">
-    <figure class="image">
-      <img src="{{ '/assets/img/carlos-alfonso-AlBgcDfDG_s-unsplash_3by1-prog1.jpg' | url }}" alt="Austin skyline" title="Photo by Carlos Alfonso on Unsplash" loading="lazy">
-    </figure>
-  </section>
-  {%- endif -%}
+    {%- if page.url == '/' -%}
+      {% responsiveImage "./assets/img/carlos-alfonso-AlBgcDfDG_s-unsplash_min.jpg", "Austin Skyline by Carlos Alfonso on Unsplash" %}
+    {%- endif -%}
+  </header>
 
   <main class="page-main section has-background-white">
     <div class="container">

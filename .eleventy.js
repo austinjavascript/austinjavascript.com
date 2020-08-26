@@ -4,6 +4,7 @@ const htmlmin = require('html-minifier');
 const sassWatch = require('./_includes/sass-watch');
 const filter = require('./_includes/filter');
 const scAvatar = require('./_includes/shortcodes/avatar');
+const scResponsiveImage = require('./_includes/shortcodes/responsive-image');
 const scSocialSvg = require('./_includes/shortcodes/social-svg');
 const scMeetupDetails = require('./_includes/shortcodes/meetup-details');
 const scVideoPlayer = require('./_includes/shortcodes/video-player');
@@ -69,6 +70,9 @@ module.exports = (eleventyConfig) => {
 
   // SHORTCODE: Resize and cache images.
   eleventyConfig.addLiquidShortcode('avatar', scAvatar);
+
+  // SHORTCODE: Generate responsive image.
+  eleventyConfig.addLiquidShortcode('responsiveImage', scResponsiveImage);
 
   // SHORTCODE: Add social icon SVG block.
   eleventyConfig.addLiquidShortcode('socialSvg', scSocialSvg);
