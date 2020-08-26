@@ -27,6 +27,7 @@
     "@11ty/eleventy-plugin-rss": "^1.0.7",
     "acorn": ">=5.7.4",
     "bulma": "^0.8.2",
+    "html-minifier": "^4.0.0",
     "lodash": "^4.17.19",
     "node-sass": "^4.14.0",
     "purgecss": "^2.3.0"

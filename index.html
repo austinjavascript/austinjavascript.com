@@ -14,16 +14,6 @@ meta:
         {%- meetupDetails meet.date, meet.data.venue, meet.data.after, 'Upcoming meetup details', meet.data.title, meet.url -%}
 
         <meta id="meet-date" time="{{ meet.date }}">
-        <script>
-          (function () {
-            const meetDate = document.getElementById('meet-date').getAttribute('time');
-
-            if (new Date(meetDate) < new Date()) {
-              // We may want to post an alternate message, but for now just delete the upcoming meetup.
-              document.querySelector('.meetup-details').remove();
-            }
-          }());
-        </script>
       </section>
 
       <section class="section">

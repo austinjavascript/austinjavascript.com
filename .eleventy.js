@@ -1,5 +1,6 @@
 const fs = require('fs');
 const pluginRss = require('@11ty/eleventy-plugin-rss');
+const htmlmin = require('html-minifier');
 const sassWatch = require('./_includes/sass-watch');
 const filter = require('./_includes/filter');
 const scAvatar = require('./_includes/shortcodes/avatar');
@@ -70,6 +71,23 @@ module.exports = (eleventyConfig) => {
 
   // PLUGIN: RSS feed
   eleventyConfig.addPlugin(pluginRss);
+
+  // TRANSFORM: minify HTML
+  eleventyConfig.addTransform('htmlmin', (content, outputPath) => {
+    if (typeof outputPath === 'string' && outputPath.endsWith('.html')) {
+      const minified = htmlmin.minify(content, {
+        useShortDoctype: true,
+        removeComments: true,
+        collapseWhitespace: true,
+        minifyCSS: true,
+        minifyJS: true,
+      });
+
+      return minified;
+    }
+
+    return content;
+  });
 
   // BROWSERSYNC: add ability to see 404.html in dev mode
   eleventyConfig.setBrowserSyncConfig({
