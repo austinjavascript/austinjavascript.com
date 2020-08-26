@@ -4,6 +4,11 @@ title: Meetup archive
 meta:
   description: An archive of past Austin JavaScript meetups.
 ---
+<svg display="none">
+  <g id="albums"><path d='M368,96H144a16,16,0,0,1,0-32H368a16,16,0,0,1,0,32Z'/><path d='M400,144H112a16,16,0,0,1,0-32H400a16,16,0,0,1,0,32Z'/><path d='M419.13,448H92.87A44.92,44.92,0,0,1,48,403.13V204.87A44.92,44.92,0,0,1,92.87,160H419.13A44.92,44.92,0,0,1,464,204.87V403.13A44.92,44.92,0,0,1,419.13,448Z'/></g>
+  <g id="videocam"><path d='M464,384.39a32,32,0,0,1-13-2.77,15.77,15.77,0,0,1-2.71-1.54l-82.71-58.22h0A32,32,0,0,1,352,295.7V216.3a32,32,0,0,1,13.58-26.16l82.71-58.22a15.77,15.77,0,0,1,2.71-1.54,32,32,0,0,1,45,29.24V352.38a32,32,0,0,1-32,32Z'/><path d='M268,400H84a68.07,68.07,0,0,1-68-68V180a68.07,68.07,0,0,1,68-68H268.48A67.6,67.6,0,0,1,336,179.52V332A68.07,68.07,0,0,1,268,400Z'/></g>
+</svg>
+
 <div class="content">
   <h1>{{ title }}</h1>
   <p>{{ meta.description }}</p>
@@ -15,13 +20,13 @@ meta:
         {{ post.inputPath | slice: 11, 10 }}:
         <span class="has-text-weight-semibold">{{ post.data.title }}</span>
         {%- if post.data.video -%}
-        <span class="icon tooltip" title="video available">
-          <ion-icon src="{{ '/assets/ionicon/videocam.svg' | url }}"></ion-icon>
+        <span class="icon tooltip" aria-label="video available">
+          <svg class="icon-item" viewBox="0 0 512 512"><use xlink:href="#videocam"></use></svg>
         </span>
         {%- endif -%}
         {%- if post.data.slides -%}
-        <span class="icon tooltip" title="slides available">
-          <ion-icon src="{{ '/assets/ionicon/albums.svg' | url }}"></ion-icon>
+        <span class="icon tooltip" aria-label="slides available">
+          <svg class="icon-item" viewBox="0 0 512 512"><use xlink:href="#albums"></use></svg>
         </span>
         {%- endif -%}
       </a>

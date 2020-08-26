@@ -1,29 +1,31 @@
+{%- socialSvg -%}
+
 {%- if person.email %}
-<a class="icon tooltip" href="mailto:{{ person.email }}" title="Email: {{ person.email }}">
-  <ion-icon class="is-size-3" src="{{ '/assets/ionicon/at-circle.svg' | url }}"><i class="is-sr-only">email</i></ion-icon>
+<a class="icon tooltip" href="mailto:{{ person.email }}" aria-label="Email: {{ person.email }}">
+  <svg class="icon-item" viewBox="0 0 512 512"><use xlink:href="#at-circle"></use></svg>
 </a>
 {% endif -%}
 
 {%- if person.homepage %}
-<a class="icon tooltip" href="{{ person.homepage }}" title="Home: {{ person.homepage }}">
-  <ion-icon class="is-size-3" src="{{ '/assets/ionicon/home.svg' | url }}"><i class="is-sr-only">homepage</i></ion-icon>
+<a class="icon tooltip" href="{{ person.homepage }}" aria-label="Home: {{ person.homepage }}">
+  <svg class="icon-item" viewBox="0 0 512 512"><use xlink:href="#home"></use></svg>
 </a>
 {% endif -%}
 
 {%- if person.twitter %}
-<a class="icon tooltip" href="https://twitter.com/{{ person.twitter }}" title="Twitter: {{ person.twitter }}">
-  <ion-icon class="is-size-3" src="{{ '/assets/ionicon/logo-twitter.svg' | url }}"><i class="is-sr-only">Twitter</i></ion-icon>
+<a class="icon tooltip" href="https://twitter.com/{{ person.twitter }}" aria-label="Twitter: {{ person.twitter }}">
+  <svg class="icon-item" viewBox="0 0 512 512"><use xlink:href="#logo-twitter"></use></svg>
 </a>
 {% endif -%}
 
 {%- if person.github %}
-<a class="icon tooltip" href="https://github.com/{{ person.github }}" title="GitHub: {{ person.github }}">
-  <ion-icon class="is-size-3" src="{{ '/assets/ionicon/logo-github.svg' | url }}"><i class="is-sr-only">GitHub</i></ion-icon>
+<a class="icon tooltip" href="https://github.com/{{ person.github }}" aria-label="GitHub: {{ person.github }}">
+  <svg class="icon-item" viewBox="0 0 512 512"><use xlink:href="#logo-github"></use></svg>
 </a>
 {% endif -%}
 
 {%- if person.linkedin %}
-<a class="icon tooltip" href="https://www.linkedin.com/in/{{ person.linkedin }}" title="LinkedIn: {{ person.linkedin }}">
-  <ion-icon class="is-size-3" src="{{ '/assets/ionicon/logo-linkedin.svg' | url }}"><i class="is-sr-only">LinkedIn</i></ion-icon>
+<a class="icon tooltip" href="https://www.linkedin.com/in/{{ person.linkedin }}" aria-label="LinkedIn: {{ person.linkedin }}">
+  <svg class="icon-item" viewBox="0 0 512 512"><use xlink:href="#logo-linkedin"></use></svg>
 </a>
 {% endif -%}

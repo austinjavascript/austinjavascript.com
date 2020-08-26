@@ -14,16 +14,15 @@ meta:
         {%- meetupDetails meet.date, meet.data.venue, meet.data.after, 'Upcoming meetup details', meet.data.title, meet.url -%}
 
         <meta id="meet-date" time="{{ meet.date }}">
-        <script>
-          (function () {
-            const meetDate = document.getElementById('meet-date').getAttribute('time');
-
-            if (new Date(meetDate) < new Date()) {
-              // We may want to post an alternate message, but for now just delete the upcoming meetup.
-              document.querySelector('.meetup-details').remove();
-            }
-          }());
-        </script>
+<script>
+(function () {
+  const meetDate = document.getElementById('meet-date').getAttribute('time');
+  if (new Date(meetDate) < new Date()) {
+    // We may want to post an alternate message, but for now just delete the upcoming meetup.
+    document.querySelector('.meetup-details').remove();
+  }
+}());
+</script>
       </section>
 
       <section class="section">
@@ -32,12 +31,12 @@ meta:
       </section>
 
       <section class="section">
-        <h3>Past speakers and talks</h3>
+        <h2 class="is-size-4">Past speakers and talks</h2>
         {%- for meetup in collections.meetups reversed -%}
         {%- for speaker in meetup.data.speakers -%}
         {%- if speaker.name and speaker.avatar -%}
         <figure class="pic">
-          <a class="tooltip" href="{{ meetup.url | url }}" title="{{ speaker.name }}: &quot;{{ meetup.data.title }}&quot;">
+          <a class="tooltip" href="{{ meetup.url | url }}" aria-label="{{ speaker.name }}: &quot;{{ meetup.data.title }}&quot;">
             {%- avatar speaker.avatar, speaker.name, 'is-rounded' -%}
           </a>
         </figure>

@@ -1,8 +1,11 @@
 const fs = require('fs');
 const pluginRss = require('@11ty/eleventy-plugin-rss');
+const htmlmin = require('html-minifier');
 const sassWatch = require('./_includes/sass-watch');
 const filter = require('./_includes/filter');
 const scAvatar = require('./_includes/shortcodes/avatar');
+const scResponsiveImage = require('./_includes/shortcodes/responsive-image');
+const scSocialSvg = require('./_includes/shortcodes/social-svg');
 const scMeetupDetails = require('./_includes/shortcodes/meetup-details');
 const scVideoPlayer = require('./_includes/shortcodes/video-player');
 
@@ -68,8 +71,31 @@ module.exports = (eleventyConfig) => {
   // SHORTCODE: Resize and cache images.
   eleventyConfig.addLiquidShortcode('avatar', scAvatar);
 
+  // SHORTCODE: Generate responsive image.
+  eleventyConfig.addLiquidShortcode('responsiveImage', scResponsiveImage);
+
+  // SHORTCODE: Add social icon SVG block.
+  eleventyConfig.addLiquidShortcode('socialSvg', scSocialSvg);
+
   // PLUGIN: RSS feed
   eleventyConfig.addPlugin(pluginRss);
+
+  // TRANSFORM: minify HTML
+  eleventyConfig.addTransform('htmlmin', (content, outputPath) => {
+    if (typeof outputPath === 'string' && outputPath.endsWith('.html')) {
+      const minified = htmlmin.minify(content, {
+        useShortDoctype: true,
+        removeComments: true,
+        collapseWhitespace: true,
+        minifyCSS: true,
+        minifyJS: true,
+      });
+
+      return minified;
+    }
+
+    return content;
+  });
 
   // BROWSERSYNC: add ability to see 404.html in dev mode
   eleventyConfig.setBrowserSyncConfig({

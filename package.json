@@ -4,12 +4,13 @@
   "description": "",
   "scripts": {
     "build:css": "node-sass _sass/_main.scss _site/assets/css/main.css --output-style compressed",
-    "build": "npm run clean && eleventy && npm run build:css",
+    "build": "npm run clean && eleventy && npm run build:css && npm run purgecss",
     "clean": "rm -rf ./_site",
     "debug": "DEBUG=Eleventy* eleventy",
     "lint:js": "eslint --fix .eleventy.js ./_includes/*.js",
     "lint:md": "markdownlint --fix ./_posts/*.md ./_meetups/*.md",
     "lint": "npm run lint:js && npm run lint:md",
+    "purgecss": "npx purgecss --css _site/assets/css/main.css --content _site/index.html,_site/about/index.html,_site/contributing/index.html,_site/posts/meetups/index.html,_site/posts/meetups/2020/**/*.html --output _site/assets/css/main.css",
     "start": "ELEVENTY_ENV=dev eleventy --serve --watch",
     "test": "npm run lint"
   },
@@ -21,19 +22,21 @@
   "author": "@AustinJS",
   "license": "MIT",
   "dependencies": {
-    "acorn": ">=5.7.4"
-  },
-  "devDependencies": {
     "@11ty/eleventy": "^0.11.0",
     "@11ty/eleventy-img": "^0.3.0",
     "@11ty/eleventy-plugin-rss": "^1.0.7",
+    "acorn": ">=5.7.4",
     "bulma": "^0.8.2",
+    "html-minifier": "^4.0.0",
+    "lodash": "^4.17.19",
+    "node-sass": "^4.14.0",
+    "purgecss": "^2.3.0"
+  },
+  "devDependencies": {
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.1.0",
     "eslint-plugin-import": "^2.20.2",
-    "lodash": "^4.17.19",
     "markdownlint": "^0.20.2",
-    "markdownlint-cli": "^0.22.0",
-    "node-sass": "^4.14.0"
+    "markdownlint-cli": "^0.22.0"
   }
 }
