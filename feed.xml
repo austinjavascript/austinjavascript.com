@@ -4,7 +4,7 @@
   <subtitle>A community-driven group that meets regularly in Austin, Texas, to discuss JavaScript and the open web.</subtitle>
   <link rel="self" href="https://austinjavascript.com/feed.xml"/>
   <link href="https://austinjavascript.com"/>
-  <updated>2020-08-26T22:15:39+00:00</updated>
+  <updated>2020-08-29T20:20:46+00:00</updated>
   <id>https://austinjavascript.com</id>
   <author>
     <name>@AustinJS</name>
@@ -15,7 +15,7 @@
     <link href="https://austinjavascript.com/posts/meetups/2010/01/19/"/>
     <id>https://austinjavascript.com/posts/meetups/2010/01/19/</id>
     <published>2010-01-19T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;2010 is off to a ridiculous start for the JavaScript community and this month, we have TWO incredible topics and two renowned and respected speakers: Alex Sexton and Kyle Simpson.&lt;/p&gt;
 &lt;h2&gt;Superclassy Inheritance with JavaScript&lt;/h2&gt;
 &lt;p&gt;Superclassy Inheritance with JavaScript is a quick look at the benefits and consequences of several inheritance patterns in JavaScript. Code reuse plays a major role in the DRY development pattern and leveraging the inheritance patterns built into JavaScript or manipulating them can change the way you build and organize large applications. Unfortunately, JavaScript&#39;s reputation and odd naming scheme have stopped people from using all the features that it has to offer. First, we&#39;ll discuss the array of options that exist and then go through a real-world example while using our newly honed inheritance-foo to make it play nice.&lt;/p&gt;
@@ -30,7 +30,7 @@
     <link href="https://austinjavascript.com/posts/meetups/2010/02/16/"/>
     <id>https://austinjavascript.com/posts/meetups/2010/02/16/</id>
     <published>2010-02-16T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;h2&gt;JavaScript Quiz&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Speaker: YOU.&lt;/strong&gt;  Yes, that&#39;s right, you will be participating, okay, only if you want to, but it is highly encouraged.&lt;/p&gt;
 &lt;p&gt;Recently, Juriy Zaytsev, otherwise known as &amp;quot;kangax&amp;quot; and core developer for Prototype, released a quiz with some rather challenging questions related to some of the unique underpinnings and nuances of the JavaScript language.&lt;/p&gt;
@@ -47,7 +47,7 @@
     <link href="https://austinjavascript.com/posts/meetups/2010/04/20/"/>
     <id>https://austinjavascript.com/posts/meetups/2010/04/20/</id>
     <published>2010-04-20T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;After a massively successful SXSWi party last month, we are back on schedule for our monthly meetup.  This month, we have a presentation on how to use &lt;a href=&quot;http://www.adobe.com/products/air/&quot;&gt;Adobe AIR&lt;/a&gt; to build desktop applications by Aaron Forsander.&lt;/p&gt;
 &lt;h2&gt;Building Desktop Applications Using Adobe AIR and JavaScript&lt;/h2&gt;
 &lt;p&gt;As a JavaScript developer you don&#39;t have to limit yourself to the web.  Adobe AIR allows web developers to create desktop applications with technologies they are familiar with including Flash, Flex and JavaScript. This talk demonstrates the basics on how to create desktop applications entirely in JavaScript.  I addition, I will also talk about helpful libraries and frameworks that allow you to develop rapidly, organize your code and unit test. You can do more with Adobe AIR than just build Twitter clients, I promise!&lt;/p&gt;
@@ -59,7 +59,7 @@
     <link href="https://austinjavascript.com/posts/meetups/2010/06/15/"/>
     <id>https://austinjavascript.com/posts/meetups/2010/06/15/</id>
     <published>2010-06-15T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;Right on heels of &lt;a href=&quot;http://texasjavascript.com/&quot;&gt;TXJS,&lt;/a&gt; this month&#39;s edition of the Austin JavaScript Meetup includes two speakers from TXJS, Joe McCann and Alex Sexton.&lt;/p&gt;
 &lt;h2&gt;XUI&lt;/h2&gt;
 &lt;p&gt;Joe will be discussing the slick mobile micro-framework, &lt;a href=&quot;http://xuijs.com/&quot;&gt;XUI&lt;/a&gt;, which you can use to build out mobile websites or even mobile webapps where the targeted device is running a reasonable build of Webkit (namely iPhone, Android, and WebOS).  Popular libraries like jQuery are a bit large in size and contain loads of cross-browser code that is irrelevant in most mobile devices.  XUI is only 3kb and can provide you with a large enough toolkit to get almost any job done.  Joe will introduce the library and how you can start using it right now.&lt;/p&gt;
@@ -73,7 +73,7 @@
     <link href="https://austinjavascript.com/posts/meetups/2010/07/20/"/>
     <id>https://austinjavascript.com/posts/meetups/2010/07/20/</id>
     <published>2010-07-20T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;The July meetup details consist of some client side and server side JavaScript discussions. Joe McCann will be providing some info on the ultra hot web server and web app framework Node.js while Andrew Dupont educates us on the latest and greatest features of scripty2.&lt;/p&gt;
 &lt;h2&gt;Introducing Node.js&lt;/h2&gt;
 &lt;p&gt;Joe will be introducing &lt;a href=&quot;http://nodejs.org/&quot;&gt;Node.js&lt;/a&gt;, an &lt;a href=&quot;https://austinjavascript.com/wiki/Event-driven_architecture&quot; title=&quot;Event-driven architecture&quot;&gt;evented&lt;/a&gt; &lt;a href=&quot;https://austinjavascript.com/wiki/I/O&quot; title=&quot;I/O&quot;&gt;I/O&lt;/a&gt; &lt;a href=&quot;https://austinjavascript.com/wiki/Software_framework&quot; title=&quot;Software framework&quot;&gt;framework&lt;/a&gt; for the &lt;a href=&quot;https://austinjavascript.com/wiki/V8_JavaScript_engine&quot; title=&quot;V8 JavaScript engine&quot;&gt;V8 JavaScript engine&lt;/a&gt;.  Node.js is intended to be used to write scalable network programs such as web servers.  However, Node can also be used as a web app framework in addition to its use as a web server.  Joe will be showing some very high level uses of Node (Hello World), but also some more practical uses including the use of the &lt;a href=&quot;http://expressjs.com/&quot;&gt;Express framework&lt;/a&gt; and even an example of using &lt;a href=&quot;http://en.wikipedia.org/wiki/WebSockets&quot;&gt;WebSockets&lt;/a&gt; with Node.&lt;/p&gt;
@@ -87,7 +87,7 @@
     <link href="https://austinjavascript.com/posts/meetups/2010/08/17/"/>
     <id>https://austinjavascript.com/posts/meetups/2010/08/17/</id>
     <published>2010-08-17T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;After a huge turnout last month (nearly 40 attendees), we are expecting even bigger and better things this coming month in our August meetup.  We are changing the format a bit with &lt;strong&gt;one presentation&lt;/strong&gt;, by Mike McNally on web application design and coding strategies, followed by an &lt;strong&gt;open forum of topics&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Mike will talk about web application design and coding strategies, and how the domains of &amp;quot;active&amp;quot; page design, unobtrusive Javascript coding, and user experience architecture all collide to give us a great big headache. He&#39;ll talk about a small jQuery plugin as an example of harnessing the power of your favorite framework for more than just rounded corners.&lt;/p&gt;
 &lt;p&gt;After some great discussions during our last meetup (and even afterwards at The Gingerman), we decided to have an open forum discussing various topics at this month&#39;s meetup.  Topics will be chosen at random, but please come to the meetup with some ideas or better yet, leave them in the comments or @ reply to &lt;a href=&quot;http://twitter.com/austinjs&quot;&gt;@austinjs&lt;/a&gt; on twitter.&lt;/p&gt;
@@ -99,7 +99,7 @@
     <link href="https://austinjavascript.com/posts/meetups/2010/09/21/"/>
     <id>https://austinjavascript.com/posts/meetups/2010/09/21/</id>
     <published>2010-09-21T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;After another huge turnout in August, we are expecting yet another great meetup for September.  We have an Austin JavaScript veteran, &lt;a href=&quot;http://twitter.com/getify&quot;&gt;Kyle Simpson&lt;/a&gt;, giving a special presentation and we will follow it up with the &lt;strong&gt;open forum of topics&lt;/strong&gt;.  So come prepared with ideas for discussion!&lt;/p&gt;
 &lt;p&gt;Kyle&#39;s discussion will be diving deep into the internals of how objects, constructors, and prototypes work. He will also cover many of the important upcoming ES5 changes which are starting to be implemented by the bleeding edge browsers.&lt;/p&gt;
 </content>
@@ -110,7 +110,7 @@
     <link href="https://austinjavascript.com/posts/meetups/2010/10/19/"/>
     <id>https://austinjavascript.com/posts/meetups/2010/10/19/</id>
     <published>2010-10-19T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;Coming off last month&#39;s meetup, we now have the first in our guest speakers series at Austin JavaScript plus another local giving his presentation from &lt;a href=&quot;http://jsconf.eu/&quot;&gt;JSConf EU&lt;/a&gt; in Berlin.&lt;/p&gt;
 &lt;h2&gt;Phonegap&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;http://twitter.com/brianleroux&quot;&gt;Brian Leroux&lt;/a&gt;, Lead at &lt;a href=&quot;http://www.nitobi.com/&quot;&gt;Nitobi&lt;/a&gt;, co-author of &lt;a href=&quot;http://www.phonegap.com/&quot;&gt;Phonegap&lt;/a&gt;, and creator of projects like &lt;a href=&quot;http://xuijs.com/&quot;&gt;XUI&lt;/a&gt; and &lt;a href=&quot;http://brianleroux.github.com/lawnchair/&quot;&gt;Lawnchair&lt;/a&gt; and &lt;a href=&quot;http://wtfjs.com/&quot;&gt;wtfjs.com&lt;/a&gt; will be flying in from Vancouver, British Columbia, Canada to talk to us about Phonegap, an open source development framework for building cross-platform mobile apps. Phonegap allows you to build apps in HTML and JavaScript and &lt;em&gt;still&lt;/em&gt; take advantage of core features in iPhone/iTouch, iPad, Google Android, Palm, Symbian and Blackberry SDKs. Brian will be giving a talk on Phonegap, when you should and should not use it and also showcase the brand new app packaging in the cloud service at &lt;a href=&quot;http://build.phonegap.com/&quot;&gt;build.phonegap.com&lt;/a&gt;.&lt;/p&gt;
@@ -124,7 +124,7 @@
     <link href="https://austinjavascript.com/posts/meetups/2010/11/16/"/>
     <id>https://austinjavascript.com/posts/meetups/2010/11/16/</id>
     <published>2010-11-16T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;After last month&#39;s large turnout for the first in our guest speaker&#39;s series, you may want to consider getting to this month&#39;s meetup early.  Not only are we bringing back the roundtable discussion of various JavaScript topics, but we have the Reverend Pete Higgins flying in from Tennessee!&lt;/p&gt;
 &lt;p&gt;Every time you sniff a browser a baby kitten dies.  Never fear as Pete will be discussing the usage of has.js so many more kittens can live happy lives.  Also, Pete will be chatting up the Dojo Foundation and a brand new CommonJSBrowser Initiative (details at the meetup!).  Follow Pete on twitter at &lt;a href=&quot;http://twitter.com/phiggins&quot;&gt;@phiggins&lt;/a&gt; and be sure to have a look at his campaign at http://higginsforpresident.net.&lt;/p&gt;
 &lt;p&gt;For the second half of the meetup we will carry on with our new tradition of the open forum where you, yes you and everyone else will have an opportunity to ask a question, bring up a topic or heckle &lt;a href=&quot;http://twitter.com/joemccann&quot;&gt;@joemccann&lt;/a&gt;.  Our latest polls indicate many people enjoy the roundtable discussion so be sure to have some fresh ideas!&lt;/p&gt;
@@ -136,7 +136,7 @@
     <link href="https://austinjavascript.com/posts/meetups/2011/01/18/"/>
     <id>https://austinjavascript.com/posts/meetups/2011/01/18/</id>
     <published>2011-01-18T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;After a nice break and great happy hour sponsored by &lt;a href=&quot;http://teksystems.com/&quot;&gt;Tek Systems&lt;/a&gt; over December, Austin JavaScript is back in action with a great talk by the local node.js and JavaScript gaming phenom, Bradley Meck.&lt;/p&gt;
 &lt;p&gt;JavaScript gaming is becoming an even hotter topic as many game developers are moving away from Flash and more towards and &amp;quot;HTML5&amp;quot; framework for implementing games.  Bradley will be discussing the state of game creation in JavaScript, some problems and solutions for developers wanting to create games and finally how to interact with Flash in order to obtain some valuable fallbacks. His presentation will also touch on some of the roadblocks and issues with multi-player games.&lt;/p&gt;
 &lt;p&gt;Of course we will followup his presentation with our wildly crowd-pleasing roundtable of JavaScript-related questions.  This is an open forum to present topics of discussion in a rapid-fire manner or simply heckle &lt;a href=&quot;http://twitter.com/joemccann&quot;&gt;@joemccann&lt;/a&gt;.&lt;/p&gt;
@@ -148,7 +148,7 @@
     <link href="https://austinjavascript.com/posts/meetups/2011/02/15/"/>
     <id>https://austinjavascript.com/posts/meetups/2011/02/15/</id>
     <published>2011-02-15T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;This month&#39;s meetup we take a step away from the traditionally hardcore, engineering-focused styles talks and presentations and decide to focus back on the user interface and beautifying the web, specifically typography. Neighborhood superstar, Rails aficionado and iOS contemporary &lt;a href=&quot;http://twitter.com/davatron5000&quot;&gt;Dave Rupert&lt;/a&gt; will be discussing and showcasing, &lt;a href=&quot;http://www.letteringjs.com/&quot;&gt;Lettering.js&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Web type is exploding all over the web but CSS currently doesn&#39;t offer complete down-to-the-letter control. While working on the &lt;a href=&quot;http://lostworldsfairs.com/&quot;&gt;Lost World&#39;s Fairs&lt;/a&gt; project for Microsoft and the launch of IE9 Beta, Dave Rupert and team needed that level of control. Thus was born, Lettering.js, a jQuery plugin for radical web typography.&lt;/p&gt;
 &lt;p&gt;We&#39;ll be walking through this simple jQuery plugin line-by-line, talking about the art of releasing a jQuery plugin, and peeking at some real-world use cases.&lt;/p&gt;
@@ -161,7 +161,7 @@
     <link href="https://austinjavascript.com/posts/meetups/2011/04/19/"/>
     <id>https://austinjavascript.com/posts/meetups/2011/04/19/</id>
     <published>2011-04-19T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;After a &lt;a href=&quot;http://austinjavascript.com/2011-austin-javascript-sxsw-party-wrapup/&quot;&gt;massively successful SXSW Party last month&lt;/a&gt;, we are back on track with our regular scheduled monthly meetup.  For April, we have a brief yet insightful presentation by a local, &lt;a href=&quot;http://twitter.com/howardrauscher&quot;&gt;Howard Rauscher&lt;/a&gt; on developing 3rd party JavaScript widgets and we&#39;ll talk more about the IE9 Developer contest, &lt;a href=&quot;http://www.beautyoftheweb.com/#/unplugged&quot;&gt;Dev Unplugged&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Recently he started working at a new startup called &lt;a href=&quot;http://www.massrelevance.com/&quot;&gt;Mass Relevance&lt;/a&gt; which provides social media curation and visualizations to media companies such MTV, New York Times, Washington Post, and CNN . One of his primary roles has been to ensure that their JavaScript widgets don&#39;t break across majors browsers on customer websites.  Howard&#39;s presentation will consist of walking through a simple jQuery plugin (line-by-line), talking about the art of releasing a jQuery plugin and peeking at some real-world use cases.  Noobs and experts will both benefit!&lt;/p&gt;
 &lt;p&gt;We will also discuss the IE9 developer contest, &lt;a href=&quot;http://www.beautyoftheweb.com/#/unplugged&quot;&gt;Dev Unplugged&lt;/a&gt;, which was announced at the Austin JS SXSW Party last month.  Dev Unplugged is not a just a contest where you can win thousands of dollars in prizes, but it also a way for developers to really explore what is possible with HTML5 and modern web browsers.  As if you needed a reason to be trying out the latest and greatest, Dev Unplugged will reward you for doing so!&lt;/p&gt;
@@ -187,7 +187,7 @@
     <link href="https://austinjavascript.com/posts/meetups/2011/05/17/"/>
     <id>https://austinjavascript.com/posts/meetups/2011/05/17/</id>
     <published>2011-05-17T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;On the heels of the epic conference week that was &lt;a href=&quot;http://2011.jsconf.us/&quot;&gt;JSConf&lt;/a&gt;and &lt;a href=&quot;http://nodeconf.com/&quot;&gt;Nodeconf&lt;/a&gt;, the Austin JS meetup is finally set for the the month of May.  We will be going over some of the highlights of JSConf and local JavaScript hacker and semi-pro &lt;a href=&quot;http://vimeo.com/23575920&quot;&gt;videographer&lt;/a&gt;, &lt;a href=&quot;http://twitter.com/slexaxton&quot;&gt;Alex Sexton&lt;/a&gt;, will be giving a talk on what to expect out of &lt;a href=&quot;http://modernizr.github.com/Modernizr/2.0-beta/&quot;&gt;Modernizr 2.0&lt;/a&gt;. We will also be giving away a ticket to &lt;a href=&quot;http://www.texasjavascript.com/&quot;&gt;TXJS&lt;/a&gt;.  Seriously.&lt;/p&gt;
 &lt;p&gt;Modernizr was one of the first libraries on the scene in the &#39;new-world feature testing religion.&#39; Modernizr 2 is just around the corner and there are some nifty new features in there to help you build modern web apps. Some time would and will be well spent going into how to use Modernizr, but there will also be some more in depth looks into the internals of the core library, build tool, Modernizr.load and into how to extend all of these things for great good. HTML5 today. Straight up.&lt;/p&gt;
 &lt;p&gt;Did we mention we are giving away a ticket to &lt;a href=&quot;http://texasjavascript.com/&quot;&gt;TXJS&lt;/a&gt;?  It&#39;s sold out, btw.&lt;/p&gt;
@@ -200,7 +200,7 @@
     <link href="https://austinjavascript.com/posts/meetups/2011/06/21/"/>
     <id>https://austinjavascript.com/posts/meetups/2011/06/21/</id>
     <published>2011-06-21T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;Wrapping up the amazing conference that was &lt;a href=&quot;http://texasjavascript.com/&quot;&gt;TXJS&lt;/a&gt;, this month TXJS frontman, &lt;a href=&quot;http://twitter.com/slexaxton&quot;&gt;Alex Sexton&lt;/a&gt; will be hosting June&#39;s meetup. We also have Austin local via Chicago, &lt;a href=&quot;http://twitter.com/timtyrrell&quot;&gt;Tim Tyrrell&lt;/a&gt; chatting up &lt;a href=&quot;http://pivotal.github.com/jasmine/&quot;&gt;Jasmine&lt;/a&gt;, the uber-cool JavaScript unit testing framework.&lt;/p&gt;
 &lt;p&gt;There seems to be a tendency for developers to do an excellent job of unit testing their server-side code but leaving client-side javascript as the new “spaghetti” dumping ground and it doesn’t have to be that way! Jasmine is a nifty Javascript BDD testing framework with a RSpec-like syntax that easily integrates with vanilla JavaScript, jQuery plugins, and even Rails applications.&lt;/p&gt;
 &lt;p&gt;Of course we will followup all of this up with our wildly crowd-pleasing roundtable of JavaScript-related questions. This is an open forum to present topics of discussion in a rapid-fire manner.&lt;/p&gt;
@@ -212,7 +212,7 @@
     <link href="https://austinjavascript.com/posts/meetups/2011/07/19/"/>
     <id>https://austinjavascript.com/posts/meetups/2011/07/19/</id>
     <published>2011-07-19T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;UPDATE 07/19/11 ::&lt;/strong&gt; Meeting moved to 7:45pm to accomodate the owners of our space.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;It&#39;s hot.  We know.  But don&#39;t fret, this month, we&#39;ll have plenty of cold beverages (courtesy of &lt;a href=&quot;http://www.compasslearningodyssey.com/&quot;&gt;Compass Learning&lt;/a&gt;) alongside a talk by local web developer, &lt;a href=&quot;http://twitter.com/AaronForsander&quot;&gt;Aaron Forsander&lt;/a&gt; (no really, he will be here this time!).&lt;/p&gt;
 &lt;h2&gt;Realtime Web Apps with Node.js and Socket.io&lt;/h2&gt;
@@ -232,7 +232,7 @@
     <link href="https://austinjavascript.com/posts/meetups/2011/08/16/"/>
     <id>https://austinjavascript.com/posts/meetups/2011/08/16/</id>
     <published>2011-08-16T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;After last month&#39;s massive turnout, it is officially clear that the only way to beat the Austin heat is to come to the Austin JavaScript meetup (duh). With that being said, we are expecting all of you to return for this month&#39;s installment of the meetup as we have local living legend, &lt;a href=&quot;http://twitter.com/craveytrain&quot;&gt;Mike Cravey&lt;/a&gt;, here to serve up the fundamentals of JavaScript and jQuery.&lt;/p&gt;
 &lt;p&gt;Mike&#39;s talk will focus on the fundamentals of JavaScript the language. Think you know it all?  We guarantee you will learn something new, unless you are &lt;a href=&quot;http://twitter.com/andrewdupont&quot;&gt;@andrewdupont&lt;/a&gt; BECAUSE HE KNOWS ALL &lt;a href=&quot;http://search.twitter.com/?q=#dupontCaps&quot;&gt;#dupontCAPS&lt;/a&gt;. Moreover, the introductory talk with cover things like function hoisting and closures, but even simpler topics like basic expressions. Noobs are certainly welcome so if you are one or know someone, be sure they attend. The presentation will be a quick one, so feel free to chime in while Cravey runs the show.&lt;/p&gt;
 &lt;p&gt;Of course we will followup all of this up with our wildly crowd-pleasing roundtable of JavaScript-related questions. This is an open forum to present topics of discussion in a rapid-fire manner.&lt;/p&gt;
@@ -245,7 +245,7 @@
     <link href="https://austinjavascript.com/posts/meetups/2011/09/20/"/>
     <id>https://austinjavascript.com/posts/meetups/2011/09/20/</id>
     <published>2011-09-20T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;September&#39;s meetup welcome&#39;s back local node.js hacker, Bradley Meck but this time Bradley is bringing his partner in crime, Kassandra Perch, to talk about not only a buzzword-worthy topic, but also one a topic that is incredibly useful — offline web apps.&lt;/p&gt;
 &lt;p&gt;Offline features are more than just for when you application is offline or for viewing content offline! Bradley and Kassandra will be discussing how to use ApplicationCache to speed up page loads and Lawnchair.js for storing offline data. They will have an example using Backbone.js&#39; ORM to have an offline application send requests with updated data to a server after it has been offline w/o user interaction.&lt;/p&gt;
 &lt;p&gt;Of course we will followup all of this up with our wildly crowd-pleasing roundtable of JavaScript-related questions. This is an open forum to present topics of discussion in a rapid-fire manner.&lt;/p&gt;
@@ -258,7 +258,7 @@
     <link href="https://austinjavascript.com/posts/meetups/2011/11/15/"/>
     <id>https://austinjavascript.com/posts/meetups/2011/11/15/</id>
     <published>2011-11-15T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;After an off month in October, we are back this month with another local giving a great talk on how to use web technologies to build native mobile applications with libraries such as Sencha Touch and Phonegap.&lt;/p&gt;
 &lt;p&gt;Lyle will be discussing the creation of native mobile apps using web technologies.  He&#39;ll cover items from development to debugging and distribution of the app. To help demonstrate these concepts, he&#39;ll be demoing a recent app that he created called &lt;a href=&quot;http://itunes.apple.com/us/app/dateventure/id464979598?mt=8&quot;&gt;Dateventure&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;http://twitter.com/joemccann&quot;&gt;Joe&lt;/a&gt; is yet again still out of town so &lt;a href=&quot;http://twitter.com/slexaxton&quot;&gt;Alex&lt;/a&gt; will be guest hosting the meetup.&lt;/p&gt;
@@ -270,7 +270,7 @@
     <link href="https://austinjavascript.com/posts/meetups/2012/01/17/"/>
     <id>https://austinjavascript.com/posts/meetups/2012/01/17/</id>
     <published>2012-01-17T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;Happy New Year!  Now that most of us are back to work after a hopefully relaxing holiday, we are ready to kick off yet another year of solid JavaScript meetups for the Austin area.&lt;/p&gt;
 &lt;p&gt;This month we have a special guest flying in from New York City — the CTO and co-founder of &lt;a href=&quot;http://jit.su/&quot;&gt;Nodejitsu&lt;/a&gt;, &lt;a href=&quot;http://twitter.com/hij1nx&quot;&gt;Paolo Fragemeni&lt;/a&gt;.  Paolo, a solid computer programmer and veteran hacker has written loads of node.js code including the a significant portion dedicated to the node.js framework, &lt;a href=&quot;http://flatironjs.com/&quot;&gt;Flatiron&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Node.js. What is it?!! How does it work?!! Paolo will be giving an informative talk on just that — the anatomy of node.js. So whether you are are node.js newbie or a seasoned veteran, this informative talk on node will benefit you.&lt;/p&gt;
@@ -284,7 +284,7 @@
     <link href="https://austinjavascript.com/posts/meetups/2012/02/21/"/>
     <id>https://austinjavascript.com/posts/meetups/2012/02/21/</id>
     <published>2012-02-21T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;Following up on last month&#39;s stellar presentation by &lt;a href=&quot;http://jit.su/&quot;&gt;Nodejitsu&lt;/a&gt;&#39;s, co-founder and CTO, &lt;a href=&quot;http://twitter.com/hij1nx&quot;&gt;Paolo Fragemeni&lt;/a&gt;, Austin JavaScript is back in February with another mover and shaker in the JavaScript and Mobile development industry, &lt;a href=&quot;http://twitter.com/rmurphey&quot;&gt;Rebecca Murphey&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Rebecca will be introducing us to Toura&#39;s Mulberry, which is an open-source, cross-platform mobile application development framework built on top of &lt;a href=&quot;http://phonegap.com/&quot;&gt;PhoneGap&lt;/a&gt; that lets you use web technologies to produce engaging, content-rich applications. In this talk, Rebecca will give a quick demo of Mulberry basics, then dive in to how they architected the JavaScript, templates, CSS, and tests to create a flexible, pluggable, 100% client-side content publishing system. DON&#39;T SLEEP ON THIS!&lt;/p&gt;
 &lt;p&gt;Of course we will followup all of this up with our wildly crowd-pleasing roundtable of JavaScript-related questions.  This is an open forum to present topics of discussion in a rapid-fire manner or simply heckle &lt;a href=&quot;http://twitter.com/joemccann&quot;&gt;@joemccann&lt;/a&gt;.&lt;/p&gt;
@@ -297,7 +297,7 @@
     <link href="https://austinjavascript.com/posts/meetups/2012/04/17/"/>
     <id>https://austinjavascript.com/posts/meetups/2012/04/17/</id>
     <published>2012-04-17T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;After another &lt;a href=&quot;http://austinjavascript.com/2012-austinjs-sxsw-party-wrapup/&quot;&gt;stellar SXSW event&lt;/a&gt;, Austin JS is back with another guest speaker, this time with &lt;a href=&quot;http://twitter.com/unwiredben&quot;&gt;Ben Combee&lt;/a&gt; of WebOS fame.&lt;/p&gt;
 &lt;p&gt;Straightforward and to the point, Ben will be chatting with us on how to build web apps with &lt;a href=&quot;http://enyojs.com/&quot;&gt;Enyo&lt;/a&gt; and &lt;a href=&quot;http://enyojs.com/tutorial/onyx.html&quot;&gt;Onyx&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Of course we will followup all of this up with our wildly crowd-pleasing roundtable of JavaScript-related questions.  This is an open forum to present topics of discussion in a rapid-fire manner or simply heckle &lt;a href=&quot;http://twitter.com/joemccann&quot;&gt;@joemccann&lt;/a&gt;.&lt;/p&gt;
@@ -309,7 +309,7 @@
     <link href="https://austinjavascript.com/posts/meetups/2012/05/15/"/>
     <id>https://austinjavascript.com/posts/meetups/2012/05/15/</id>
     <published>2012-05-15T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;This month&#39;s Austin JS meetup not only taps into our extensive local talent base, but brings in the academic side of JavaScript as well.  Local JavaScript aficionado, &lt;a href=&quot;http://twitter.com/lawnsea&quot;&gt;Lon Ingram&lt;/a&gt;, will be discussing his University of Texas Honors Thesis, Treehouse.  This is an event not to be missed!&lt;/p&gt;
 &lt;p&gt;Lon will be presenting TreeHouse, the subject of his honors thesis, which he completed under the supervision of Dr. Michael Walfish. TreeHouse is a system that uses Web Workers to sandbox (mostly) unmodified JavaScript. TreeHouse gives application authors fine-grained control over untrusted code in their application. Authors can control what parts of the DOM untrusted code can see and modify, as well as the API calls it can make.  Is your mind blown yet?&lt;/p&gt;
 &lt;p&gt;Of course we will followup all of this up with our wildly crowd-pleasing roundtable of JavaScript-related questions.  This is an open forum to present topics of discussion in a rapid-fire manner or simply heckle &lt;a href=&quot;http://twitter.com/joemccann&quot;&gt;@joemccann&lt;/a&gt;.&lt;/p&gt;
@@ -321,7 +321,7 @@
     <link href="https://austinjavascript.com/posts/meetups/2012/06/19/"/>
     <id>https://austinjavascript.com/posts/meetups/2012/06/19/</id>
     <published>2012-06-19T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;Coming in just on the heels of what is to be &lt;em&gt;the&lt;/em&gt; JavaScript conference of the South, &lt;a href=&quot;http://2012.texasjavascript.com/&quot;&gt;TXJS&lt;/a&gt;, Austin JavaScript has brought another out-of-town guest speaker to the June 2012 meetup.&lt;/p&gt;
 &lt;p&gt;Mikeal will be talking about node.  That&#39;s all he told me.  I foresee a rather bizarre presentation nonetheless.  Word is it may involve Japanese cuisine.&lt;/p&gt;
 &lt;p&gt;Of course we will followup all of this up with our wildly crowd-pleasing roundtable of JavaScript-related questions.  This is an open forum to present topics of discussion in a rapid-fire manner or simply heckle &lt;a href=&quot;http://twitter.com/joemccann&quot;&gt;@joemccann&lt;/a&gt;.&lt;/p&gt;
@@ -333,7 +333,7 @@
     <link href="https://austinjavascript.com/posts/meetups/2012/07/17/"/>
     <id>https://austinjavascript.com/posts/meetups/2012/07/17/</id>
     <published>2012-07-17T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;It&#39;s hot.  We know. Why not come down to this month&#39;s meetup and learn some cool things from local front-end expert and O&#39;Reilly published author, &lt;a href=&quot;http://twitter.com/garannm&quot;&gt;Garann Means&lt;/a&gt;!&lt;/p&gt;
 &lt;p&gt;If you know much about the engineering side of Etsy, you&#39;re probably aware that they love their devtools there. &lt;a href=&quot;https://github.com/etsy/statsd&quot;&gt;StatsD&lt;/a&gt; is one of their better-known tools. It&#39;s an open source Node service that they use to collect statistics about how the site is working and being used. Garann will talk about the tool itself and about how it fits into Etsy&#39;s larger process.&lt;/p&gt;
 &lt;p&gt;Of course we will followup all of this up with our wildly crowd-pleasing roundtable of JavaScript-related questions.  This is an open forum to present topics of discussion in a rapid-fire manner or simply heckle &lt;a href=&quot;http://twitter.com/joemccann&quot;&gt;@joemccann&lt;/a&gt;.&lt;/p&gt;
@@ -345,7 +345,7 @@
     <link href="https://austinjavascript.com/posts/meetups/2012/08/21/"/>
     <id>https://austinjavascript.com/posts/meetups/2012/08/21/</id>
     <published>2012-08-21T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;After last month&#39;s huge turnout for the meetup we are expecting yet another large turnout for local software developer and JavaScript aficionado, &lt;a href=&quot;http://twitter.com/dtulig&quot;&gt;David Tulig&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;David&#39;s talk will start by going over the components of the Google Closure Tools. This will cover the templates, which are usable on both the client and server, the library, which comes with a dependency management system and a large set of utilities, and the compiler, which performs advanced optimizations to speed up your JavaScript and reduce the size of the final application. He&#39;ll then go into detail on how Indeed has leveraged those tools to build resume instant search, covering using the closure tools in development, discussing the architecture that drives the product, and the advantages gained by using the closure tools.&lt;/p&gt;
 &lt;p&gt;Of course we will followup all of this up with our wildly crowd-pleasing roundtable of JavaScript-related questions.  This is an open forum to present topics of discussion in a rapid-fire manner or simply heckle &lt;a href=&quot;http://twitter.com/joemccann&quot;&gt;@joemccann&lt;/a&gt;.&lt;/p&gt;
@@ -357,7 +357,7 @@
     <link href="https://austinjavascript.com/posts/meetups/2012/09/18/"/>
     <id>https://austinjavascript.com/posts/meetups/2012/09/18/</id>
     <published>2012-09-18T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;&lt;a href=&quot;http://appcelerator.com/&quot;&gt;Appcelerator&lt;/a&gt;, the company behind the awesome mobile app development framework &lt;a href=&quot;http://www.appcelerator.com/platform&quot;&gt;Titanium&lt;/a&gt;, has been a long time supporter of Austin JS going back many years.  This month, we are treated to a special presentation (no, NOT a product pitch) by one of their key (and local!) developers, &lt;a href=&quot;http://twitter.com/grantges&quot;&gt;Bert Granges&lt;/a&gt;, to talk about and show off the latest and greatest that Titanium has to offer.&lt;/p&gt;
 &lt;p&gt;Ever wonder what it would be like to use JavaScript to build native applications for iOS and Android? Wouldn&#39;t it be nice if you could use one codebase for both platforms?  Using JavaScript, Appcelerator Titanium platform and Cloud Services, you&#39;ll walk through what it takes to build out a fully functional mobile application supported by backend services. Along the way you will learn how Appcelerator Titanium works and hopefully learn a bit about JavaScript along the way.&lt;/p&gt;
 &lt;p&gt;Of course we will followup all of this up with our wildly crowd-pleasing roundtable of JavaScript-related questions.  This is an open forum to present topics of discussion in a rapid-fire manner or simply heckle &lt;a href=&quot;http://twitter.com/joemccann&quot;&gt;@joemccann&lt;/a&gt;.&lt;/p&gt;
@@ -369,7 +369,7 @@
     <link href="https://austinjavascript.com/posts/meetups/2012/10/16/"/>
     <id>https://austinjavascript.com/posts/meetups/2012/10/16/</id>
     <published>2012-10-16T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;Post ACL weekend here in Austin, we will be having the last installment of Austin JS for 2012.  Sad Panda, indeed.  This month, we have another local JavaScript expert chatting up Windows 8!&lt;/p&gt;
 &lt;p&gt;Jonathan Hebert&#39;s talk will be about writing Windows Store Apps with JavaScript, including:&lt;/p&gt;
 &lt;ul&gt;
@@ -388,7 +388,7 @@
     <link href="https://austinjavascript.com/posts/meetups/2012/11/19/"/>
     <id>https://austinjavascript.com/posts/meetups/2012/11/19/</id>
     <published>2012-11-19T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;Since the timing of the Thanksgiving holidays sadly interrupts Austin JavaScript&#39;s monthly meetup schedule, we decided to still get together instead of canceling the meetup entirely.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;http://austinjavascript.com/wp-content/uploads/2012/11/thanksgiving.js-400x400.png&quot; rel=&quot;lightbox[386]&quot;&gt;&lt;img class=&quot;size-full wp-image-389 alignnone&quot; title=&quot;Thanksgiving.js&quot; src=&quot;http://austinjavascript.com/wp-content/uploads/2012/11/thanksgiving.js-400x400.png&quot; alt=&quot;Thanksgiving.js&quot; width=&quot;400&quot; height=&quot;400&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;So come and join us for &lt;strong&gt;free beer&lt;/strong&gt;, &lt;strong&gt;free food&lt;/strong&gt; and an all around good time at our staple pub, &lt;a href=&quot;http://aus.gingermanpub.com/&quot;&gt;The Ginger Man&lt;/a&gt;.  This is purely a social event, but your JS skills may be tested so come prepared!&lt;/p&gt;
@@ -400,7 +400,7 @@
     <link href="https://austinjavascript.com/posts/meetups/2013/01/15/"/>
     <id>https://austinjavascript.com/posts/meetups/2013/01/15/</id>
     <published>2013-01-15T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;Let&#39;s ring in the new year with some new JavaScript Hotness. We&#39;ve got two JavaScript pros flying in from Mozilla to go over some cool new browser features!&lt;/p&gt;
 &lt;p&gt;Their talk will be about all the brand new stuff in the browser world. They describe it:&lt;/p&gt;
 &lt;blockquote&gt;
@@ -416,7 +416,7 @@
     <link href="https://austinjavascript.com/posts/meetups/2013/02/19/"/>
     <id>https://austinjavascript.com/posts/meetups/2013/02/19/</id>
     <published>2013-02-19T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;February has enough days dedicated to love and romance, so we&#39;re dedicating our meetup to &lt;strong&gt;bugs&lt;/strong&gt;. We&#39;ve got local JavaScript free-thinker and theorist Lon Ingram joining us for a talk about bugs and bug reproduction (ewww gross).&lt;/p&gt;
 &lt;p&gt;Lon will discuss the problem of reproducing and diagnosing bugs reported from the wild, and then present Reanimator, an experimental system for capturing and replaying JavaScript applications. Reanimator captures non-deterministic input to a JavaScript application in a log that can replayed at a later date. It was originally designed for recording web application crashes for later debugging, but Lon will also cover other uses, such as usability testing and tutorials.&lt;/p&gt;
 &lt;p&gt;Of course we will followup all of this up with our wildly crowd-pleasing roundtable of JavaScript-related questions.  This is an open forum to present topics of discussion in a rapid-fire manner or simply heckle &lt;a href=&quot;http://twitter.com/joemccann&quot;&gt;@joemccann&lt;/a&gt; or &lt;a href=&quot;http://twitter.com/slexaxton&quot;&gt;@slexaxton&lt;/a&gt;!&lt;/p&gt;
@@ -429,7 +429,7 @@
     <link href="https://austinjavascript.com/posts/meetups/2013/05/21/"/>
     <id>https://austinjavascript.com/posts/meetups/2013/05/21/</id>
     <published>2013-05-21T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;We&#39;re back from SXSW and TXJS and ready to get back into action! This month we&#39;ll have local JavaScripter, &lt;a href=&quot;http://twitter.com/markmarkoh&quot;&gt;Mark DiMarco&lt;/a&gt; talk about &lt;a href=&quot;http://d3js.org/&quot;&gt;D3.js&lt;/a&gt; and Data Visualizations.&lt;/p&gt;
 &lt;p&gt;Mark will give an intro to D3.js and data visualizations as well as some real world use cases for using these tools. Using an interactive programming style, he will navigate the ins and outs of simplifying data, manipulating it, and displaying it in a way that the end user can understand. He&#39;ll compare D3 to some other popular charting libraries and note the reasons when you&#39;d pick one style of data visualizations over another.&lt;/p&gt;
 &lt;p&gt;Of course we will followup all of this up with our wildly crowd-pleasing roundtable of JavaScript-related questions.  This is an open forum to present topics of discussion in a rapid-fire manner or simply heckle [@slexaxton][4] or this months fill-in host [@tswicegood][5]!&lt;/p&gt;
@@ -441,7 +441,7 @@
     <link href="https://austinjavascript.com/posts/meetups/2013/06/18/"/>
     <id>https://austinjavascript.com/posts/meetups/2013/06/18/</id>
     <published>2013-06-18T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;It&#39;s June. It&#39;s getting hot and we all need a little more JavaScript in our lives. Well, enjoy the air conditioned comfort of Austin JS on June 18th with a talk from JavaScript SuperStar Rebecca Murphey.&lt;/p&gt;
 &lt;p&gt;It&#39;s one thing to write the code you need to write to get something working; it&#39;s another thing to write the code you need to write if you want to be able to prove that it works — and that it keeps working as you refactor and add new features. In this talk, we&#39;ll look at what it means to write testable JavaScript code.&lt;/p&gt;
 &lt;p&gt;Of course we will followup all of this up with our wildly crowd-pleasing roundtable of JavaScript-related questions.  This is an open forum to present topics of discussion in a rapid-fire manner or simply heckle &lt;a href=&quot;http://twitter.com/slexaxton&quot;&gt;@slexaxton&lt;/a&gt;!&lt;/p&gt;
@@ -453,7 +453,7 @@
     <link href="https://austinjavascript.com/posts/meetups/2013/07/16/"/>
     <id>https://austinjavascript.com/posts/meetups/2013/07/16/</id>
     <published>2013-07-16T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;It&#39;s finally over 100 degrees with some consistency. It feels like home again. It must be July. Come celebrate our freedom at Austin JavaScript&#39;s first lightning talk meeting.&lt;/p&gt;
 &lt;p&gt;Instead of having a traditional speaker, we&#39;re going to try a lightning talks meeting. We&#39;ve discussed it with the a few of you and are excited to here everything you guys have to say. If it goes well, we&#39;d like to have these 1 or 2 times a year, so please give feedback!&lt;/p&gt;
 &lt;h2&gt;How it will work&lt;/h2&gt;
@@ -472,7 +472,7 @@
     <link href="https://austinjavascript.com/posts/meetups/2013/10/15/"/>
     <id>https://austinjavascript.com/posts/meetups/2013/10/15/</id>
     <published>2013-10-15T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;We hope your summers were eventful and full of fun, but it&#39;s time to get back into the groove. We&#39;re happy to partner up with the &lt;a href=&quot;http://www.meetup.com/Ember-ATX&quot;&gt;EmberATX meetup&lt;/a&gt; for a meetup of the centuries. &lt;a href=&quot;http://tomdale.net/&quot;&gt;Tom Dale&lt;/a&gt;, co-creator of &lt;a href=&quot;http://emberjs.com/&quot;&gt;Ember.js&lt;/a&gt; will be visiting Austin to give a talk about Ember.js, the state of Ember 1.0, and the future of the framework.&lt;/p&gt;
 &lt;p&gt;We&#39;re expecting a pretty full-house and only have limited space, &lt;strong&gt;so we ask that you RSVP here: &lt;a href=&quot;http://www.meetup.com/Ember-ATX/events/140780512/&quot;&gt;Meetup.com EmberATX/AustinJS RSVP&lt;/a&gt;&lt;/strong&gt; (slackers note: it should be open up &#39;til the moment the meetup starts, unless it fills up).&lt;/p&gt;
 &lt;p&gt;AustinJS would like to thank the &lt;a href=&quot;https://twitter.com/emberatx&quot; title=&quot;EmberATX on Twitter&quot;&gt;@EmberATX&lt;/a&gt; community for setting this up. We&#39;re happy to share our space with other awesome JavaScript communities in town!&lt;/p&gt;
@@ -484,7 +484,7 @@
     <link href="https://austinjavascript.com/posts/meetups/2013/11/19/"/>
     <id>https://austinjavascript.com/posts/meetups/2013/11/19/</id>
     <published>2013-11-19T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;Glad tidings, Austin JavaScripters, we bring you good news of our meetup this month! We&#39;re happy to welcome Kassandra Perch to throw down some knowledge on Twitter&#39;s framework, &lt;a href=&quot;http://twitter.github.io/flight/&quot;&gt;Flight&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Her talk is titled &amp;quot;Flight: a Framework done right,” and we&#39;ll talk about how the framework is event-driven, component-based, and leverages the DOM to form a cohesive code structure. The concept of functional mixins will also be introduced, and how it is unique from other forms of class composition. Finally, we&#39;ll cover how all of these create a testable, scalable, friendly front-end code base.&lt;/p&gt;
 </content>
@@ -495,7 +495,7 @@
     <link href="https://austinjavascript.com/posts/meetups/2014/01/21/"/>
     <id>https://austinjavascript.com/posts/meetups/2014/01/21/</id>
     <published>2014-01-21T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;Happy New Year, Austin JavaScriptorians! Hopefully you&#39;re enjoying your 2014 SO MUCH you&#39;ve already broken those pesky resolutions you made a couple of weeks ago.&lt;/p&gt;
 &lt;p&gt;We&#39;re kicking the new year off with an exciting talk from our friends at PayPal called &amp;quot;Release the Kraken: A Story of Node.js in the Enterprise.&amp;quot; Jeff Harrell and Erik Toth will tell us how PayPal revitalized its tech stack by moving from Java, JSP, and proprietary solutions to a Node.js web application stack with &lt;a href=&quot;http://akdubya.github.io/dustjs/&quot;&gt;dust.js&lt;/a&gt; templating. Developer agility was the primary motivation, but along the way they had to take on enterprise culture and teach people that JavaScript is no longer a &amp;quot;toy,&amp;quot; but a powerful tool to wield. We&#39;ll also take a look at PayPal&#39;s web app framework, &lt;a href=&quot;https://github.com/paypal/kraken-js&quot;&gt;Kraken&lt;/a&gt;.&lt;/p&gt;
 </content>
@@ -506,7 +506,7 @@
     <link href="https://austinjavascript.com/posts/meetups/2014/02/18/"/>
     <id>https://austinjavascript.com/posts/meetups/2014/02/18/</id>
     <published>2014-02-18T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;This month we&#39;ll be hearing from &lt;a href=&quot;https://twitter.com/garannm&quot;&gt;Garann Means&lt;/a&gt; about refactoring big apps!&lt;/p&gt;
 &lt;p&gt;It would be nice if developers could download a JavaScript framework, plug in the custom logic required for their particular problem, and have a functional, scalable, and reliable application. As any who&#39;s tried can probably tell you, however, it doesn&#39;t work like that. It doesn&#39;t matter if your application has 5000 &amp;quot;pages&amp;quot; or less than 50 — it will eventually become a large application in terms of code, because size of code is not just a measure of the complexity of the app itself, but of its maturity. If you&#39;ve tried taking an app from a minimal set of functionality to something complex enough to cover all the edge cases, you&#39;ve probably done some rewriting.&lt;/p&gt;
 &lt;p&gt;If you haven&#39;t, it&#39;s your lucky day! We&#39;ll talk about several of the ways you can almost guarantee a rewrite in your app&#39;s future. If, on the other hand, rewrites don&#39;t sound like that much fun to you, we&#39;ll also talk about how to avoid them or at least minimise the risk they present&lt;/p&gt;
@@ -521,7 +521,7 @@
     <link href="https://austinjavascript.com/posts/meetups/2014/04/15/"/>
     <id>https://austinjavascript.com/posts/meetups/2014/04/15/</id>
     <published>2014-04-15T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;&lt;a href=&quot;http://butts.ytmnd.com/&quot;&gt;Hold on to your butts&lt;/a&gt;, it&#39;s AustinJS time. Not only will we hear from local hero Charles Lowell (&lt;a href=&quot;https://twitter.com/cowboyd&quot;&gt;@cowboyd&lt;/a&gt;) about &amp;quot;The Power of M,&amp;quot; but we&#39;re also hosting a special guest from Google that will tell us about the future of the web platform, web components!&lt;/p&gt;
 &lt;p&gt;Whether you&#39;re using a full fledged MVC framework. or just spicing up your UX with a single special interaction, it&#39;s the &amp;quot;M&amp;quot; and only the &amp;quot;M&amp;quot; that is the key creating powerful user experiences. To demonstrate this principle in action, we&#39;ll first create an in-memory model of what a color is, and then use it to build an interactive 3D color chooser. Sound hard? Not when we harness the Power of M. In this talk, we&#39;ll track the building of an interactive, 3D color chooser that contains interactive visualizations of both the RGB Space (a cube), and the HSL Space (a cylinder).&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;BUT WAIT THERE&#39;S MORE!&lt;/strong&gt; Web components are an important part of the future of the web, so when we heard that Rob Dodson (&lt;a href=&quot;https://twitter.com/rob_dodson&quot;&gt;@rob_dodson&lt;/a&gt;) was going to be in town, we invited him to come tell us more about them. Rob is a Google developer advocate that specializes in this area, so we&#39;re looking forward to learning from him about web components and Google&#39;s polyfill/framework &lt;a href=&quot;http://www.polymer-project.org/&quot;&gt;Polymer&lt;/a&gt;.&lt;/p&gt;
@@ -533,7 +533,7 @@
     <link href="https://austinjavascript.com/posts/meetups/2014/05/20/"/>
     <id>https://austinjavascript.com/posts/meetups/2014/05/20/</id>
     <published>2014-05-20T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;We&#39;re back with another AustinJS! We&#39;ll be hearing a couple of talks again this month. First up, Steve Stedman (&lt;a href=&quot;https://twitter.com/stedman&quot;&gt;@stedman&lt;/a&gt;) will be doling out some knowledge on &lt;a href=&quot;http://lesscss.org/&quot;&gt;LESS&lt;/a&gt;, a popular CSS preprocessor implemented in Javascript. Next Alex Sexton (&lt;a href=&quot;https://twitter.com/slexaxton&quot;&gt;@SlexAxton&lt;/a&gt;) will teach us about X11 colors (wha?!!??) and how they&#39;ve impacted the web.&lt;/p&gt;
 </content>
   </entry>
@@ -543,7 +543,7 @@
     <link href="https://austinjavascript.com/posts/meetups/2014/06/17/"/>
     <id>https://austinjavascript.com/posts/meetups/2014/06/17/</id>
     <published>2014-06-17T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;What up Austonians, it&#39;s Austin JS time again! Come join us at Spredfast (formerly Mass Relevance, &lt;strong&gt;&lt;em&gt;note the location change&lt;/em&gt;&lt;/strong&gt;) for another meetup. We&#39;ll hear from local web builder &lt;a href=&quot;https://twitter.com/meany_face&quot;&gt;Jared Stilwell&lt;/a&gt; about &amp;quot;Complexity Metrics and You.&amp;quot; What are complexity metrics? Great question!&lt;/p&gt;
 &lt;p&gt;The code works. Your linter and test cases are happy. But, you feel the code could be cleaner. Where do you start? Complexity metrics can lead the way. Using a combination of measurement techniques, the process of finding rough edges in your codebase and tracking improvements becomes much easier. We&#39;ll cover several common metrics, the landscape of existing tools for JavaScript, and how they can be used to guide refactoring.&lt;/p&gt;
 </content>
@@ -554,7 +554,7 @@
     <link href="https://austinjavascript.com/posts/meetups/2014/07/15/"/>
     <id>https://austinjavascript.com/posts/meetups/2014/07/15/</id>
     <published>2014-07-15T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;Hey Austin Javascripters, this month&#39;s meetup is gonna bring that &lt;code&gt;~*~* variety *~*~&lt;/code&gt;. Here are a few talks that we&#39;ve got lined up already:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;http://twitter.com/lawnsea&quot;&gt;@lawnsea&lt;/a&gt;: TCP Trix&lt;/li&gt;
@@ -573,7 +573,7 @@
     <link href="https://austinjavascript.com/posts/meetups/2014/08/26/"/>
     <id>https://austinjavascript.com/posts/meetups/2014/08/26/</id>
     <published>2014-08-26T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;Whatup jorbascrupmers. As promised we&#39;re going to be hearing about a shiny new feature coming in the next version of JavaScript — generators.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://twitter.com/jlipps&quot;&gt;Jonathan Lipps&lt;/a&gt; will give a talk titled &lt;em&gt;Yield! How ES6 Generators and Monocle-js Can Bring Async Into Line, Literally&lt;/em&gt;, and will teach us how generators can save our souls from callback hell.&lt;/p&gt;
 </content>
@@ -584,7 +584,7 @@
     <link href="https://austinjavascript.com/posts/meetups/2014/09/16/"/>
     <id>https://austinjavascript.com/posts/meetups/2014/09/16/</id>
     <published>2014-09-16T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;Get ready for a blowout Austin JavaScripters, cause this month&#39;s meetup is going to be a choreography-fueled rager:&lt;/p&gt;
 &lt;img style=&quot;display: block; margin: 0 auto;&quot; src=&quot;https://i.cloudup.com/1M9-LTvYh9.gif&quot;&gt;
 &lt;p&gt;This month&#39;s speaker is &lt;a href=&quot;https://twitter.com/danheberden&quot;&gt;Dan &amp;quot;&lt;span style=&quot;position: relative; display: inline-block; width: 98px&quot;&gt;&lt;span style=&quot;visibility: hidden&quot;&gt;Jazz Hands&lt;/span&gt;&lt;span style=&quot;position: absolute; left:  0px&quot;&gt;J&lt;/span&gt;&lt;span style=&quot;position: absolute; top: -4px; left: 10px&quot;&gt;a&lt;/span&gt;&lt;span style=&quot;position: absolute; left: 20px&quot;&gt;z&lt;/span&gt;&lt;span style=&quot;position: absolute; top: 4px; left: 30px&quot;&gt;z&lt;/span&gt;&lt;span style=&quot;position: absolute; left: 45px&quot;&gt;H&lt;/span&gt;&lt;span style=&quot;position: absolute; top: -4px; left: 58px&quot;&gt;a&lt;/span&gt;&lt;span style=&quot;position: absolute; left: 68px&quot;&gt;n&lt;/span&gt;&lt;span style=&quot;position: absolute; top: 4px; left: 78px&quot;&gt;d&lt;/span&gt;&lt;span style=&quot;position: absolute; left: 88px&quot;&gt;s&lt;/span&gt;&lt;/span&gt;&amp;quot; Heberden&lt;/a&gt;:&lt;/p&gt;
@@ -597,7 +597,7 @@
     <link href="https://austinjavascript.com/posts/meetups/2014/10/21/"/>
     <id>https://austinjavascript.com/posts/meetups/2014/10/21/</id>
     <published>2014-10-21T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;We&#39;ve got another &lt;code&gt;~*super rad*~&lt;/code&gt; meetup next Tuesday, October 21st. Local favorite &lt;a href=&quot;http://driverdan.com/&quot;&gt;Dan DeFelippi&lt;/a&gt; (&lt;a href=&quot;https://twitter.com/expertdan&quot;&gt;@expertdan&lt;/a&gt;) is going to educate us on building mobile apps with &lt;a href=&quot;http://cordova.apache.org/&quot;&gt;Cordova&lt;/a&gt; (the open-source engine behind &lt;a href=&quot;http://phonegap.com/&quot;&gt;PhoneGap&lt;/a&gt;). Aside from being a proper geek and hacker, Dan is a co-founder of local bike rental and bike share app &lt;a href=&quot;https://twitter.com/Spokefly&quot;&gt;Spokefly&lt;/a&gt;.&lt;/p&gt;
 </content>
   </entry>
@@ -607,7 +607,7 @@
     <link href="https://austinjavascript.com/posts/meetups/2015/01/20/"/>
     <id>https://austinjavascript.com/posts/meetups/2015/01/20/</id>
     <published>2015-01-20T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;Hey happy New Year Austin! Let&#39;s celebrate by getting together and talking about 3rd party JavaScript.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://cldup.com/nWqk2nPq1S.gif&quot; alt=&quot;aw snap third party js party&quot;&gt;&lt;/p&gt;
 &lt;p&gt;So who&#39;s gonna emcee this rager? None other than the venerable &lt;a href=&quot;http://rmurphey.com/&quot;&gt;Rebecca Murphey&lt;/a&gt; (&lt;a href=&quot;https://twitter.com/rmurphey&quot;&gt;@rmurphey&lt;/a&gt;). Get ready to hear some harrowing-ass tales of running code on other people&#39;s sites, from one of the largest 3rd party JavaScript deployments out there.&lt;/p&gt;
@@ -619,7 +619,7 @@
     <link href="https://austinjavascript.com/posts/meetups/2015/04/21/"/>
     <id>https://austinjavascript.com/posts/meetups/2015/04/21/</id>
     <published>2015-04-21T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;Are you finally recovered from SXSW and ready. for. some. JavaScript?! Well, you&#39;re in luck: this Tuesday, Austin local &lt;a href=&quot;https://twitter.com/tbvancil&quot;&gt;Tara Vancil&lt;/a&gt; is giving us a clinic on JavaScript crypto. Please don&#39;t tell the NSA.&lt;/p&gt;
 &lt;img class=&quot;alignnone&quot; title=&quot;TOO MANY SECRETS&quot; src=&quot;http://media.giphy.com/media/8g4CuR1Af5t6g/giphy.gif&quot; alt=&quot;Animated gif of Whistler from Sneakers&quot; width=&quot;325&quot; height=&quot;186&quot;&gt;
 &lt;p&gt;The web hosts a large portion of the world&#39;s new cryptographic tools, and the debate about whether JavaScript is up to the challenge carries on. Tara will discuss how JavaScript plays an important role in developing some of the best crypto tools out there, explain some situations in which it just doesn&#39;t cut it, and show some examples of both.&lt;/p&gt;
@@ -631,7 +631,7 @@
     <link href="https://austinjavascript.com/posts/meetups/2015/05/19/"/>
     <id>https://austinjavascript.com/posts/meetups/2015/05/19/</id>
     <published>2015-05-19T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;As the saying goes, &amp;quot;April showers bring May showers.&amp;quot; They also bring you another JavaScript meetup! Local markup slinger &lt;a href=&quot;https://twitter.com/cowboyd&quot;&gt;Charles Lowell&lt;/a&gt; will be giving a talk titled &amp;quot;&lt;code&gt;on(&#39;input&#39;)&lt;/code&gt;: dealing with data from your user in real-time… as in like forms, actually.&amp;quot;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://cldup.com/uJyOXkshJR.gif&quot; alt=&quot;animated gif of what appears to be a honey badger dancing&quot; title=&quot;awww yisss&quot;&gt;&lt;/p&gt;
 &lt;p&gt;Dealing with forms in a stateful UI can be a nightmare. While most of the major frameworks focus on their hot new rendering hotness, they uniformly pass the buck when it comes to handling user input. More often than not, you’re on your own, armed with nothing but callbacks when it comes to the complexities of wrangling networks of textfields, checkboxes and other custom components into robust, valid data structures that the rest of your app can use. In this talk, we’ll explore how to bring just a little more sanity to our forms by looking for help in an unlikely place: those same advances in rendering that have pushed the state of the art so far forward these past few years.&lt;/p&gt;
@@ -643,7 +643,7 @@
     <link href="https://austinjavascript.com/posts/meetups/2015/06/16/"/>
     <id>https://austinjavascript.com/posts/meetups/2015/06/16/</id>
     <published>2015-06-16T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;Howdy, Texas. We&#39;re looking forward to seeing all of you fine vaqueras and vaqueros this Tuesday June 17, 2015 as Kyle Simpson (&lt;a href=&quot;https://twitter.com/getify&quot;&gt;@getify&lt;/a&gt;) rustles up some knowledge on transpiling JavaScript.&lt;/p&gt;
 &lt;p&gt;The new reality of JavaScript is that the features will evolve even quicker than the specification, and much quicker than your &amp;quot;supported&amp;quot; browsers. So we&#39;re going to have to come to grips with transpilers being a standard part of our build processes. But what can we do to wrangle at least two versions of every file? What does that mean for server-side coding (node/iojs) and what does it mean for browser-delivered files? Should we use the transpiled code everywhere, or should we have split delivery?&lt;/p&gt;
 </content>
@@ -654,7 +654,7 @@
     <link href="https://austinjavascript.com/posts/meetups/2015/07/21/"/>
     <id>https://austinjavascript.com/posts/meetups/2015/07/21/</id>
     <published>2015-07-21T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;Sup, y&#39;all. We&#39;ve got something special planned for our July meetup and we are &lt;em&gt;shore&lt;/em&gt; you&#39;re gonna think it&#39;s fresh to death.&lt;/p&gt;
 &lt;p&gt;Here&#39;s &lt;a href=&quot;https://en.wikipedia.org/wiki/Michael_Sorrentino&quot;&gt;the Situation&lt;/a&gt;: AustinJS is going down the Shore! Jenn Schiffer is staging a blowout &lt;a href=&quot;http://jerseyscript.github.io/&quot;&gt;JerseyScript&lt;/a&gt; bo-coup on July 22, 2015. Jenn has convinced New York&#39;s own Adam J. Sontag to come rap with us about a speech recognition game he is working on.&lt;/p&gt;
 </content>
@@ -665,7 +665,7 @@
     <link href="https://austinjavascript.com/posts/meetups/2015/08/18/"/>
     <id>https://austinjavascript.com/posts/meetups/2015/08/18/</id>
     <published>2015-08-18T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;div class=&quot;ajs-box&quot;&gt;
 We&#39;re not in our usual location! We&#39;ll be meeting at &lt;strong&gt;Spredfast&lt;/strong&gt; this month in the Silicon Labs building, so please plan accordingly.
 &lt;/div&gt;
@@ -678,7 +678,7 @@ We&#39;re not in our usual location! We&#39;ll be meeting at &lt;strong&gt;Spred
     <link href="https://austinjavascript.com/posts/meetups/2015/09/15/"/>
     <id>https://austinjavascript.com/posts/meetups/2015/09/15/</id>
     <published>2015-09-15T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;Webster&#39;s Dictionary &lt;a href=&quot;http://www.merriam-webster.com/dictionary/suggestions/sharknado&quot;&gt;defines &amp;quot;extravaganza&amp;quot; as&lt;/a&gt;:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;a very large and exciting show or event&lt;/p&gt;
@@ -715,7 +715,7 @@ We&#39;re not in our usual location! We&#39;ll be meeting at &lt;strong&gt;Spred
     <link href="https://austinjavascript.com/posts/meetups/2015/10/20/"/>
     <id>https://austinjavascript.com/posts/meetups/2015/10/20/</id>
     <published>2015-10-20T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;For our final meetup of 2k15 we have a very special guest: &lt;a href=&quot;https://twitter.com/joemccann&quot;&gt;Joe McCann&lt;/a&gt;, founder of AustinJS and &lt;a href=&quot;https://nodesource.com/&quot;&gt;NodeSource&lt;/a&gt;, is going to talk about this &lt;a href=&quot;https://iojs.org/en/&quot;&gt;Node.js&lt;/a&gt; thing we&#39;ve heard so much about. Node recently went straight from 0.12 to 4.0, meaning it is 33.3X more Enterprise Ready™®©℠ than competing platforms. Joe will tell us everything we need to know to scale Node out the front door and into the cloud.&lt;/p&gt;
 </content>
   </entry>
@@ -725,7 +725,7 @@ We&#39;re not in our usual location! We&#39;ll be meeting at &lt;strong&gt;Spred
     <link href="https://austinjavascript.com/posts/meetups/2016/01/19/"/>
     <id>https://austinjavascript.com/posts/meetups/2016/01/19/</id>
     <published>2016-01-19T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;🎉🎆 Happy New Year 🎆🎉 Hopefully 2016 finds all of you well, and hopefully you&#39;ll &lt;strong&gt;&lt;em&gt;RESOLLLLVVVVE&lt;/em&gt;&lt;/strong&gt; to make it out to AustinJS next week to hear Alex Sexton talk about &amp;quot;almost definitely client side security.&amp;quot; We&#39;re pretty certain that means his three-hour deep dive on whether &lt;a href=&quot;http://wil.to/_/whatno.gif&quot;&gt;Rey is a Kenobi&lt;/a&gt; (hey as long as it&#39;s not &lt;a href=&quot;https://twitter.com/slexaxton/status/419373720080105472&quot;&gt;politics&lt;/a&gt;, &lt;a href=&quot;https://alexsexton.com/blog/2015/02/the-15-commandments-of-front-end-performance/&quot;&gt;religion&lt;/a&gt;, or &lt;a href=&quot;https://twitter.com/SlexAxton/status/685163843564093440&quot;&gt;sex&lt;/a&gt; right).&lt;/p&gt;
 </content>
   </entry>
@@ -735,7 +735,7 @@ We&#39;re not in our usual location! We&#39;ll be meeting at &lt;strong&gt;Spred
     <link href="https://austinjavascript.com/posts/meetups/2016/02/16/"/>
     <id>https://austinjavascript.com/posts/meetups/2016/02/16/</id>
     <published>2016-02-16T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;We&#39;re not in our usual location!&lt;/strong&gt;: We&#39;ll be meeting at Spredfast this month in the Silicon Labs Building on Colorado/Cesar Chavez (&lt;a href=&quot;https://www.google.com/maps/place/200+W+Cesar+Chavez+St,+Austin,+TX+78701/@30.2642656,-97.7470567,18z/data=!3m1!4b1!4m2!3m1!1s0x8644b50602c5b57d:0x4c4d44de892b1d04&quot;&gt;map&lt;/a&gt;).&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -749,7 +749,7 @@ We&#39;re not in our usual location! We&#39;ll be meeting at &lt;strong&gt;Spred
     <link href="https://austinjavascript.com/posts/meetups/2016/04/19/"/>
     <id>https://austinjavascript.com/posts/meetups/2016/04/19/</id>
     <published>2016-04-19T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;It&#39;s April, so let&#39;s shake off our collective SXSW hangovers 🍻 (or maybe emerge from our SXSW bunkers ☢️) and get together on April 20, 2016 for another great AustinJS!&lt;/p&gt;
 &lt;p&gt;We&#39;ll be hearing from Anton Astashov about &lt;a href=&quot;http://elm-lang.org/&quot;&gt;Elm&lt;/a&gt;, a transpiled-to-JavaScript language which makes sure you’ll never have a runtime error in your app. Almost. He&#39;ll cover why it’s cool, what it looks like, it’s pros and (most importantly) cons!&lt;/p&gt;
 </content>
@@ -760,7 +760,7 @@ We&#39;re not in our usual location! We&#39;ll be meeting at &lt;strong&gt;Spred
     <link href="https://austinjavascript.com/posts/meetups/2016/05/17/"/>
     <id>https://austinjavascript.com/posts/meetups/2016/05/17/</id>
     <published>2016-05-17T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;This month we&#39;ve got &lt;a href=&quot;https://miketaylr.com/posts/2016/04/string-prototype-contains-use-your-own-judgement.html&quot;&gt;dark web expert&lt;/a&gt; and &lt;a href=&quot;https://miketaylr.com/posts/2016/02/dispatching-magical-webkit-prefixed-events.html&quot;&gt;Gotye fan&lt;/a&gt; &lt;a href=&quot;https://austinjavascript.com/posts/meetups/2016/05/17/&quot;&gt;&lt;strike&gt;Miike&lt;/strike&gt; Mike &lt;strike&gt;Snow&lt;/strike&gt; Taylor&lt;/a&gt; in to discuss the nuances of writing JavaScript that actually works in world-wide web browsing machines. Come out and join us next Tuesday May 18, 2016!&lt;/p&gt;
 </content>
   </entry>
@@ -770,7 +770,7 @@ We&#39;re not in our usual location! We&#39;ll be meeting at &lt;strong&gt;Spred
     <link href="https://austinjavascript.com/posts/meetups/2016/06/21/"/>
     <id>https://austinjavascript.com/posts/meetups/2016/06/21/</id>
     <published>2016-06-21T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;This month we&#39;ve got veteran frontend engineer Rebecca Murphey, who will share the story of how she started a new job this year by paying a visit to JavaScript circa 2009, back when Ryan Dahl was getting ready to announce Node and Facebook was still four years away from being mocked for the apparent heresy of JSX. She&#39;ll explain how she modernized and best-practice-ified a project that didn&#39;t even have a package.json, smoothing the development process, eliminating common sources of bugs, paving the way for bigger improvements, and never once uttering the words &amp;quot;we oughta just start from scratch.&amp;quot; Come out and join us next Tuesday June 22, 2016!&lt;/p&gt;
 </content>
   </entry>
@@ -780,7 +780,7 @@ We&#39;re not in our usual location! We&#39;ll be meeting at &lt;strong&gt;Spred
     <link href="https://austinjavascript.com/posts/meetups/2016/07/19/"/>
     <id>https://austinjavascript.com/posts/meetups/2016/07/19/</id>
     <published>2016-07-19T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;This Tuesday, July 20, 2016, discover how this one weird extension &lt;strong&gt;&lt;em&gt;changed the web forever&lt;/em&gt;&lt;/strong&gt;. Andrew Dupont will give us a 12 year perspective (most of a century in internet years) on the ways GreaseMonkey shaped today&#39;s browsers and how user scripts give us the opportunity of a better web.&lt;/p&gt;
 </content>
   </entry>
@@ -790,7 +790,7 @@ We&#39;re not in our usual location! We&#39;ll be meeting at &lt;strong&gt;Spred
     <link href="https://austinjavascript.com/posts/meetups/2016/08/16/"/>
     <id>https://austinjavascript.com/posts/meetups/2016/08/16/</id>
     <published>2016-08-16T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;!--
 .wowowow {
   display: inline-block;
@@ -832,7 +832,7 @@ We&#39;re not in our usual location! We&#39;ll be meeting at &lt;strong&gt;Spred
     <link href="https://austinjavascript.com/posts/meetups/2016/09/20/"/>
     <id>https://austinjavascript.com/posts/meetups/2016/09/20/</id>
     <published>2016-09-20T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;It may still be hot in ATX, but summer is &lt;a href=&quot;http://i.imgur.com/9XjBUoD.gifv&quot;&gt;over&lt;/a&gt;, so our very own Lon Ingram is gonna &lt;em&gt;take us back to school&lt;/em&gt; and tell us about JavaScript in the Ivory Tower. We&#39;ll cover some great papers about JavaScript, and go beyond that to discuss how to find good research and read those super long intimidating papers.&lt;/p&gt;
 </content>
   </entry>
@@ -842,7 +842,7 @@ We&#39;re not in our usual location! We&#39;ll be meeting at &lt;strong&gt;Spred
     <link href="https://austinjavascript.com/posts/meetups/2016/10/18/"/>
     <id>https://austinjavascript.com/posts/meetups/2016/10/18/</id>
     <published>2016-10-18T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;We&#39;re not in our usual location!&lt;/strong&gt;: We&#39;ll be meeting at &lt;a href=&quot;https://www.techspace.com/spaces/austin/cbd/&quot;&gt;TechSpace Austin&lt;/a&gt; this month (&lt;a href=&quot;http://maps.google.com/?q=98%20San%20Jacinto%20Blvd.%20Austin,%20TX,%2078701&quot;&gt;map&lt;/a&gt;).&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -859,7 +859,7 @@ We&#39;re not in our usual location! We&#39;ll be meeting at &lt;strong&gt;Spred
     <link href="https://austinjavascript.com/posts/meetups/2016/11/15/"/>
     <id>https://austinjavascript.com/posts/meetups/2016/11/15/</id>
     <published>2016-11-15T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;Hey happy Veteran&#39;s Day and Marine Corps Birthday! AustinJS is going to get together Tuesday November 16, 2016 to hear from Jon Loyens about data-driven front end development &lt;code&gt;~⭐️for the troops⭐️~&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;In his own words:&lt;/p&gt;
 &lt;p&gt;Much has been made of Lean Startups, A/B testing and building data driven cultures. In order to be data-driven you need to have a culture of instrumentation and measurement, but building out the pipelines, client side instrumentation and an analytics warehouse from the ground up can be tedious, hard and time-consuming.&lt;/p&gt;
@@ -889,7 +889,7 @@ We&#39;re not in our usual location! We&#39;ll be meeting at &lt;strong&gt;Spred
     <link href="https://austinjavascript.com/posts/meetups/2017/01/17/"/>
     <id>https://austinjavascript.com/posts/meetups/2017/01/17/</id>
     <published>2017-01-17T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;Happy New Year everyone! Here&#39;s to fresh start. We&#39;re kicking the year off in style with a great talk from Rachel Weil!&lt;/p&gt;
 &lt;p&gt;Rachel will share a selection of personal projects that bring vintage electronics into the 21st century with Node.js and hobbyist microcontrollers. She’ll also cover some of the basic tools and approaches to getting started with refurbishing, refitting, and reworking old game consoles, computers, and digital toys.&lt;/p&gt;
 &lt;img alt=&quot;Rachel&#39;s Ballie Bear Video Arcade installation&quot; src=&quot;http://i.imgur.com/UjVAaeL.jpg&quot; style=&quot;max-width: 50%; margin: 0 auto; display: block;&quot;&gt;
@@ -902,7 +902,7 @@ We&#39;re not in our usual location! We&#39;ll be meeting at &lt;strong&gt;Spred
     <link href="https://austinjavascript.com/posts/meetups/2017/02/21/"/>
     <id>https://austinjavascript.com/posts/meetups/2017/02/21/</id>
     <published>2017-02-21T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;What are immutable data structures? Why would you want to prevent objects from changing? Why not just &lt;code&gt;Object.freeze()&lt;/code&gt;?&lt;/p&gt;
 &lt;p&gt;These are great questions for smart people, so you should come listen to Anton talk about what he&#39;d like to see change in the world of immutable JavaScript (you… you see what I did there?).&lt;/p&gt;
 </content>
@@ -913,7 +913,7 @@ We&#39;re not in our usual location! We&#39;ll be meeting at &lt;strong&gt;Spred
     <link href="https://austinjavascript.com/posts/meetups/2017/03/21/"/>
     <id>https://austinjavascript.com/posts/meetups/2017/03/21/</id>
     <published>2017-03-21T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;WebAssembly is fast. It’s being called “the future of the web”. Its speed and potential have major browser vendors working together to make it a reality. And it’s on its way — the MVP hit multiple browsers in October of last year.&lt;/p&gt;
 &lt;p&gt;But what makes it fast? Starting from the basics, this talk will walk you through what WebAssembly is, and then why it’s fast.&lt;/p&gt;
 &lt;p&gt;Get your burning questions ready! We&#39;ll have some super special swag for the best questions.&lt;/p&gt;
@@ -928,7 +928,7 @@ We&#39;re not in our usual location! We&#39;ll be meeting at &lt;strong&gt;Spred
     <link href="https://austinjavascript.com/posts/meetups/2017/04/18/"/>
     <id>https://austinjavascript.com/posts/meetups/2017/04/18/</id>
     <published>2017-04-18T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;What up team we got a meetup tonight! Tonight we&#39;re going to talk about testing your code. We figured it&#39;s been &lt;a href=&quot;https://austinjavascript.com/june-meetup-details-announced/&quot;&gt;almost 6 years&lt;/a&gt; since we last talked about TDD, which means the ecosystem has been through ~11 different testing frameworks, so we might as well get back into the subject since QUALITY IS EVERYONE&#39;S JOB ZERO.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://twitter.com/markedwardsims&quot;&gt;Mark Sims&lt;/a&gt; is coming to town to tell us about his experiences with testing and walk us through testing an app called Deathmatch that needs to be sure &lt;em&gt;Chuck always wins&lt;/em&gt;.&lt;/p&gt;
 </content>
@@ -939,7 +939,7 @@ We&#39;re not in our usual location! We&#39;ll be meeting at &lt;strong&gt;Spred
     <link href="https://austinjavascript.com/posts/meetups/2017/06/20/"/>
     <id>https://austinjavascript.com/posts/meetups/2017/06/20/</id>
     <published>2017-06-20T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;Here come dat beaker!&lt;/p&gt;
 &lt;img alt=&quot;Beaker&quot; src=&quot;https://upload.wikimedia.org/wikipedia/en/5/59/Beaker_%28Muppet%29.jpg&quot;&gt;
 &lt;p&gt;Hey friends! AustinJS is back with an exciting dual talk from Austin&#39;s own &lt;a href=&quot;https://twitter.com/taravancil&quot;&gt;Tara Vancil&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/pfrazee&quot;&gt;Paul Frazee&lt;/a&gt; about their project, [Beaker Browser][beaker], an experimental web browser with builtin hosting and p2p web protocols.&lt;/p&gt;
@@ -951,7 +951,7 @@ We&#39;re not in our usual location! We&#39;ll be meeting at &lt;strong&gt;Spred
     <link href="https://austinjavascript.com/posts/meetups/2017/07/18/"/>
     <id>https://austinjavascript.com/posts/meetups/2017/07/18/</id>
     <published>2017-07-18T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;It&#39;s too hot for hair out there, so we&#39;ve asked Lon Ingram to come talk to us about making websites fast as ⚡ (kung fu fighting, etc). Join us Tuesday July 19, 2017 and learn what it takes to appease our search engine overlords!&lt;/p&gt;
 &lt;h2&gt;Talk summary&lt;/h2&gt;
 &lt;p&gt;With the rise of the mobile web, speed has become crucial to success. Users won&#39;t wait around for slow-loading pages and search engines are now punishing sluggish sites. There&#39;s a wealth of ideas out there for cranking up performance, but how do you know where to start? What if you work for days to ship an optimization that doesn&#39;t really pay off? In this talk, you&#39;ll learn how to experiment and fail fast. You&#39;ll find out how to quickly and rigorously assess your optimization ideas with open source tools, and how to share your results so that others can replicate your findings.&lt;/p&gt;
@@ -963,7 +963,7 @@ We&#39;re not in our usual location! We&#39;ll be meeting at &lt;strong&gt;Spred
     <link href="https://austinjavascript.com/posts/meetups/2017/08/15/"/>
     <id>https://austinjavascript.com/posts/meetups/2017/08/15/</id>
     <published>2017-08-15T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;Ever wonder how to pronounce Babel? Join us Tuesday August 16, 2017 to find out! Austin&#39;s own Andrew Levine will teach us how to write Babel plugins.&lt;/p&gt;
 &lt;h2&gt;Talk summary&lt;/h2&gt;
 &lt;p&gt;Andrew is going to give an intro to writing Babel plugins. He&#39;ll start with a very high level summary of how Babel works, and then dive into the Plugin APIs and several examples of real world plugins to write.&lt;/p&gt;
@@ -975,7 +975,7 @@ We&#39;re not in our usual location! We&#39;ll be meeting at &lt;strong&gt;Spred
     <link href="https://austinjavascript.com/posts/meetups/2017/09/19/"/>
     <id>https://austinjavascript.com/posts/meetups/2017/09/19/</id>
     <published>2017-09-19T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;Source maps, huh, yeah. What are they good for? Absolutely... some things.&lt;/p&gt;
 &lt;p&gt;We have an extra special treat this month thanks to our gracious hosts and good friends at Spredfast: Ben Vinegar is coming all the way from &amp;quot;San Francisco&amp;quot; to tell us everything about how source maps work. Join us Tuesday September 20, 2017 for a special Bae Area AustinJS!&lt;/p&gt;
 &lt;h2&gt;Talk summary&lt;/h2&gt;
@@ -988,7 +988,7 @@ We&#39;re not in our usual location! We&#39;ll be meeting at &lt;strong&gt;Spred
     <link href="https://austinjavascript.com/posts/meetups/2017/10/17/"/>
     <id>https://austinjavascript.com/posts/meetups/2017/10/17/</id>
     <published>2017-10-17T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;Synthesizers! JavaScript! Aleatoricism?? Using an actual analog synthesizer as a guide, Kyle will build a feature-for-feature replica in the browser with the Web Audio API and show how to use JavaScript to overcome a lack of musical training. You&#39;ll learn the capabilities and limitations of the Web Audio API, and how it can be used for applications like gaming, WebVR, and 80s retro synthwave. With live coding, live synth playing, and a touch of music theory, &lt;em&gt;what could go wrong?&lt;/em&gt;&lt;/p&gt;
 </content>
   </entry>
@@ -998,7 +998,7 @@ We&#39;re not in our usual location! We&#39;ll be meeting at &lt;strong&gt;Spred
     <link href="https://austinjavascript.com/posts/meetups/2017/11/21/"/>
     <id>https://austinjavascript.com/posts/meetups/2017/11/21/</id>
     <published>2017-11-21T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;We&#39;ve got &lt;a href=&quot;http://mando.org/&quot;&gt;Mando Escamilla&lt;/a&gt; coming this month to &lt;strong&gt;&lt;em&gt;deploy&lt;/em&gt;&lt;/strong&gt; some knowledge on us. Here&#39;s some relevant prior art:&lt;/p&gt;
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/k6zBtBqUNYE?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 &lt;p&gt;In his own words…&lt;/p&gt;
@@ -1012,7 +1012,7 @@ We&#39;re not in our usual location! We&#39;ll be meeting at &lt;strong&gt;Spred
     <link href="https://austinjavascript.com/posts/meetups/2018/01/16/"/>
     <id>https://austinjavascript.com/posts/meetups/2018/01/16/</id>
     <published>2018-01-16T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;The January meetup is cancelled due to expected hazardous weather. See y&#39;all in February!&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -1028,7 +1028,7 @@ We&#39;re not in our usual location! We&#39;ll be meeting at &lt;strong&gt;Spred
     <link href="https://austinjavascript.com/posts/meetups/2018/02/20/"/>
     <id>https://austinjavascript.com/posts/meetups/2018/02/20/</id>
     <published>2018-02-20T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;Let&#39;s kick off the new year with &lt;a href=&quot;https://github.com/bmeck&quot;&gt;Bradley Farias&lt;/a&gt;, who will deliver a meditation on the seven stages of &lt;s&gt;grief&lt;/s&gt; standards development:&lt;/p&gt;
 &lt;h2&gt;From Language Design to TC39 (The JS Language Standards Group)&lt;/h2&gt;
 &lt;p&gt;This talk is a reflection on a lot of discussions that come up when talking about language design and what it means to design for a future that is always bigger than the past. Topics from the past present and future such as ASI, ESM, decorators, and private fields are things that are important to get right if we are stuck with them forever. We can use discussion examples of each of these topics to get a better understanding of why it is so difficult to make things &amp;quot;just work&amp;quot;. I will discuss ongoing themes of discussion within TC39 and efforts that are changing how TC39 is viewed.&lt;/p&gt;
@@ -1040,7 +1040,7 @@ We&#39;re not in our usual location! We&#39;ll be meeting at &lt;strong&gt;Spred
     <link href="https://austinjavascript.com/posts/meetups/2018/05/15/"/>
     <id>https://austinjavascript.com/posts/meetups/2018/05/15/</id>
     <published>2018-05-15T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;Come out tomorrow May 16, 2018, for some &lt;code&gt;bevera.js&lt;/code&gt; at the Gingerman! Topics of discussion may include:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;The open web&lt;/li&gt;
@@ -1064,7 +1064,7 @@ We&#39;re not in our usual location! We&#39;ll be meeting at &lt;strong&gt;Spred
     <link href="https://austinjavascript.com/posts/meetups/2018/06/19/"/>
     <id>https://austinjavascript.com/posts/meetups/2018/06/19/</id>
     <published>2018-06-19T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;Who is ready to optimize your user&#39;s spa experience? Anton is going to tell us the secrets to making your visitors feel pampered in no time flat! Anton will share all the tricks of the trade, from how to improve time to first relaxation to HTTP/2 aromatherapy tips.&lt;/p&gt;
 &lt;p&gt;Anton has recently been working on optimizing performance for mixbook.com, and he’d like to tell y&#39;all about their experience: what worked and what didn&#39;t.&lt;/p&gt;
 &lt;p&gt;Topics include,&lt;/p&gt;
@@ -1082,7 +1082,7 @@ We&#39;re not in our usual location! We&#39;ll be meeting at &lt;strong&gt;Spred
     <link href="https://austinjavascript.com/posts/meetups/2018/07/17/"/>
     <id>https://austinjavascript.com/posts/meetups/2018/07/17/</id>
     <published>2018-07-17T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;Accessibility is hard. Oftentimes, it’s difficult to understand what users and assistive technology expect from your markup and designs. Can accessibility be easier to learn? Can it be…fun? In this talk, Dave will approach accessibility the way we might tackle a video game—looking at a handful of common UI patterns like popup, tabs, accordions, and modals; how to test them; and how to defeat them while leveling up your skillset along the way.&lt;/p&gt;
 </content>
   </entry>
@@ -1092,7 +1092,7 @@ We&#39;re not in our usual location! We&#39;ll be meeting at &lt;strong&gt;Spred
     <link href="https://austinjavascript.com/posts/meetups/2018/08/21/"/>
     <id>https://austinjavascript.com/posts/meetups/2018/08/21/</id>
     <published>2018-08-21T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;Simon has been building browser based simulations such as &lt;a href=&quot;https://coldwar.io/&quot;&gt;coldwar.io&lt;/a&gt; and &lt;a href=&quot;https://ratsofthemaze.com/&quot;&gt;ratsofthemaze.com&lt;/a&gt; over the past few years, showcasing them at numerous JS Confs and our own TXJS. Since he&#39;s in town this week, he&#39;s going to give us a casual retrospective on this work and a dive into some of the code.&lt;/p&gt;
 &lt;h2&gt;Special Guest Host&lt;/h2&gt;
 &lt;p&gt;Lon and Andrew are off to JSConf US and Aaron is taking a sabbatical to finish his upcoming definitive book on &lt;code&gt;ConcreteAbstractFactoryAdapterImplementations&lt;/code&gt;, so &lt;a href=&quot;https://twitter.com/rmurphey&quot;&gt;Rebecca Murphey&lt;/a&gt; has graciously offered to come out of retirement and host this month&#39;s event.&lt;/p&gt;
@@ -1104,7 +1104,7 @@ We&#39;re not in our usual location! We&#39;ll be meeting at &lt;strong&gt;Spred
     <link href="https://austinjavascript.com/posts/meetups/2018/09/18/"/>
     <id>https://austinjavascript.com/posts/meetups/2018/09/18/</id>
     <published>2018-09-18T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;List manipulation is a foundation of programming, and filtering is one of the pillars. Use cases are widespread, from removing outliers from a dataset to applying filters from user interactions. When a list of criteria gets large, however, the code used for these filters can get unruly.&lt;/p&gt;
 &lt;p&gt;By using and writing higher-order functions, you can write, combine, and manipulate criteria while keeping your JavaScript readable, maintainable, and DRY.&lt;/p&gt;
 </content>
@@ -1115,7 +1115,7 @@ We&#39;re not in our usual location! We&#39;ll be meeting at &lt;strong&gt;Spred
     <link href="https://austinjavascript.com/posts/meetups/2018/10/16/"/>
     <id>https://austinjavascript.com/posts/meetups/2018/10/16/</id>
     <published>2018-10-16T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;Handling events like clicks and keypresses as users interact with your content is essential for any web app. Learn the fundamentals of how events work in JavaScript, including:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;an introduction to the DOM Event specification&lt;/li&gt;
@@ -1133,7 +1133,7 @@ We&#39;re not in our usual location! We&#39;ll be meeting at &lt;strong&gt;Spred
     <link href="https://austinjavascript.com/posts/meetups/2019/01/15/"/>
     <id>https://austinjavascript.com/posts/meetups/2019/01/15/</id>
     <published>2019-01-15T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;Grid frameworks in CSS help keep a product, department, or even a whole company visually aligned. However, they can be a struggle to maintain while satisfying different experiences’ needs. Thankfully, scripting languages have a knack for keeping everything sane. By creating a new open-source package that generates grid frameworks, we will cover:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Abstracting design specs for reusable code&lt;/li&gt;
@@ -1148,7 +1148,7 @@ We&#39;re not in our usual location! We&#39;ll be meeting at &lt;strong&gt;Spred
     <link href="https://austinjavascript.com/posts/meetups/2019/02/19/"/>
     <id>https://austinjavascript.com/posts/meetups/2019/02/19/</id>
     <published>2019-02-19T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;Why do some people hate JavaScript while others bask in its glory? In &lt;a href=&quot;https://insights.stackoverflow.com/survey/2018/&quot;&gt;Stack Overflow&#39;s 2018 Survey&lt;/a&gt; of over 100,000 developers; JavaScript, HTML, and CSS rank as the &lt;em&gt;top three&lt;/em&gt; most used technologies, with 70% of developers stating that they use JavaScript. Next in the list is SQL with 57%.&lt;/p&gt;
 &lt;p&gt;Not everyone is an expert front-end developer, but it seems that most people at least have to dip their toes.&lt;/p&gt;
 &lt;p&gt;If you hate JavaScript, I&#39;m going to &lt;em&gt;finally&lt;/em&gt; articulate why you &lt;em&gt;know in your heart&lt;/em&gt; that this is such a terrible language. For you JavaScript lovers out there, hopefully this sheds some light on why your language of choice is such a steaming pile of 💩.&lt;/p&gt;
@@ -1161,7 +1161,7 @@ We&#39;re not in our usual location! We&#39;ll be meeting at &lt;strong&gt;Spred
     <link href="https://austinjavascript.com/posts/meetups/2019/04/16/"/>
     <id>https://austinjavascript.com/posts/meetups/2019/04/16/</id>
     <published>2019-04-16T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;Sometimes it&#39;s the little things that count - in 2s complement. Come hear about how to program the &lt;a href=&quot;https://en.wikipedia.org/wiki/ESP8266&quot;&gt;ESP8266&lt;/a&gt; microcontroller using &lt;a href=&quot;https://www.espruino.com/&quot;&gt;Espruino&lt;/a&gt; and see some fancy rainbow animations on strips of &lt;a href=&quot;https://www.adafruit.com/category/168&quot;&gt;NeoPixels&lt;/a&gt;.&lt;/p&gt;
 </content>
   </entry>
@@ -1171,7 +1171,7 @@ We&#39;re not in our usual location! We&#39;ll be meeting at &lt;strong&gt;Spred
     <link href="https://austinjavascript.com/posts/meetups/2019/05/21/"/>
     <id>https://austinjavascript.com/posts/meetups/2019/05/21/</id>
     <published>2019-05-21T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;Come learn about the weird history of the IE event model, what it took to ship &lt;code&gt;window.event&lt;/code&gt; (and associated garbage) in Firefox 66, and why we&#39;re still talking about this in 2019.&lt;/p&gt;
 </content>
   </entry>
@@ -1181,7 +1181,7 @@ We&#39;re not in our usual location! We&#39;ll be meeting at &lt;strong&gt;Spred
     <link href="https://austinjavascript.com/posts/meetups/2019/07/16/"/>
     <id>https://austinjavascript.com/posts/meetups/2019/07/16/</id>
     <published>2019-07-16T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;Let&#39;s talk about a five-year-old tech like it&#39;s brand new; which is really what WebAssembly is; it&#39;s been around for years but we&#39;re only just starting to discover what it can do and how to use it. Kas can say with no hyperbole that this is the next Ajax in terms of importance to browser applications, and in this talk they&#39;ll explain why a multi-language web doesn&#39;t spell the end of JavaScript but rather a Renaissance for the web.&lt;/p&gt;
 </content>
   </entry>
@@ -1191,7 +1191,7 @@ We&#39;re not in our usual location! We&#39;ll be meeting at &lt;strong&gt;Spred
     <link href="https://austinjavascript.com/posts/meetups/2019/08/20/"/>
     <id>https://austinjavascript.com/posts/meetups/2019/08/20/</id>
     <published>2019-08-20T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;One of the first things we learn in JavaScript is &lt;code&gt;console.log()&lt;/code&gt;. Yet this belies the true complexity of its behavior. What exactly does &lt;code&gt;console.log()&lt;/code&gt; do, anyways? (The short answer: it depends!) Adorn your pith and get in the jeep because we&#39;re about to explore &lt;code&gt;console.log()&lt;/code&gt; and maybe learn a few things about streams, browsers and JavaScript engines along the way!&lt;/p&gt;
 </content>
   </entry>
@@ -1201,7 +1201,7 @@ We&#39;re not in our usual location! We&#39;ll be meeting at &lt;strong&gt;Spred
     <link href="https://austinjavascript.com/posts/meetups/2019/10/15/"/>
     <id>https://austinjavascript.com/posts/meetups/2019/10/15/</id>
     <published>2019-10-15T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;Indeed is one of the largest Job Search websites in the world. In order to maintain developer velocity and quality, we’re in the process of dramatically shifting how we build web applications. Historically, we’ve built large monolith applications that have upwards of a hundred contributors, but we’ve found that this approach has limited our ability to iterate, and innovate as quickly as we’d like.&lt;/p&gt;
 &lt;p&gt;Today, we’re focusing on splitting our monolith applications into smaller, more manageable components. In this talk, I’ll cover in detail how we developed a platform that enables building decoupled, distributed systems that perform and feel like a single application.&lt;/p&gt;
 &lt;p&gt;We’ve developed a platform that enables the independent deployability of units of user interface units across products and pages. In this talk I’ll describe:&lt;/p&gt;
@@ -1220,7 +1220,7 @@ We&#39;re not in our usual location! We&#39;ll be meeting at &lt;strong&gt;Spred
     <link href="https://austinjavascript.com/posts/meetups/2019/11/19/"/>
     <id>https://austinjavascript.com/posts/meetups/2019/11/19/</id>
     <published>2019-11-19T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;Join us for an introduction to &lt;a href=&quot;https://devlaunchers.com/&quot;&gt;DevLaunchers&lt;/a&gt;, an initiative to teach high school students in under-served communities about game development. We&#39;ll dive into how we build the website, activities, internal tools and slack event handlers on Cloudflare Workers, CodeSandbox, GitHub Pages and Travis CI.&lt;/p&gt;
 </content>
   </entry>
@@ -1230,7 +1230,7 @@ We&#39;re not in our usual location! We&#39;ll be meeting at &lt;strong&gt;Spred
     <link href="https://austinjavascript.com/posts/meetups/2020/02/18/"/>
     <id>https://austinjavascript.com/posts/meetups/2020/02/18/</id>
     <published>2020-02-18T00:00:00+00:00</published>
-    <updated>2020-08-26T22:15:39+00:00</updated>
+    <updated>2020-08-29T20:20:46+00:00</updated>
     <content type="html">&lt;p&gt;Everything you wanted to know about testing React components with &lt;a href=&quot;https://jestjs.io/&quot;&gt;Jest&lt;/a&gt; and &lt;a href=&quot;https://enzymejs.github.io/enzyme/&quot;&gt;Enzyme&lt;/a&gt; Learn what a unit test is, why its useful, and how to test things like: existence of react components, simulated clicks and other events, mocking data, snapshots and more!&lt;/p&gt;
 </content>
   </entry>
