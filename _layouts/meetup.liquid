@@ -8,7 +8,8 @@ layout: base
       {{ content | safe }}
     </div>
 
-    {%- meetupDetails page.date, venue, after -%}
+    {%- meetupDetails page.date, venue, after, title -%}
+    {%- endmeetupDetails -%}
 
     {%- videoPlayer video, title -%}
   </div>

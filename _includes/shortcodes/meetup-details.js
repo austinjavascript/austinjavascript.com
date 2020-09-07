@@ -19,18 +19,56 @@ const fullDate = (dateValue) => {
 };
 
 /**
+ * Create Twitter search link with page URL
+ *
+ * @param {string} content Text for link
+ * @param {string} pageUrl Page URL
+ *
+ * @return {string} Fully formed Twitter search link
+ */
+const tweetSearch = (content, pageUrl) => {
+  // const url = `${siteData.url.replace('https://', '')}/posts/meetups/`;
+  // ^^ use if less specific searches are desired ^^
+  const url = `${siteData.url.replace('https://', '')}${pageUrl}`;
+  const search = encodeURIComponent(url);
+
+  return `<a href="https://twitter.com/search?q=${search}">${content}</a>`;
+};
+
+/**
+ * Create Twitter tweet link with page title and URL
+ *
+ * @param {string} content Text for link
+ * @param {string} pageUrl Page URL
+ * @param {string} pageTitle Page Title
+ *
+ * @return {string} Fully formed Twitter share link
+ */
+const tweetPost = (content, pageUrl, pageTitle) => {
+  const settings = {
+    text: `Meetup: "${pageTitle}"`,
+    url: `${siteData.url.replace('https://', '')}${pageUrl}`,
+    via: siteData.author.twitter,
+  };
+  const params = Object.entries(settings)
+    .reduce((acc, item) => `${acc}${item[0]}=${encodeURIComponent(item[1])}&`, '');
+
+  return `<a href="https://twitter.com/intent/tweet?${params.slice(0, -1)}">${content}</a>`;
+};
+
+/**
  * Provide template for meeting details.
  *
+ * @param  {string}   meetHeader The meeting header (optional)
  * @param  {string}   meetDate   The meet date
  * @param  {string}   venue      The venue
  * @param  {string}   after      The after party gathering place
- * @param  {string}   msgHeader  The message header (optional)
  * @param  {string}   meetTitle  The meet title (optional)
- * @param  {string}   meetUrl    The meet url (optional)
+ * @param  {string}   msgHeader  The message header (optional)
  *
  * @return {string}  Completed template
  */
-module.exports = function meetupDetails(meetDate, venue, after, msgHeader, meetTitle, meetUrl) {
+module.exports = function meetupDetails(meetHeader, meetDate, venue, after, meetTitle, msgHeader) {
   const header = msgHeader || 'Meetup details';
 
   const svgBlock = `<svg display="none">
@@ -38,12 +76,6 @@ module.exports = function meetupDetails(meetDate, venue, after, msgHeader, meetT
     <g id="calendar"><path d='M416,64H400V48.45c0-8.61-6.62-16-15.23-16.43A16,16,0,0,0,368,48V64H144V48.45c0-8.61-6.62-16-15.23-16.43A16,16,0,0,0,112,48V64H96a64,64,0,0,0-64,64V416a64,64,0,0,0,64,64H416a64,64,0,0,0,64-64V128A64,64,0,0,0,416,64ZM136,416a24,24,0,1,1,24-24A24,24,0,0,1,136,416Zm0-80a24,24,0,1,1,24-24A24,24,0,0,1,136,336Zm80,80a24,24,0,1,1,24-24A24,24,0,0,1,216,416Zm0-80a24,24,0,1,1,24-24A24,24,0,0,1,216,336Zm80,80a24,24,0,1,1,24-24A24,24,0,0,1,296,416Zm0-80a24,24,0,1,1,24-24A24,24,0,0,1,296,336Zm0-80a24,24,0,1,1,24-24A24,24,0,0,1,296,256Zm80,80a24,24,0,1,1,24-24A24,24,0,0,1,376,336Zm0-80a24,24,0,1,1,24-24A24,24,0,0,1,376,256Zm72-120v16a8,8,0,0,1-8,8H72a8,8,0,0,1-8-8V128A32.09,32.09,0,0,1,96,96H416a32.09,32.09,0,0,1,32,32Z'/></g>
     <g id="location-sharp"><path d='M256,32C167.67,32,96,96.51,96,176c0,128,160,304,160,304S416,304,416,176C416,96.51,344.33,32,256,32Zm0,224a64,64,0,1,1,64-64A64.07,64.07,0,0,1,256,256Z'/></g>
   </svg>`;
-
-  const meetHeaderBlock = meetTitle && meetUrl
-    ? `<div class="title is-size-4">
-        <a href="${meetUrl}">${meetTitle}</a>
-      </div>`
-    : '';
 
   const venueOrg = venue
     ? organizations[venue]
@@ -74,7 +106,7 @@ module.exports = function meetupDetails(meetDate, venue, after, msgHeader, meetT
   </div>
 
   <div class="message-body">
-    ${meetHeaderBlock}
+    ${meetHeader}
 
     <div>
       DATE
@@ -102,11 +134,15 @@ module.exports = function meetupDetails(meetDate, venue, after, msgHeader, meetT
       ${venueLocation}
     </div>
 
+    <small>
+      (Check back here or on ${tweetSearch('Twitter', this.page.url)} for updates.)
+    </small>
+
     ${afterBlock}
 
-    <p class="has-margin-top">
-      Check back here or <a href="https://twitter.com/${siteData.author.twitter}">@${siteData.author.twitter} on Twitter</a> for updates.
-    </p>
+    <div class="has-margin-top">
+      Help ${tweetPost('spread the word on Twitter', this.page.url, meetTitle)}.
+    </div>
   </div>
 </div>`;
 };

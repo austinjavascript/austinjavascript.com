@@ -11,7 +11,11 @@ meta:
 
       <section class="meetup-details">
         {%- assign meet = collections.meetups | last -%}
-        {%- meetupDetails meet.date, meet.data.venue, meet.data.after, 'Upcoming meetup details', meet.data.title, meet.url -%}
+        {%- meetupDetails meet.date, meet.data.venue, meet.data.after, meet.data.title, 'Upcoming meetup details' -%}
+        <div class="title is-size-4">
+          <a href="{{ meet.url }}">{{ meet.data.title }}</a>
+        </div>
+        {%- endmeetupDetails -%}
 
         <meta id="meet-date" time="{{ meet.date }}">
 <script>

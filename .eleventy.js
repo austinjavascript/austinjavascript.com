@@ -6,8 +6,8 @@ const filter = require('./_includes/filter');
 const scAvatar = require('./_includes/shortcodes/avatar');
 const scResponsiveImage = require('./_includes/shortcodes/responsive-image');
 const scSocialSvg = require('./_includes/shortcodes/social-svg');
-const scMeetupDetails = require('./_includes/shortcodes/meetup-details');
 const scVideoPlayer = require('./_includes/shortcodes/video-player');
+const pscMeetupDetails = require('./_includes/shortcodes/meetup-details');
 
 /**
  * Add date properties to collections.
@@ -62,12 +62,6 @@ module.exports = (eleventyConfig) => {
   // FILTER: Replace text with regex capabilities.
   eleventyConfig.addFilter('regexReplace', filter.regexReplace);
 
-  // SHORTCODE: Format meeting details message block.
-  eleventyConfig.addShortcode('meetupDetails', scMeetupDetails);
-
-  // SHORTCODE: Embed video players for event replay.
-  eleventyConfig.addShortcode('videoPlayer', scVideoPlayer);
-
   // SHORTCODE: Resize and cache images.
   eleventyConfig.addLiquidShortcode('avatar', scAvatar);
 
@@ -76,6 +70,12 @@ module.exports = (eleventyConfig) => {
 
   // SHORTCODE: Add social icon SVG block.
   eleventyConfig.addLiquidShortcode('socialSvg', scSocialSvg);
+
+  // SHORTCODE: Embed video players for event replay.
+  eleventyConfig.addShortcode('videoPlayer', scVideoPlayer);
+
+  // SHORTCODE: Format meeting details message block.
+  eleventyConfig.addPairedShortcode('meetupDetails', pscMeetupDetails);
 
   // PLUGIN: RSS feed
   eleventyConfig.addPlugin(pluginRss);
