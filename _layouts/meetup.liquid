@@ -14,7 +14,7 @@ layout: base
     {%- videoPlayer video, title -%}
   </div>
 
-  <div class="column has-offset-top">
+  <div class="column mt-5">
     {%- if slides -%}
     <div class="message flex-item is-info">
       <h3 class="message-header">Meetup slides</h3>
@@ -29,7 +29,7 @@ layout: base
     <h2 class="title is-sr-only">Speaker</h2>
 
     {%- for person in speakers -%}
-    <div class="has-offset-top">
+    <div class="mt-4">
       {%- include business-card -%}
     </div>
     {%- endfor -%}

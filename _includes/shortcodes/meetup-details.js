@@ -92,7 +92,7 @@ module.exports = function meetupDetails(meetHeader, meetDate, venue, after, meet
       ? `<a href="${afterOrg.url}">${afterOrg.name}</a>`
       : afterOrg.name;
 
-    afterBlock = `<p class="has-margin-top">
+    afterBlock = `<p class="mt-4">
       Afterwards, the discussion carries on at
       <strong>${afterName}</strong>
       (${afterOrg.location}).
@@ -140,7 +140,7 @@ module.exports = function meetupDetails(meetHeader, meetDate, venue, after, meet
 
     ${afterBlock}
 
-    <div class="has-margin-top">
+    <div class="mt-4">
       Help ${tweetPost('spread the word on Twitter', this.page.url, meetTitle)}.
     </div>
   </div>

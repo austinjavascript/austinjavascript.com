@@ -38,7 +38,7 @@ module.exports = (video, title) => {
           <figure class="image is-16by9">
             ${videoPlayer}
           </figure>
-          <figcaption class="has-margin-top">
+          <figcaption class="mt-4">
             ${videoLink.replace('</a>', `${videoSrc}</a>`)}
           </figcaption>
         </div>
