@@ -23,7 +23,7 @@ module.exports = async (src, alt, className, outputFormat = 'jpeg') => {
 
     const props = stats[outputFormat].pop();
 
-    return `<img ${classAttr} src="${props.url}" alt="${alt}" loading="lazy">`;
+    return `<img ${classAttr} src="${props?.url}" alt="${alt}" loading="lazy">`;
   } catch (err) {
     // eslint-disable-next-line no-console
     console.error('Avatar: eleventy-img error:', err);

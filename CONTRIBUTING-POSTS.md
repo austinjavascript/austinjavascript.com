@@ -129,7 +129,7 @@ Open the [Markdown](https://commonmark.org/) file and notice the file structure.
     > ```
     >
 
-    > NOTE: For multline YAML, start the 1st line with a pipe, then start the content on the next line, indented.
+    > NOTE: For multiline YAML, start the 1st line with a pipe, then start the content on the next line, indented.
     >
     > ```yaml
     > ..

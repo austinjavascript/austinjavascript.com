@@ -76,7 +76,7 @@ meta:
     {%- assign person = key[1] -%}
     {%- if person.status == 'active' -%}
     <div class="brick">
-      {%- include business-card, size: 'small' -%}
+      {%- include 'business-card.liquid', size: 'small' -%}
     </div>
     {%- endif -%}
     {%- endfor -%}

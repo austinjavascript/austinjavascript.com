@@ -18,10 +18,11 @@ $scheme-main: $white-ter;
 $footer-background-color: $white-ter;
 
 @import "../node_modules/bulma/sass/utilities/functions.sass";
-@import "../node_modules/bulma/sass/utilities/derived-variables.scss";
+@import "../node_modules/bulma/sass/utilities/derived-variables.sass";
 // @import "../node_modules/bulma/sass/utilities/animations.sass";
 @import "../node_modules/bulma/sass/utilities/mixins.sass";
 @import "../node_modules/bulma/sass/utilities/controls.sass";
+@import "../node_modules/bulma/sass/utilities/extends.sass";
 
 @import "../node_modules/bulma/sass/base/minireset.sass";
 @import "../node_modules/bulma/sass/base/generic.sass";

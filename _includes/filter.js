@@ -1,5 +1,17 @@
 module.exports = {
   /**
+   * Convert page.date directly to 'YYYY/MM/DD' slug.
+   * (Liquid's native `date` filter converts date to locale time and loses a day.)
+   *
+   * @param {object} pageDate Original page.date value.
+   *
+   * @returns {string}  Slugified date.
+   */
+  dateSlug: (pageDate) => {
+    return pageDate.toISOString().slice(0, 10).replace(/-/g, '/');
+  },
+
+  /**
    * Reverse array without mutating the original.
    * (The 'reverse' filter in LiquidJS v6 mutates the original array.)
    *
@@ -48,7 +60,10 @@ module.exports = {
 
     const re = new RegExp(rePattern, 'g');
 
-
     return content.replace(re, replacement);
+  },
+
+  UTCString: (date) => {
+    return date.toUTCString();
   },
 };
