@@ -8,11 +8,12 @@ module.exports = async (src, alt, className, outputFormat = 'jpeg') => {
   const classAttr = className ? `class="${className}"` : '';
 
   try {
-    const stats = await Image(src, {
+    let metadata = await Image(src, {
       cacheOptions: {
         // renew img cache every 12 weeks
         duration: '12w',
-        // version control the img cache so GitHub Pages doesn't start from scratch
+        // add img cache to version control so GitHub Pages doesn't lose people pics
+        // from old links (e.g., twitter) that have long since expired
         directory: '_cache',
       },
       formats: [outputFormat],
@@ -21,14 +22,14 @@ module.exports = async (src, alt, className, outputFormat = 'jpeg') => {
       widths: [96],
     });
 
-    const props = stats[outputFormat].pop();
+    let data = metadata.jpeg[metadata.jpeg.length - 1];
 
-    return `<img ${classAttr} src="${props?.url}" alt="${alt}" loading="lazy">`;
+    return `<img ${classAttr} src="${data.url}" alt="${alt}" loading="lazy" decoding="async">`;
   } catch (err) {
     // eslint-disable-next-line no-console
-    console.error('Avatar: eleventy-img error:', err);
+    console.error('Avatar: eleventy-img:', err);
 
     // load empty img src (as placeholder)
-    return `<img ${classAttr} src="" alt="${alt}" loading="lazy">`;
+    return `<img ${classAttr} src="" alt="${alt}">`;
   }
 };

@@ -84,7 +84,7 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addPlugin(pluginRss);
 
   // FILTER: Atom date format
-  eleventyConfig.addLiquidFilter("dateToRfc3339", pluginRss.dateToRfc3339);
+  eleventyConfig.addLiquidFilter('dateToRfc3339', pluginRss.dateToRfc3339);
 
   // TRANSFORM: minify HTML
   eleventyConfig.addTransform('htmlmin', (content, outputPath) => {

@@ -149,6 +149,11 @@ $footer-background-color: $white-ter;
     white-space: nowrap !important;
     width: 0.01em !important;
   }
+
+  // revert to Bulma 0.9.0 padding
+  .section {
+    padding-inline: 1.5rem;
+  }
 }
 
 .has-text-tetradic1 {

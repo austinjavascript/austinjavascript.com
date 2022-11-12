@@ -7,9 +7,7 @@ module.exports = {
    *
    * @returns {string}  Slugified date.
    */
-  dateSlug: (pageDate) => {
-    return pageDate.toISOString().slice(0, 10).replace(/-/g, '/');
-  },
+  dateSlug: (pageDate) => pageDate.toISOString().slice(0, 10).replace(/-/g, '/'),
 
   /**
    * Reverse array without mutating the original.
@@ -63,7 +61,5 @@ module.exports = {
     return content.replace(re, replacement);
   },
 
-  UTCString: (date) => {
-    return date.toUTCString();
-  },
+  UTCString: (date) => date.toUTCString(),
 };
