@@ -1,7 +1,7 @@
 {
   "name": "AustinJavaScript.com",
-  "version": "3.2.0",
-  "description": "",
+  "version": "3.2.1",
+  "description": "Austin JavaScript site",
   "scripts": {
     "build:css": "node-sass _sass/_main.scss _site/assets/css/main.css --output-style compressed",
     "build": "npm run clean && eleventy && npm run build:css && npm run purgecss",
