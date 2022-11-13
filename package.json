@@ -10,7 +10,7 @@
     "lint:js": "eslint --fix .eleventy.js ./_includes/*.js",
     "lint:md": "markdownlint --fix ./_posts/*.md ./_meetups/*.md",
     "lint": "npm run lint:js && npm run lint:md",
-    "purgecss": "npx purgecss --css _site/assets/css/main.css --content _site/index.html,_site/about/index.html,_site/contributing/index.html,_site/posts/meetups/index.html,_site/posts/meetups/2020/**/*.html --output _site/assets/css/main.css",
+    "purgecss": "npx purgecss --config ./purgecss.config.js",
     "start": "ELEVENTY_ENV=dev eleventy --serve --watch",
     "test": "npm run lint"
   },
