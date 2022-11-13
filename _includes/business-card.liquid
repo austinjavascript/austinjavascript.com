@@ -12,9 +12,9 @@
       </div>
       <div class="media-content">
         <p class="title is-size-5">{{ person.name }}</p>
-        <div class="subtitle is-6 has-text-weight-semibold is-marginless-bottom">{{ person.title | markdown | safe }}</div>
+        <div class="subtitle is-6 has-text-weight-semibold is-marginless-bottom">{{ person.title | markdown }}</div>
         <div>
-          {%- include social-links -%}
+          {%- include 'social-links.liquid' -%}
         </div>
       </div>
     </div>
@@ -23,7 +23,7 @@
   <div class="card-footer">
     <div class="card-footer-item">
       <div class="content">
-        {{ person.bio | markdown | safe }}
+        {{ person.bio | markdown }}
       </div>
     </div>
   </div>

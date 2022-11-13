@@ -1,6 +1,6 @@
 {
   "name": "AustinJavaScript.com",
-  "version": "3.1.0",
+  "version": "3.2.0",
   "description": "",
   "scripts": {
     "build:css": "node-sass _sass/_main.scss _site/assets/css/main.css --output-style compressed",
@@ -22,21 +22,20 @@
   "author": "@AustinJS",
   "license": "MIT",
   "dependencies": {
-    "@11ty/eleventy": "^0.11.0",
-    "@11ty/eleventy-img": "^0.3.0",
-    "@11ty/eleventy-plugin-rss": "^1.0.7",
-    "acorn": ">=5.7.4",
-    "bulma": "^0.9.0",
+    "@11ty/eleventy": "^1.0.2",
+    "@11ty/eleventy-img": "^2.0.1",
+    "@11ty/eleventy-plugin-rss": "^1.2.0",
+    "bulma": "^0.9.4",
     "html-minifier": "^4.0.0",
-    "lodash": "^4.17.21",
-    "node-sass": "^4.14.0",
-    "purgecss": "^2.3.0"
+    "markdown-it": "^13.0.1",
+    "node-sass": "^8.0.0",
+    "purgecss": "^5.0.0"
   },
   "devDependencies": {
-    "eslint": "^6.8.0",
-    "eslint-config-airbnb-base": "^14.1.0",
-    "eslint-plugin-import": "^2.20.2",
-    "markdownlint": "^0.20.2",
-    "markdownlint-cli": "^0.22.0"
+    "eslint": "^8.27.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "markdownlint": "^0.26.2",
+    "markdownlint-cli": "^0.32.2"
   }
 }

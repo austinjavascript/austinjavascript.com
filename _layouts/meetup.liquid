@@ -5,7 +5,7 @@ layout: base
   <div class="column is-two-thirds flex-container">
     <h1 class="title flex-item">{{ title }}</h1>
     <div class="content flex-item">
-      {{ content | safe }}
+      {{ content }}
     </div>
 
     {%- meetupDetails page.date, venue, after, title -%}
@@ -30,7 +30,7 @@ layout: base
 
     {%- for person in speakers -%}
     <div class="mt-4">
-      {%- include business-card -%}
+      {%- include 'business-card.liquid' -%}
     </div>
     {%- endfor -%}
   </div>
@@ -55,7 +55,7 @@ layout: base
 
       {%- if sponsorOrg.message -%}
       <div>
-        {{ sponsorOrg.message | markdown | safe }}
+        {{ sponsorOrg.message | markdown }}
       </div>
       {%- elsif sponsorOrg.name -%}
       <p>Austin JavaScript is <strong>sponsored this month by <a href="{{ sponsorOrg.url }}">{{ sponsorOrg.name }}</a></strong>. Please thank them for their gracious gifts of pizza and drinks and for their support of the local JavaScript community.
@@ -67,7 +67,7 @@ layout: base
 
       {%- if sponsorOrg.note -%}
       <p>
-        {{ sponsorOrg.note | markdown | safe }}
+        {{ sponsorOrg.note | markdown }}
       </p>
       {%- endif -%}
     </div>
@@ -77,4 +77,4 @@ layout: base
 
 {%- assign nextPost = collections.meetups | getNextCollectionItem: page -%}
 {%- assign previousPost = collections.meetups | getPreviousCollectionItem: page -%}
-{%- include nav-posts -%}
+{%- include 'nav-posts.liquid' -%}

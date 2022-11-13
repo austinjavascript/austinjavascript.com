@@ -6,11 +6,11 @@ layout: base
     <h1 class="title flex-item">{{ title }}</h1>
 
     <div class="content flex-item">
-      {{ content | safe }}
+      {{ content }}
     </div>
   </div>
 </div>
 
 {%- assign nextPost = collections.posts | getNextCollectionItem: page -%}
 {%- assign previousPost = collections.posts | getPreviousCollectionItem: page -%}
-{%- include nav-posts -%}
+{%- include 'nav-posts.liquid' -%}

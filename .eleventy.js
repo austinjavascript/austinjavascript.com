@@ -53,6 +53,9 @@ module.exports = (eleventyConfig) => {
     return addFileDates(posts);
   });
 
+  // FILTER: Convert page.date directly to 'YYYY/MM/DD' slug.
+  eleventyConfig.addLiquidFilter('dateSlug', filter.dateSlug);
+
   // FILTER: Reverse array without mutating original.
   eleventyConfig.addFilter('flip', filter.flip);
 
@@ -80,6 +83,9 @@ module.exports = (eleventyConfig) => {
   // PLUGIN: RSS feed
   eleventyConfig.addPlugin(pluginRss);
 
+  // FILTER: Atom date format
+  eleventyConfig.addLiquidFilter('dateToRfc3339', pluginRss.dateToRfc3339);
+
   // TRANSFORM: minify HTML
   eleventyConfig.addTransform('htmlmin', (content, outputPath) => {
     if (typeof outputPath === 'string' && outputPath.endsWith('.html')) {
@@ -102,10 +108,10 @@ module.exports = (eleventyConfig) => {
     callbacks: {
       ready(err, bs) {
         bs.addMiddleware('*', (req, res) => {
-          const content_404 = fs.readFileSync('_site/404.html');
+          const content404 = fs.readFileSync('_site/404.html');
           // Provides the 404 content without redirect.
 
-          res.write(content_404);
+          res.write(content404);
           // Add 404 http status code in request header.
           // res.writeHead(404, { "Content-Type": "text/html" });
           res.writeHead(404);
