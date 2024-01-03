@@ -88,5 +88,25 @@
     "github": "stedman",
     "linkedin": "sstedman",
     "status": "support"
+  },
+  "fguest": {
+    "name": "Fred Guest",
+    "avatar": "https://secure.meetupstatic.com/photos/member/d/6/2/9/highres_307794825.jpeg",
+    "email": "fredguest@mac.com",
+    "homepage": null,
+    "twitter": null,
+    "github": null,
+    "linkedin": null,
+    "status": "active"
+  },
+  "joahg": {
+    "name": "Joah Gerstenberg",
+    "avatar": "https://pbs.twimg.com/profile_images/1686379255511605248/3EShXjxq_400x400.jpg",
+    "email": "me@joahg.com",
+    "homepage": "https://joahg.com",
+    "twitter": null,
+    "github": "joahg",
+    "linkedin": "joahg",
+    "status": "active"
   }
 }
