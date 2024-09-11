@@ -22,7 +22,7 @@
   "author": "@AustinJS",
   "license": "MIT",
   "dependencies": {
-    "@11ty/eleventy": "^1.0.2",
+    "@11ty/eleventy": "^2.0.1",
     "@11ty/eleventy-img": "^2.0.1",
     "@11ty/eleventy-plugin-rss": "^1.2.0",
     "bulma": "^0.9.4",
