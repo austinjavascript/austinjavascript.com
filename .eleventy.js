@@ -37,6 +37,7 @@ module.exports = (eleventyConfig) => {
   // PASSTHRU: Copy the `assets` directory to the compiled site folder
   eleventyConfig.addPassthroughCopy('assets');
   eleventyConfig.addPassthroughCopy('robots.txt');
+  eleventyConfig.addPassthroughCopy(".well-known/atproto-did");
   eleventyConfig.addPassthroughCopy('CNAME');
 
   // COLLECTION: Create meetup collection.

@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 // eslint-disable-next-line import/no-extraneous-dependencies
-const sass = require('node-sass');
+const sass = require('sass');
 
 /**
  * Generate and save CSS.
