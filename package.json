@@ -3,7 +3,7 @@
   "version": "3.2.1",
   "description": "Austin JavaScript site",
   "scripts": {
-    "build:css": "node-sass _sass/_main.scss _site/assets/css/main.css --output-style compressed",
+    "build:css": "sass _sass/_main.scss:_site/assets/css/main.css --style=compressed --no-source-map",
     "build": "npm run clean && eleventy && npm run build:css && npm run purgecss",
     "clean": "rm -rf ./_site",
     "debug": "DEBUG=Eleventy* eleventy",
@@ -28,8 +28,8 @@
     "bulma": "^0.9.4",
     "html-minifier": "^4.0.0",
     "markdown-it": "^13.0.1",
-    "node-sass": "^8.0.0",
-    "purgecss": "^5.0.0"
+    "purgecss": "^5.0.0",
+    "sass": "^1.81.0"
   },
   "devDependencies": {
     "eslint": "^8.27.0",
