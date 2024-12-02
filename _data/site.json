@@ -5,7 +5,7 @@
   "feedUrl": "https://austinjavascript.com/feed.xml",
   "author": {
     "name": "@AustinJS",
-    "twitter": "AustinJS",
+    "bluesky": "https://bsky.app/profile/austinjavascript.com",
     "github": "austinjavascript",
     "discord": "https://discord.gg/sZ9Nejm88J"
   },
