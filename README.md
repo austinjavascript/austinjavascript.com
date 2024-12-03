@@ -1,6 +1,6 @@
 ![Eleventy Build](https://github.com/austinjavascript/austinjavascript.com/workflows/Eleventy%20Build/badge.svg)
 
-website for the [@AustinJS](https://bsky.app/profile/austinjavascript.com) meetup: http://austinjavascript.com
+website for the [@austinjavascript.com](https://bsky.app/profile/austinjavascript.com) meetup: http://austinjavascript.com
 
 ## Adding meetup posts
 
