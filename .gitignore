@@ -9,7 +9,6 @@
 # App-generated
 #--------------------#
 _site
-_cache
 node_modules
 tmp
 .cache
