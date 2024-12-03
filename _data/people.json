@@ -117,6 +117,16 @@
     "twitter": null,
     "github": "suzubara",
     "linkedin": null,
+    "status": "active",
+    },
+    "cking": {
+    "name": "Collier King",
+    "avatar": "https://avatars.githubusercontent.com/u/10591022?v=4",
+    "email": null,
+    "homepage": null,
+    "twitter": null,
+    "github": "collierking",
+    "linkedin": null,
     "status": "active"
   }
 }
