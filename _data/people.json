@@ -77,7 +77,7 @@
     "twitter": "pcostanz",
     "github": "pcostanz",
     "linkedin": null,
-    "status": "active"
+    "status": "emeriti"
   },
   "sstedman": {
     "name": "Steve Stedman",
@@ -97,7 +97,7 @@
     "twitter": null,
     "github": null,
     "linkedin": null,
-    "status": "active"
+    "status": "emeriti"
   },
   "joahg": {
     "name": "Joah Gerstenberg",
@@ -107,6 +107,16 @@
     "twitter": null,
     "github": "joahg",
     "linkedin": "joahg",
+    "status": "active"
+  },
+  "srozier": {
+    "name": "Suzanne Rozier",
+    "avatar": "https://avatars.githubusercontent.com/u/2723066?v=4",
+    "email": null,
+    "homepage": null,
+    "twitter": null,
+    "github": "suzubara",
+    "linkedin": null,
     "status": "active"
   }
 }
