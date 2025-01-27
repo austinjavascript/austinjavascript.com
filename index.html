@@ -2,7 +2,7 @@
 layout: base
 title: Austin JavaScript
 meta:
-  description: Austin JavaScript is a community-driven group that meets to discuss JavaScript and the open web.
+description: Austin JavaScript is a community-driven group that meets to discuss JavaScript and the open web.
 ---
 <section class="columns is-variable is-8-desktop">
   <div class="column is-two-thirds">
@@ -18,20 +18,23 @@ meta:
         {%- endmeetupDetails -%}
 
         <meta id="meet-date" time="{{ meet.date }}">
-<script>
-(function () {
-  const meetDate = document.getElementById('meet-date').getAttribute('time');
-  if (new Date(meetDate) < new Date()) {
-    // We may want to post an alternate message, but for now just delete the upcoming meetup.
-    document.querySelector('.meetup-details').remove();
-  }
-}());
-</script>
+        <script>
+          (function () {
+            const meetDate = document.getElementById('meet-date').getAttribute('time');
+            if (new Date(meetDate) < new Date()) {
+              // We may want to post an alternate message, but for now just delete the upcoming meetup.
+              document.querySelector('.meetup-details').remove();
+            }
+          }());
+        </script>
       </section>
 
       <section class="section">
-        <p>We are a community-driven group that meets to discuss JavaScript and the open web. Find out more <a href="{{ '/about/' | url }}">about us</a> or the many ways you can <a href="{{ '/contributing/' | url }}">contribute</a>.</p>
-        <p>We work hard to build a community that treats people with excellence. We've formalized this in the <a href="{{ '/code-of-conduct/' | url }}">Austin JavaScript Code of Conduct</a>.</p>
+        <p>We are a community-driven group that meets to discuss JavaScript and the open web. Find out more <a
+            href="{{ '/about/' | url }}">about us</a> or the many ways you can <a
+            href="{{ '/contributing/' | url }}">contribute</a>.</p>
+        <p>We work hard to build a community that treats people with excellence. We've formalized this in the <a
+            href="{{ '/code-of-conduct/' | url }}">Austin JavaScript Code of Conduct</a>.</p>
       </section>
 
       <section class="section">
@@ -40,7 +43,8 @@ meta:
         {%- for speaker in meetup.data.speakers -%}
         {%- if speaker.name and speaker.avatar -%}
         <figure class="pic">
-          <a class="tooltip" href="{{ meetup.url | url }}" aria-label="{{ speaker.name }}: &quot;{{ meetup.data.title }}&quot;">
+          <a class="tooltip" href="{{ meetup.url | url }}"
+            aria-label="{{ speaker.name }}: &quot;{{ meetup.data.title }}&quot;">
             {%- avatar speaker.avatar, speaker.name, 'is-rounded' -%}
           </a>
         </figure>
@@ -48,20 +52,14 @@ meta:
         {%- endfor -%}
         {%- endfor -%}
       </section>
-
-      <section class="section">
-        <h2 class="is-size-4">Join our mailing list</h2>
-        <iframe scrolling="no" style="width:100%!important;height:220px;border:1px #ccc solid !important"
-          src="https://buttondown.com/austinjavascript?as_embed=true"></iframe><br /><br />
-      </section>
     </div>
   </div>
 
   <div class="column">
     <div class="content">
-  <h3>Join our mailing list</h3>
-  <iframe scrolling="no" style="width:100%!important;height:220px;border:1px #ccc solid !important"
-    src="https://buttondown.com/austinjavascript?as_embed=true"></iframe><br /><br />
+      <h3>Join our mailing list</h3>
+      <iframe scrolling="no" style="width:100%!important;height:220px;border:1px #ccc solid !important"
+        src="https://buttondown.com/austinjavascript?as_embed=true"></iframe><br /><br />
       <h3>Recent meetups</h3>
       <ul>
         {%- assign meetups = collections.meetups | flip -%}
