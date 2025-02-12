@@ -118,8 +118,8 @@
     "github": "suzubara",
     "linkedin": null,
     "status": "active"
-    },
-    "cking": {
+  },
+  "cking": {
     "name": "Collier King",
     "avatar": "https://avatars.githubusercontent.com/u/10591022?v=4",
     "email": null,
@@ -127,6 +127,16 @@
     "twitter": null,
     "github": "collierking",
     "linkedin": null,
+    "status": "active"
+  },
+  "dbriar": {
+    "name": "Dylan Briar",
+    "avatar": "https://avatars.githubusercontent.com/u/142957940?v=4",
+    "email": "dylan.e.briar@gmail.com",
+    "homepage": "https://www.dylanbriar.com",
+    "twitter": "https://twitter.com/DylanBriar",
+    "github": "dylanbriar",
+    "linkedin": "dylanbriar",
     "status": "active"
   }
 }
