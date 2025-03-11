@@ -121,8 +121,8 @@ module.exports = function meetupDetails(meetHeader, meetDate, venue, after, meet
       <span class="icon has-text-grey-dark">
         <svg class="icon-item" viewBox="0 0 512 512"><use xlink:href="#alarm"></use></svg>
       </span>
-      <time class="has-text-primary has-text-weight-bold" dateTime="15:30">7:30PM</time> -
-      <time class="has-text-primary has-text-weight-bold" dateTime="21:00">9:00PM</time>
+      <time class="has-text-primary has-text-weight-bold" dateTime="14:00">6:00PM</time> -
+      <time class="has-text-primary has-text-weight-bold" dateTime="20:00">8:00PM</time>
     </div>
 
     <div>
